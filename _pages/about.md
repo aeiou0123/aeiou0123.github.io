@@ -7,5 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second year undergraduate from [Jinhe Center for Economic Research](jinhe.xjtu.edu.cn/), [XJTU](xjtu.edu.cn/).
-aeiou
+I'm a second year undergraduate from [Jinhe Center for Economic Research](https://jinhe.xjtu.edu.cn/), [XJTU](https://www.xjtu.edu.cn/).
