@@ -1,6 +1,6 @@
 ---
 title: "Accounting Chapter1"
-excerpt: "[Chapter1](files/Chapter1.pdf)"
+excerpt: "[Introduction to Financial Statements](files/Chapter1.pdf)"
 collection: Accounting
 ---
 
