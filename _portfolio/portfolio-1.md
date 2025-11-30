@@ -1,6 +1,6 @@
 ---
 title: "Accounting Chapter1"
-excerpt: "[Introduction to Financial Statements](https://aeiou0123.githu.io/files/Chapter1.pdf)"
+excerpt: "[Introduction to Financial Statements]('https://aeiou0123.githu.io/files/Chapter1.pdf')"
 collection: Portfolio
 ---
 
