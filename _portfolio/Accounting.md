@@ -1,8 +1,11 @@
 ---
 title: "Accounting"
 excerpt: "[Chapter1:Introduction to Financial Statements](https://aeiou0123.github.io/files/Chapter1.pdf)"
+"[Chapter 7: Fraud, Internal Control, and Cash](https://aeiou0123.github.io/files/Chapter 7.pdf)"
 collection: Portfolio
+---
 
+---
 title: "Accounting"
 excerpt: "[Chapter 7: Fraud, Internal Control, and Cash](https://aeiou0123.github.io/files/Chapter 7.pdf)"
 collection: Portfolio
