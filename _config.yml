@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "./1.jpg"
+  avatar           : "../images/1.jpg"
   name             : "不共和的奥兰治"
   pronouns         : "he/his"  
   bio              : "Kyle Wei joined the Young Gifted Program of XJTU in 2022. He is now studying at Jinhe Center for Economic Research, XJTU, majoring in Quantitative Economics and Finance"
