@@ -8,3 +8,4 @@ redirect_from:
 ---
 
 I'm a second year undergraduate from [Jinhe Center for Economic Research](jinhe.xjtu.edu.cn/), [XJTU](xjtu.edu.cn/).
+aeiou
