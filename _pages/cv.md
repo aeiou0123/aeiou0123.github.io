@@ -10,6 +10,6 @@ redirect_from:
 {% include base_path %}
 
 <div class="cv-download-links">
-  <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Download CV as PDF</a>
-  <a href="{{ base_path }}" class="btn btn--inverse">View Markdown CV</a>
+  <a href="https://github.com/aeiou0123/aeiou0123.github.io/blob/41f17e864f179977132e3a149e50d21a33848ea7/files/wmqCV.pdf" class="btn btn--primary">Download CV as PDF</a>
+  <a href="https://github.com/aeiou0123/aeiou0123.github.io/blob/41f17e864f179977132e3a149e50d21a33848ea7" class="btn btn--inverse">View Markdown CV</a>
 </div>
