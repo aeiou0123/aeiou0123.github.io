@@ -1,7 +1,7 @@
 ---
 layout: archive
 title: "CV"
-permalink: https://aeiou0123.github.io/files/wmqCV.pdf
+permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
