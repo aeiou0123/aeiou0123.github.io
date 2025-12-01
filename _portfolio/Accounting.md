@@ -1,6 +1,6 @@
 ---
 title: "Accounting"
-excerpt: "My accounting notes"
+excerpt: "Fall 2025"
 collection: Portfolio
 ---
 
