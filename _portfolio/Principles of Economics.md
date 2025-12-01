@@ -1,6 +1,6 @@
 ---
 title: "Principles of Economics"
-excerpt: "Notes"
+excerpt: "Fall 2025"
 collection: Portfolio
 ---
 
