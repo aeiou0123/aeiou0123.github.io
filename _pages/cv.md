@@ -9,4 +9,5 @@ redirect_from:
 
 {% include base_path %}
 
-[Download pdf here](https://aeiou0123.github.io/files/wmqCV.pdf)
+[Download pdf here (English ver.)](https://aeiou0123.github.io/files/CV.pdf)
+[下载中文版pdf](https://aeiou0123.github.io/files/CV-Simplified_Chinese.pdf)
