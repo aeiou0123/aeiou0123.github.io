@@ -10,6 +10,8 @@ collection: Portfolio
 - [Chapter VII: Fraud, Internal Control, and Cash](https://aeiou0123.github.io/files/Chapter 7.pdf)
 - [Chapter VIII: Reporting and Analyzing Receivables](https://aeiou0123.github.io/files/Chapter 8.pdf)
 - [Chapter IX: Reporting and Analyzing Long-Lived Assets](https://aeiou0123.github.io/files/Chapter_9.pdf)
+- [Chapter X: Reporting and Analyzing Liabilities](https://aeiou0123.github.io/files/Chapter_10.pdf)
+- [Chapter XI: Reporting and Analyzing Stockholders’ Equity](https://aeiou0123.github.io/files/Chapter_11.pdf)
 
 
 These are the notes of the Accounting course of Jinhe Center, Fall 2025
