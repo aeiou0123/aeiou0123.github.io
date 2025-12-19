@@ -11,5 +11,7 @@ collection: Portfolio
 - [Chapter IV: Sampling Distributions](https://aeiou0123.github.io/files/Sampling_distributions_notes.pdf)
 - [Chapter V: Introduction to Estimation](https://aeiou0123.github.io/files/Introduction_to_estimation_notes.pdf)
 - [Chapter VI: Introduction to Hypothesis Testing](https://aeiou0123.github.io/files/Introduction_to_hypothesis_testing_notes.pdf)
+- [Chapter VII: One Sample Inference](https://aeiou0123.github.io/files/One_sample_inference_notes.pdf)
+- [Chapter VIII: Inference about Two Populations](https://aeiou0123.github.io/files/Inference_about_Two_Populations.pdf)
 
 These are the notes of the Applied Statistics course of Jinhe Center, Fall 2025
