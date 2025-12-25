@@ -13,5 +13,8 @@ collection: Portfolio
 - [Chapter VI: Introduction to Hypothesis Testing](https://aeiou0123.github.io/files/Introduction_to_hypothesis_testing_notes.pdf)
 - [Chapter VII: One Sample Inference](https://aeiou0123.github.io/files/One_sample_inference_notes.pdf)
 - [Chapter VIII: Inference about Two Populations](https://aeiou0123.github.io/files/Inference_about_Two_Populations.pdf)
+- [Chapter IX: Rank test](https://aeiou0123.github.io/files/Rank_test.pdf)
+- [Chapter X: Resampling Methods Bootstrap and Permutation](https://aeiou0123.github.io/files/Resampling_Methods_Bootstrap_and_Permutation.pdf)
+
 
 These are the notes of the Applied Statistics course of Jinhe Center, Fall 2025
