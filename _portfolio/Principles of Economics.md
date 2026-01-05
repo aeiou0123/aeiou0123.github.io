@@ -8,7 +8,6 @@ collection: Portfolio
 - [Baumol](https://aeiou0123.github.io/files/baumol模型与铸币费.pdf)
 - [Chapter 1 中文版](https://aeiou0123.github.io/files/Chapter1_Simplified_Chinese.pdf)
 - [物价指数](https://aeiou0123.github.io/files/物价指数笔记.pdf)
-- [家庭公司循环](https://aeiou0123.github.io/files/家庭公司循环.pdf)
 - [一般均衡](https://aeiou0123.github.io/files/一般均衡笔记.pdf)
 - [Baumol模型](https://aeiou0123.github.io/files/baumol模型笔记.pdf)
 - [货币需求与流通速度](https://aeiou0123.github.io/files/货币需求与流通速度笔记.pdf)
