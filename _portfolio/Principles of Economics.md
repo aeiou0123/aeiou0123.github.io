@@ -20,7 +20,8 @@ collection: Portfolio
 - [汇率](https://aeiou0123.github.io/files/汇率笔记1.pdf)
 - [金币经济](https://aeiou0123.github.io/files/金币经济笔记.pdf)
 - [金本位现钞](https://aeiou0123.github.io/files/金本位现钞笔记.pdf)
-- [习题](https://aeiou0123.github.io/files/经济学原理习题.pdf)
+- [习题1](https://aeiou0123.github.io/files/经济学原理习题.pdf)
+- [习题2](https://aeiou0123.github.io/files/习题2.pdf)
 - [National Income Theory (Chap1-3)](https://aeiou0123.github.io/files/national_income_theory.pdf)
 - [经济管理概论](https://aeiou0123.github.io/files/经济管理概论.pdf)
 
