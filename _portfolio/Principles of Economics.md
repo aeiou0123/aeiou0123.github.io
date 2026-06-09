@@ -26,4 +26,4 @@ collection: Portfolio
 - [经济管理概论](https://aeiou0123.github.io/files/经济管理概论.pdf)
 
 
-These are the notes of the Principles of Economics course of Jinhe Center, Fall 2025
+These are the notes of the Macro part of the Principles of Economics course of Jinhe Center, teached by Prof.Kuo, Fall 2025
