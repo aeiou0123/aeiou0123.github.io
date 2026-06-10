@@ -22,5 +22,4 @@ collection: Portfolio
 - [名词解释](https://aeiou0123.github.io/files/Principles of Finance/1.0 金融学原理名词汇总.doc)
 
 These are notes for Principles of Finance, taught by Prof. Zhao.
-
 Generated from PPT and QA documents posted by Prof, through ChatGPT 5.5.
