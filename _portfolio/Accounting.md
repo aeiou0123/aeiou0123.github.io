@@ -16,4 +16,4 @@ collection: Portfolio
 - [Chapter X: Reporting and Analyzing Liabilities](https://aeiou0123.github.io/files/Chapter_10.pdf)
 - [Chapter XI: Reporting and Analyzing Stockholders’ Equity](https://aeiou0123.github.io/files/Chapter_11.pdf)
 
-These are the notes of the Accounting course of Jinhe Center, Fall 2025
+These are the notes of the Accounting course of Jinhe Center, taught by Prof.Wu Fall 2025
