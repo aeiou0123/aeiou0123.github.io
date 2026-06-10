@@ -17,4 +17,4 @@ collection: Portfolio
 - [Chapter X: Resampling Methods Bootstrap and Permutation](https://aeiou0123.github.io/files/Resampling_Methods_Bootstrap_and_Permutation.pdf)
 
 
-These are the notes of the Applied Statistics course of Jinhe Center, teached by Prof.Ma, Fall 2025
+These are the notes of the Applied Statistics course of Jinhe Center, teached by Prof.Ma, Fall 2025 
