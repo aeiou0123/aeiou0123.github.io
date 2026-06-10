@@ -16,3 +16,4 @@ collection: Portfolio
 使用教材: Macroeconomics (6th Edition) (Andrew B. Abel, Ben S. Bernanke etc.) <br>
 部分习题采用11版的 <br>
 题解部分由Claude Code Agent接入DSV4pro生成，可能存在错误，仅供参考，不构成实际解答建议
+taught by Prof.Zhang
