@@ -14,3 +14,4 @@ collection: Portfolio
 这是2026年中级微观经济学的习题题解与讲义整理 <br>
 参考教材: Nicholsen, 9th Edition <br>
 题解与部分笔记整理由GPT,Gemini及DeepSeek识别生成，可能存在错误，疏漏，仅供参考，不构成实际解答与复习学习建议
+taught by Prof.Li & Prof.Zhou
