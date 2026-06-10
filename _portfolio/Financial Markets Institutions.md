@@ -19,4 +19,4 @@ collection: Portfolio
 这是2026年金融市场学的笔记及习题题解整理，其中习题包括金融市场与机构 原书第6版 (（美）安东尼·桑德斯（Anthony Saunders），马西娅·米伦·科尼特 etc.)的1-10章 <br>
 note由Gemini canvas识别，并以Claude Code接入DeepSeek-V4-pro整合 <br>
 answer由Claude Code接入DeepSeek-V4-pro撰写 <br>
-taught by Prof.Zhou
+taught by Prof.Zhou.
