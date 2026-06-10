@@ -7,10 +7,11 @@ collection: Portfolio
 - [Homework1](https://aeiou0123.github.io/files/Intermediate Microeconomics/HW1.pdf)
 - [Homework2](https://aeiou0123.github.io/files/Intermediate Microeconomics/homework2.pdf)
 - [Solutions2 (Gemini generated)](https://aeiou0123.github.io/files/Intermediate Microeconomics/hw2.pdf)
-- [市场结构部分讲义 (GPT recognized, DeepSeek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/市场结构.pdf)
-- [市场结构部分讲义 (GPT recognized, DeepSeek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/externalities_chapter.pdf)
-- [市场结构部分讲义 (GPT recognized, DeepSeek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/general_equilibrium_chapter.pdf)
-- [市场结构部分讲义 (GPT recognized, DeepSeek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/information_incentives_chapter_fixed.pdf)
+- [市场结构 (GPT recognized, Deepseek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/市场结构.pdf)
+- [博弈论 (GPT recognized, Kimi organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/博弈论笔记整合.pdf)
+- [外部性 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/externalities_chapter.pdf)
+- [一般均衡 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/general_equilibrium_chapter.pdf)
+- [信息不对称 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/information_incentives_chapter_fixed.pdf)
 
 
 
