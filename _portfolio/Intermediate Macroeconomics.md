@@ -10,6 +10,7 @@ collection: Portfolio
 - [Solutions2 (Deepseek generated)](https://aeiou0123.github.io/files/Intermediate Macroeconomics/homework2_solutions.pdf)
 - [Homework3 (Ch10-12)](https://aeiou0123.github.io/files/Intermediate Macroeconomics/homework3macro.pdf)
 - [Solutions3 (Deepseek generated)](https://aeiou0123.github.io/files/Intermediate Macroeconomics/hw3_combined.pdf)
+- [Homework4 (Ch13-15)](https://aeiou0123.github.io/files/Intermediate Macroeconomics/ch13_ch14_ch15_combined_blank_space.pdf)
 
 
 这是2026年中级宏观经济学的习题及题解整理 <br>
