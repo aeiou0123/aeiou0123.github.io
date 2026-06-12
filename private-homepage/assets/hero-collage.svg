@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 760" role="img" aria-labelledby="title desc">
+  <title id="title">原创二次元风格私人主页拼贴</title>
+  <desc id="desc">舞台灯、吉他拨片、竞速旗帜、贴纸和网页窗口组成的二次元同好桌面。</desc>
+  <defs>
+    <linearGradient id="sky" x1="130" x2="860" y1="80" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff3dd"/>
+      <stop offset=".42" stop-color="#f2fbff"/>
+      <stop offset="1" stop-color="#ffe2ef"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0v36" fill="none" stroke="#17151f" stroke-opacity=".08" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <path d="M144 84h650c52 0 94 42 94 94v392c0 52-42 94-94 94H178c-58 0-105-47-105-105V155c0-39 32-71 71-71Z" fill="url(#sky)" stroke="#17151f" stroke-width="6"/>
+  <path d="M144 84h650c52 0 94 42 94 94v392c0 52-42 94-94 94H178c-58 0-105-47-105-105V155c0-39 32-71 71-71Z" fill="url(#grid)"/>
+
+  <g opacity=".78">
+    <circle cx="200" cy="172" r="48" fill="#ff4f96"/>
+    <circle cx="735" cy="150" r="56" fill="#24d6db"/>
+    <circle cx="808" cy="540" r="44" fill="#ffd451"/>
+    <circle cx="180" cy="590" r="32" fill="#8af2b3"/>
+  </g>
+
+  <g transform="translate(158 196) rotate(-7)">
+    <rect width="310" height="215" rx="18" fill="#fff" stroke="#17151f" stroke-width="6"/>
+    <rect x="0" y="0" width="310" height="44" rx="18" fill="#ff4f96" stroke="#17151f" stroke-width="6"/>
+    <circle cx="30" cy="23" r="7" fill="#fff"/>
+    <circle cx="55" cy="23" r="7" fill="#ffd451"/>
+    <circle cx="80" cy="23" r="7" fill="#24d6db"/>
+    <rect x="34" y="72" width="104" height="18" rx="9" fill="#17151f"/>
+    <rect x="34" y="106" width="214" height="14" rx="7" fill="#24d6db"/>
+    <rect x="34" y="136" width="164" height="14" rx="7" fill="#ffd451"/>
+    <rect x="34" y="166" width="196" height="14" rx="7" fill="#8af2b3"/>
+  </g>
+
+  <g transform="translate(504 160) rotate(8)">
+    <rect width="236" height="310" rx="16" fill="#17151f"/>
+    <rect x="16" y="18" width="204" height="274" rx="10" fill="#fffaf2"/>
+    <path d="M38 237c54-74 110-73 164 0v31H38v-31Z" fill="#7e62ff"/>
+    <circle cx="120" cy="112" r="54" fill="#ffd451" stroke="#17151f" stroke-width="6"/>
+    <path d="M72 82c32 19 67 19 97 0 15 20 16 49 2 73-19 32-77 32-101 0-18-24-17-53 2-73Z" fill="#ffb8d3" stroke="#17151f" stroke-width="5"/>
+    <path d="M98 108h1M143 108h1" stroke="#17151f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M105 139c11 8 24 8 35 0" fill="none" stroke="#17151f" stroke-width="5" stroke-linecap="round"/>
+    <path d="M79 58 58 23M164 59l28-32" stroke="#17151f" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(570 485) rotate(-9)">
+    <rect width="230" height="116" rx="14" fill="#24d6db" stroke="#17151f" stroke-width="6"/>
+    <path d="M28 31h174M28 61h118M28 88h150" stroke="#fff" stroke-width="13" stroke-linecap="round"/>
+    <path d="M190 22 211 43 190 64" fill="none" stroke="#17151f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(255 462) rotate(11)">
+    <path d="M0 36c36-51 103-51 139 0-38 50-102 50-139 0Z" fill="#ffd451" stroke="#17151f" stroke-width="6"/>
+    <circle cx="70" cy="36" r="12" fill="#ff4f96" stroke="#17151f" stroke-width="5"/>
+  </g>
+
+  <g transform="translate(678 304)">
+    <path d="M0 0h40v40H0zM40 40h40v40H40zM80 0h40v40H80zM120 40h40v40h-40z" fill="#fff" stroke="#17151f" stroke-width="5"/>
+    <path d="M40 0h40v40H40zM0 40h40v40H0zM120 0h40v40h-40zM80 40h40v40H80z" fill="#17151f"/>
+  </g>
+
+  <g transform="translate(133 474)">
+    <path d="m0 67 52-67 55 67-55 67L0 67Z" fill="#8af2b3" stroke="#17151f" stroke-width="6"/>
+    <path d="M52 33v68M19 67h67" stroke="#fff" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <g transform="translate(758 216) rotate(13)">
+    <path d="m53 0 14 34 37 3-28 24 9 36-32-19-32 19 9-36L2 37l37-3L53 0Z" fill="#ff4f96" stroke="#17151f" stroke-width="6" stroke-linejoin="round"/>
+  </g>
+
+  <g transform="translate(398 566)">
+    <path d="M0 72h178l-18 50H20L0 72Z" fill="#17151f"/>
+    <rect x="24" y="0" width="138" height="88" rx="10" fill="#fff" stroke="#17151f" stroke-width="6"/>
+    <rect x="43" y="20" width="98" height="14" rx="7" fill="#ff4f96"/>
+    <rect x="43" y="46" width="66" height="12" rx="6" fill="#24d6db"/>
+  </g>
+
+  <path d="M114 120c68 30 86 52 99 114M812 623c-77-16-111-48-130-103" fill="none" stroke="#17151f" stroke-width="6" stroke-linecap="round" stroke-dasharray="4 17"/>
+  <path d="M818 101 842 77M852 131l34-8M112 646l-27 27M93 602l-35-5" stroke="#17151f" stroke-width="7" stroke-linecap="round"/>
+</svg>
