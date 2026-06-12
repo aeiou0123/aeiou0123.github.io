@@ -382,7 +382,7 @@ h3 {
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
   gap: 16px;
 }
 
@@ -462,6 +462,10 @@ h3 {
 
 .accent-yellow {
   color: #c89200;
+}
+
+.accent-violet {
+  color: var(--violet);
 }
 
 .notes-band {
