@@ -10,6 +10,9 @@
 main:
   - title: "Portfolio"
     url: /portfolio/
+
+  - title: "放课后主页"
+    url: /private-homepage/
         
   - title: "Blog Posts"
     url: /year-archive/
