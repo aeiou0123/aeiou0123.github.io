@@ -11,8 +11,8 @@ main:
   - title: "Portfolio"
     url: /portfolio/
 
-  - title: "放课后主页"
-    url: /private-homepage/
+  - title: "Personal"
+    url: /personal/
         
   - title: "Blog Posts"
     url: /year-archive/
