@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MBanGTI | BanG Dream! 同人向人格映射</title>
+    <meta
+      name="description"
+      content="MBanGTI：BanG Dream! 同人向人格映射小测试，放在 aeiou0123 的私人主页里。"
+    />
+    <link
+      rel="canonical"
+      href="https://aeiou0123.github.io/private-homepage/mbangti/"
+    />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/" aria-label="返回私人主页">
+          <span class="brand-mark" aria-hidden="true">MB</span>
+          <span>
+            <strong>MBanGTI</strong>
+            <small>private-homepage / fandom booth</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="#quiz">开始</a>
+          <a href="#about">说明</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">fan-made personality stage</p>
+            <h1 id="hero-title">MBanGTI</h1>
+            <p class="hero-lead">
+              用乐队关系、舞台选择和剧情动机，给你的 BanG Dream! 共鸣角色做一次轻量映射。
+            </p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="daily">
+                <span>日常版</span>
+                <strong>24 题</strong>
+                <small>更快，适合随手玩</small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="story">
+                <span>剧情版</span>
+                <strong>48 题</strong>
+                <small>更多 MyGO!!!!! / Ave Mujica / 乐队情境</small>
+              </button>
+            </div>
+          </div>
+
+          <div class="stage-visual" aria-hidden="true">
+            <div class="stage-ring ring-one"></div>
+            <div class="stage-ring ring-two"></div>
+            <div class="stage-card sticker-a">MyGO!!!!!</div>
+            <div class="stage-card sticker-b">Ave Mujica</div>
+            <div class="stage-card sticker-c">Roselia</div>
+            <div class="stage-card sticker-d">Poppin'Party</div>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">daily set</p>
+              <h2 id="questionCounter">第 1 题</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+          <article class="question-card">
+            <p class="axis-pill" id="axisLabel">E / I</p>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="choice-pair">
+              <div class="choice-side">
+                <span>A</span>
+                <p id="choiceAText"></p>
+              </div>
+              <div class="choice-side">
+                <span>B</span>
+                <p id="choiceBText"></p>
+              </div>
+            </div>
+            <div class="scale-row" id="answerScale"></div>
+          </article>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 24</span>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow">your stage echo</p>
+            <h2 id="resultType">INFP</h2>
+            <p id="resultTitle" class="result-title">内心独白型</p>
+            <p id="confidenceText" class="confidence-text"></p>
+          </div>
+
+          <div class="result-grid">
+            <article class="result-card">
+              <h3>四维度分数</h3>
+              <div class="dimension-list" id="dimensionList"></div>
+            </article>
+            <article class="result-card">
+              <h3>主要共鸣角色</h3>
+              <div class="character-list" id="primaryCharacters"></div>
+            </article>
+            <article class="result-card">
+              <h3>相邻回声角色</h3>
+              <p id="adjacentText"></p>
+              <div class="character-list compact" id="adjacentCharacters"></div>
+            </article>
+            <article class="result-card">
+              <h3>适合你的舞台位置</h3>
+              <p id="stagePosition"></p>
+            </article>
+          </div>
+
+          <div class="result-notes">
+            <article class="result-card">
+              <h3>为什么像</h3>
+              <ul id="whyList"></ul>
+            </article>
+            <article class="result-card">
+              <h3>不像的部分</h3>
+              <ul id="unlikeList"></ul>
+            </article>
+          </div>
+
+          <div class="disclaimer">
+            <strong>同人说明</strong>
+            <span>
+              MBanGTI 是粉丝向角色共鸣映射，不是心理测评、职业建议或官方设定。角色归属会随剧情理解而浮动，低置信度结果会显示相邻类型。
+            </span>
+          </div>
+
+          <div class="result-actions">
+            <button class="primary-button" type="button" id="restartBottom">再测一次</button>
+            <a class="ghost-link" href="/private-homepage/">回私人主页</a>
+          </div>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+          <div class="about-copy">
+            <p class="eyebrow">notes</p>
+            <h2 id="about-title">偏舞台感，也偏角色实际</h2>
+            <p>
+              题目不把角色当作固定标签，而是从排练选择、冲突处理、舞台责任、关系修复和创作动机里取样。
+              结果里的“主要”和“相邻”会一起出现，给那些本来就有多重解释空间的角色留一点余地。
+            </p>
+          </div>
+          <div class="about-tags" aria-label="覆盖乐队">
+            <span>MyGO!!!!!</span>
+            <span>Ave Mujica</span>
+            <span>Roselia</span>
+            <span>Poppin'Party</span>
+            <span>Morfonica</span>
+            <span>RAISE A SUILEN</span>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js" defer></script>
+  </body>
+</html>
