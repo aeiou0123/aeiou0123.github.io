@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>日本政治・社会価値観スペクトラム診断 | aeiou0123</title>
+    <meta
+      name="description"
+      content="一个面向日本政治现状的 10 维度、1-9 打分制政治社会价值观测试。结果仅供参考，不构成投票建议。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/jp-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/" aria-label="返回私人主页">
+          <span class="brand-mark" aria-hidden="true">JP</span>
+          <span>
+            <strong>JP Spectrum</strong>
+            <small>private-homepage / politics lab</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="#quiz">开始</a>
+          <a href="#method">方法</a>
+          <a href="#sources">来源</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Japan political spectrum test</p>
+            <h1 id="hero-title">
+              <span>日本政治・社会価値観</span>
+              <span>スペクトラム診断</span>
+            </h1>
+            <p class="hero-lead">
+              用 10 个维度测量你在日本政治、社会、经济、安全与制度议题上的相对位置。
+              它显示坐标、置信度和参考政策距离，但不告诉你“应该支持谁”。
+            </p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="quick">
+                <span>快速版</span>
+                <strong>40 题</strong>
+                <small>社交传播和移动端优先</small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard">
+                <span>标准版</span>
+                <strong>70 题</strong>
+                <small>覆盖度和耗时比较均衡</small>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="full">
+                <span>深度版</span>
+                <strong>100 题</strong>
+                <small>完整 10 轴题库</small>
+              </button>
+            </div>
+            <p class="disclaimer">
+              1 表示强烈不同意，9 表示强烈同意；5 是中立或不确定。不了解的题可以跳过，跳过会降低对应维度置信度。
+            </p>
+          </div>
+
+          <div class="hero-visual">
+            <img
+              src="spectrum-map.svg"
+              alt="日本政治光谱的十个议题轴示意图，包括福利、财政、产业、安保、外交、外国人、社会、能源、地方和自由。"
+            />
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">standard</p>
+              <h2 id="questionCounter">第 1 题 / 70</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+          <article class="question-card">
+            <div class="question-meta">
+              <p class="axis-pill" id="axisLabel">维度</p>
+              <span id="issueLabel">议题</span>
+            </div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="scale-helper" aria-hidden="true">
+              <span>不同意</span>
+              <span>中立</span>
+              <span>同意</span>
+            </div>
+            <div class="scale-row" id="scaleRow"></div>
+          </article>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 70</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow" id="resultKicker">result</p>
+            <h2 id="resultTitle">现实主义混合型</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制结果摘要</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card tags-card">
+              <h3>组合标签</h3>
+              <ul class="tag-list" id="tagList"></ul>
+            </article>
+
+            <article class="result-card chart-card">
+              <h3>十维雷达</h3>
+              <canvas id="radarCanvas" width="460" height="460" aria-label="十维度结果图"></canvas>
+            </article>
+
+            <article class="result-card compass-card">
+              <h3>二维主图</h3>
+              <div class="compass-map">
+                <div class="compass-axis x-axis" aria-hidden="true"></div>
+                <div class="compass-axis y-axis" aria-hidden="true"></div>
+                <span class="corner top-left">再分配 / 克制</span>
+                <span class="corner top-right">市场 / 正常化</span>
+                <span class="corner bottom-left">再分配 / 和平</span>
+                <span class="corner bottom-right">纪律 / 安保</span>
+                <div class="compass-point" id="compassPoint">
+                  <span id="compassLabel">结果</span>
+                </div>
+              </div>
+              <div class="compass-scores">
+                <span>经济轴 <strong id="economyScore">0</strong></span>
+                <span>安保轴 <strong id="securityScore">0</strong></span>
+              </div>
+            </article>
+          </div>
+
+          <section class="result-section" aria-labelledby="dimension-title">
+            <div class="section-heading compact">
+              <p class="eyebrow">axis scores</p>
+              <h2 id="dimension-title">10 个维度</h2>
+            </div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section" aria-labelledby="party-title">
+            <div class="section-heading compact">
+              <p class="eyebrow">policy distance</p>
+              <h2 id="party-title">参考政策距离</h2>
+            </div>
+            <p class="section-note">
+              下列百分比只表示你与参考政党坐标在本测试题项上的相似度。政党立场会随选举、领导层和政策宣言变化，需要持续校准。
+            </p>
+            <div class="party-list" id="partyList"></div>
+          </section>
+
+          <section class="result-section" aria-labelledby="insight-title">
+            <div class="section-heading compact">
+              <p class="eyebrow">confidence</p>
+              <h2 id="insight-title">置信度与混合点</h2>
+            </div>
+            <ul class="insight-list" id="insightList"></ul>
+          </section>
+        </section>
+
+        <section class="method-section" id="method" aria-labelledby="method-title">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2 id="method-title">设计方法</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>多维坐标</h3>
+              <p>
+                日本政治不能只套用普通左右翼。这个版本拆成福利、财政、产业、安保、外交、外国人、社会、能源、地方和公民自由 10 个维度。
+              </p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>1-9 标准化</h3>
+              <p>
+                每题从 1 到 9 映射为 -1 到 +1，再按题目方向计入对应维度。跳题不进入分数，但会降低置信度。
+              </p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>非建议性解释</h3>
+              <p>
+                结果页给出标签、二维主图、政党距离和混合点，但不把政策距离写成投票推荐。
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section" id="sources" aria-labelledby="sources-title">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2 id="sources-title">参考资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Prototype for aeiou0123. Results are descriptive, not prescriptive.</p>
+        <a href="#top">回到顶部</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

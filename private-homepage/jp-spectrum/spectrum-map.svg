@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 560" role="img" aria-labelledby="title desc">
+  <title id="title">日本政治光谱十轴地图</title>
+  <desc id="desc">围绕中心坐标展开的十个议题轴：福利、财政、产业、安保、外交、外国人、社会、能源、地方、自由。</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eef4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#17202a" flood-opacity=".12"/>
+    </filter>
+  </defs>
+  <rect width="720" height="560" rx="8" fill="url(#paper)"/>
+  <path d="M90 92h540M90 190h540M90 288h540M90 386h540M90 484h540" stroke="#d9e0ea" stroke-width="1"/>
+  <path d="M126 68v420M246 68v420M366 68v420M486 68v420M606 68v420" stroke="#d9e0ea" stroke-width="1"/>
+
+  <g transform="translate(360 278)" filter="url(#shadow)">
+    <circle r="118" fill="#fff" stroke="#cbd5e1" stroke-width="2"/>
+    <circle r="74" fill="none" stroke="#e2e8f0" stroke-width="2"/>
+    <path d="M0-116 69-94 112-32 100 48 43 110 -43 110 -100 48 -112-32 -69-94Z" fill="#4157b7" opacity=".12"/>
+    <path d="M0-96 57-78 92-26 82 39 35 91 -35 91 -82 39 -92-26 -57-78Z" fill="none" stroke="#4157b7" stroke-width="3"/>
+    <line x1="-118" x2="118" y1="0" y2="0" stroke="#17202a" stroke-opacity=".18"/>
+    <line x1="0" x2="0" y1="-118" y2="118" stroke="#17202a" stroke-opacity=".18"/>
+    <text x="0" y="-8" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="800" fill="#17202a">日本政治</text>
+    <text x="0" y="18" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" fill="#647084">10-axis spectrum</text>
+  </g>
+
+  <g font-family="Inter, 'Noto Sans SC', Arial, sans-serif" font-size="14" font-weight="800">
+    <g transform="translate(360 62)">
+      <line x1="0" y1="82" x2="0" y2="160" stroke="#d94f45" stroke-width="2"/>
+      <rect x="-46" y="0" width="92" height="40" rx="8" fill="#d94f45"/>
+      <text x="0" y="25" fill="#fff" text-anchor="middle">福利</text>
+    </g>
+    <g transform="translate(514 104)">
+      <line x1="-42" y1="62" x2="-95" y2="119" stroke="#b87900" stroke-width="2"/>
+      <rect x="-6" y="0" width="92" height="40" rx="8" fill="#b87900"/>
+      <text x="40" y="25" fill="#fff" text-anchor="middle">财政</text>
+    </g>
+    <g transform="translate(604 230)">
+      <line x1="-70" y1="20" x2="-132" y2="35" stroke="#2f8f6f" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#2f8f6f"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">产业</text>
+    </g>
+    <g transform="translate(586 374)">
+      <line x1="-64" y1="-22" x2="-122" y2="-70" stroke="#4157b7" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#4157b7"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">安保</text>
+    </g>
+    <g transform="translate(470 472)">
+      <line x1="-34" y1="-62" x2="-69" y2="-112" stroke="#5c6f84" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#5c6f84"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">外交</text>
+    </g>
+    <g transform="translate(250 472)">
+      <line x1="34" y1="-62" x2="70" y2="-112" stroke="#2487a6" stroke-width="2"/>
+      <rect x="-92" y="0" width="92" height="40" rx="8" fill="#2487a6"/>
+      <text x="-46" y="25" fill="#fff" text-anchor="middle">外国人</text>
+    </g>
+    <g transform="translate(42 374)">
+      <line x1="156" y1="-22" x2="214" y2="-70" stroke="#a24da3" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#a24da3"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">社会</text>
+    </g>
+    <g transform="translate(24 230)">
+      <line x1="162" y1="20" x2="224" y2="35" stroke="#4c9a3f" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#4c9a3f"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">能源</text>
+    </g>
+    <g transform="translate(114 104)">
+      <line x1="44" y1="62" x2="98" y2="119" stroke="#d66b2d" stroke-width="2"/>
+      <rect x="0" y="0" width="92" height="40" rx="8" fill="#d66b2d"/>
+      <text x="46" y="25" fill="#fff" text-anchor="middle">地方</text>
+    </g>
+    <g transform="translate(246 62)">
+      <line x1="46" y1="82" x2="80" y2="160" stroke="#1f7a8c" stroke-width="2"/>
+      <rect x="-46" y="0" width="92" height="40" rx="8" fill="#1f7a8c"/>
+      <text x="0" y="25" fill="#fff" text-anchor="middle">自由</text>
+    </g>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="12" fill="#647084">
+    <text x="34" y="532">No voting advice</text>
+    <text x="686" y="532" text-anchor="end">1-9 Likert scale</text>
+  </g>
+</svg>
