@@ -1,0 +1,2840 @@
+[
+  {
+    "id": "edb1d57ad7",
+    "name": "清华大学",
+    "city": "北京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "清华大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5563b44c2e",
+    "name": "北京大学",
+    "city": "北京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "20ffd41f3e",
+    "name": "北京大学医学部",
+    "city": "北京",
+    "schoolType": "医药",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京大学医学部 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3dd3d3644d",
+    "name": "上海交通大学",
+    "city": "上海",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海交通大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b0510ef464",
+    "name": "复旦大学",
+    "city": "上海",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "复旦大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4f8236249d",
+    "name": "中国人民大学",
+    "city": "北京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国人民大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "723e13fde6",
+    "name": "南京大学",
+    "city": "南京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "008ae5fdf8",
+    "name": "浙江大学",
+    "city": "杭州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ef35ed28e9",
+    "name": "中国政法大学",
+    "city": "北京",
+    "schoolType": "政法",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "1b0dd0f74c",
+    "name": "武汉大学",
+    "city": "武汉",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "武汉大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "64801675d6",
+    "name": "同济大学",
+    "city": "上海",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "同济大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4ad256b2b9",
+    "name": "北京师范大学",
+    "city": "北京",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "667600d3bc",
+    "name": "北京航空航天大学",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京航空航天大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "1101924827",
+    "name": "吉林大学",
+    "city": "长春",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "吉林大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "968b58913d",
+    "name": "南开大学",
+    "city": "天津",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南开大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0a26ec6523",
+    "name": "东南大学",
+    "city": "南京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b3856cafae",
+    "name": "厦门大学",
+    "city": "厦门",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "厦门大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0949a19600",
+    "name": "中山大学",
+    "city": "广州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中山大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "cd21fba316",
+    "name": "华东师范大学",
+    "city": "上海",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华东师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0ffd977d5a",
+    "name": "西安交通大学",
+    "city": "西安",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西安交通大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "9fc7ee8be8",
+    "name": "北京理工大学",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c9e10c0d83",
+    "name": "北京师范大学（珠海校区）",
+    "city": "北京",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京师范大学（珠海校区） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c4afb07615",
+    "name": "哈尔滨工业大学",
+    "city": "哈尔滨",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e4e682b34f",
+    "name": "四川大学",
+    "city": "成都",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "四川大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "09b35c089c",
+    "name": "上海财经大学",
+    "city": "上海",
+    "schoolType": "财经",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "98a6c51926",
+    "name": "天津大学",
+    "city": "天津",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "天津大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "19375a45a1",
+    "name": "重庆大学",
+    "city": "重庆",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "重庆大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "30bce2146c",
+    "name": "华中科技大学",
+    "city": "武汉",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华中科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "af64c5c484",
+    "name": "湖南大学",
+    "city": "长沙",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湖南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "81141938c9",
+    "name": "中央财经大学",
+    "city": "北京",
+    "schoolType": "财经",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中央财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6402f6f05d",
+    "name": "哈尔滨工业大学（深圳）",
+    "city": "哈尔滨",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工业大学（深圳） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6f79e599d0",
+    "name": "哈尔滨工业大学（威海）",
+    "city": "哈尔滨",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工业大学（威海） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4b039bce29",
+    "name": "苏州大学",
+    "city": "苏州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "苏州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ecf8c2313e",
+    "name": "中南大学",
+    "city": "长沙",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4af12268f0",
+    "name": "山东大学",
+    "city": "济南",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "山东大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d7dc5b7419",
+    "name": "西北工业大学",
+    "city": "西安",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西北工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0086282463",
+    "name": "中国人民大学（苏州校区）",
+    "city": "北京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国人民大学（苏州校区） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "50bc57bb4b",
+    "name": "中国农业大学",
+    "city": "北京",
+    "schoolType": "农林",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国农业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "98bd169a24",
+    "name": "中国社会科学院大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国社会科学院大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "62c69407b0",
+    "name": "北京外国语大学",
+    "city": "北京",
+    "schoolType": "语言",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京外国语大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "57341c8431",
+    "name": "华南理工大学",
+    "city": "广州",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华南理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "72b814e2a1",
+    "name": "山东大学（威海）",
+    "city": "济南",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "山东大学（威海） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fdfa6c4361",
+    "name": "成都中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "成都中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "449352dce4",
+    "name": "电子科技大学",
+    "city": "成都",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "电子科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "36a273c7a7",
+    "name": "西南政法大学",
+    "city": "待核验",
+    "schoolType": "政法",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8e6053a62f",
+    "name": "中国海洋大学",
+    "city": "青岛",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国海洋大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7d9c4b3365",
+    "name": "北京交通大学",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京交通大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "cf1e4a35f2",
+    "name": "大连理工大学",
+    "city": "大连",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "大连理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e02e24a3f4",
+    "name": "上海外国语大学",
+    "city": "上海",
+    "schoolType": "语言",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海外国语大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5cd4f88d13",
+    "name": "东北大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "2f01ae358e",
+    "name": "中央民族大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中央民族大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "88d82d95a4",
+    "name": "兰州大学",
+    "city": "兰州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "兰州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ff08fce579",
+    "name": "南京师范大学",
+    "city": "南京",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "33871bf7bc",
+    "name": "江南大学",
+    "city": "无锡",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "江南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d4956deaad",
+    "name": "西北大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西北大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8b01c4835e",
+    "name": "上海大学",
+    "city": "上海",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "72df0792df",
+    "name": "北京邮电大学",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京邮电大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "aed60ff6fc",
+    "name": "西南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0be7d9481f",
+    "name": "中南财经政法大学",
+    "city": "武汉",
+    "schoolType": "财经",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中南财经政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c9f767ac0c",
+    "name": "中国传媒大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国传媒大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7f1f81d35d",
+    "name": "华中师范大学",
+    "city": "武汉",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华中师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4cd37fff25",
+    "name": "北京中医药大学",
+    "city": "北京",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "a0555f09ff",
+    "name": "北京科技大学",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e0e77e9df3",
+    "name": "东北师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7ae34b9d32",
+    "name": "南京理工大学",
+    "city": "南京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c843582190",
+    "name": "暨南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "暨南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8e93495076",
+    "name": "北京林业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京林业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d7df35f4af",
+    "name": "东华大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东华大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0c3988dd7b",
+    "name": "对外经济贸易大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "对外经济贸易大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "147b5fc449",
+    "name": "河海大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河海大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "caa0f1d3ef",
+    "name": "西南财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7b6dc27d1d",
+    "name": "陕西师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "陕西师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7b3a3e4753",
+    "name": "东北大学秦皇岛分校",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北大学秦皇岛分校 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "23e469cbfd",
+    "name": "中国石油大学（北京）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国石油大学（北京） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "db0b801569",
+    "name": "华北电力大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华北电力大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3fe75c7433",
+    "name": "合肥工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "合肥工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "a4df0b4fee",
+    "name": "大连海事大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "大连海事大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "2d80944224",
+    "name": "深圳大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "深圳大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "50a88292eb",
+    "name": "西北农林科技大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西北农林科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e1310a8f88",
+    "name": "中国地质大学（武汉）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国地质大学（武汉） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "29ea39ecfa",
+    "name": "武汉理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "武汉理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7f4568ec8f",
+    "name": "浙江师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c70c34f6c2",
+    "name": "长安大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "长安大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "10f74b5b41",
+    "name": "北京化工大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京化工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "230ff7b3d0",
+    "name": "华南师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华南师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3f0f523bf0",
+    "name": "南京航空航天大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京航空航天大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6ee50b02d1",
+    "name": "湖南师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湖南师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5b57873c45",
+    "name": "中国地质大学（北京）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国地质大学（北京） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d8d78e4591",
+    "name": "哈尔滨工程大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工程大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b50a38de39",
+    "name": "海南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "海南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "75b830cd84",
+    "name": "西南交通大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南交通大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c50040988f",
+    "name": "辽宁大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "辽宁大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7d745a2727",
+    "name": "郑州大学",
+    "city": "郑州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "郑州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "a11b1097c3",
+    "name": "上海政法学院",
+    "city": "待核验",
+    "schoolType": "政法",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海政法学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "bac107f2c0",
+    "name": "中国药科大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国药科大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4fa8102f7b",
+    "name": "华东政法大学",
+    "city": "待核验",
+    "schoolType": "政法",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华东政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "394562e300",
+    "name": "河南中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河南中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6fc3f015aa",
+    "name": "湖北中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湖北中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7817f5e95b",
+    "name": "西安电子科技大学",
+    "city": "西安",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西安电子科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ce1d99b2f8",
+    "name": "南京农业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京农业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ed9a176ab5",
+    "name": "河北中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河北中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "78cfd67129",
+    "name": "福州大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "福州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "232d01da21",
+    "name": "西北政法大学",
+    "city": "待核验",
+    "schoolType": "政法",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西北政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "cd0e29b1e8",
+    "name": "首都师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "首都师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fe3a399387",
+    "name": "中国石油大学（华东）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国石油大学（华东） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4bd2b0565e",
+    "name": "中国矿业大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国矿业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "41af312953",
+    "name": "中国矿业大学（北京）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国矿业大学（北京） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "bdfa1841d8",
+    "name": "北京体育大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京体育大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "24c671deb6",
+    "name": "南京信息工程大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京信息工程大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5e64ea0336",
+    "name": "外交学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "外交学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4319686776",
+    "name": "太原理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "太原理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3a66c745fe",
+    "name": "河北工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河北工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "1586f7b9af",
+    "name": "东北财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e34209a5e7",
+    "name": "云南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "云南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "763d03c0ae",
+    "name": "华东理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华东理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "2407254c7e",
+    "name": "天津医科大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "天津医科大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "befce4b0a8",
+    "name": "山西中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "山西中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "22dcc272e5",
+    "name": "内蒙古大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "内蒙古大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "04b9adf0e3",
+    "name": "安徽大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "安徽大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "9aaeff560f",
+    "name": "广州中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广州中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "21e7c859bf",
+    "name": "西南大学（荣昌校区）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南大学（荣昌校区） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d45bf3ae2c",
+    "name": "南京审计大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京审计大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "14aab9a29d",
+    "name": "南昌大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南昌大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3b70ed02d9",
+    "name": "厦门大学（马来西亚分校）",
+    "city": "厦门",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "厦门大学（马来西亚分校） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e815cf0214",
+    "name": "宁夏大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "宁夏大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5f32cca0c6",
+    "name": "甘肃中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "甘肃中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0e72b5067a",
+    "name": "东北林业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北林业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e492104b2a",
+    "name": "华中农业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华中农业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "abb9cee05c",
+    "name": "华北电力大学（保定）",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "华北电力大学（保定） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "00a4e94cd6",
+    "name": "河南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e4360e6635",
+    "name": "浙江财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "02e1441744",
+    "name": "贵州大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "贵州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "aa54e85f59",
+    "name": "黑龙江大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "黑龙江大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "851871a614",
+    "name": "北京语言大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京语言大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f6a9964397",
+    "name": "宁波大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "宁波大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e5f9f11edc",
+    "name": "北京电影学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京电影学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "be63e503f7",
+    "name": "合肥工业大学（宣城校区）",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "合肥工业大学（宣城校区） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "65792793e6",
+    "name": "天津工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "天津工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ce66afdff6",
+    "name": "广州大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fe7d3f4b84",
+    "name": "广西大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广西大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d2092bee06",
+    "name": "扬州大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "扬州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "afc6eec090",
+    "name": "湘潭大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湘潭大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "abf16b190b",
+    "name": "中南民族大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中南民族大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c02fa4c685",
+    "name": "江苏大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "江苏大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "601532e97e",
+    "name": "江西财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "江西财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "dd805a2fef",
+    "name": "中央美术学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中央美术学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "4f2bf2d3f3",
+    "name": "南方医科大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南方医科大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "be703b52ab",
+    "name": "西南石油大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西南石油大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e1ad8d510d",
+    "name": "成都理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "成都理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b92ee45537",
+    "name": "上海对外经贸大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海对外经贸大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "903385681e",
+    "name": "上海海事大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海海事大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "22c440b7dc",
+    "name": "东北农业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "东北农业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8ab0c45011",
+    "name": "中国石油大学（北京）克拉玛依校区",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国石油大学（北京）克拉玛依校区 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "23b28e2ffc",
+    "name": "武汉科技大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "武汉科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e9e1ee498a",
+    "name": "江西师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "江西师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "7bcd34b71d",
+    "name": "湖南中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湖南中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c789dbb218",
+    "name": "集美大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "集美大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f5c87393fb",
+    "name": "上海戏剧学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海戏剧学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fe88e6e7a9",
+    "name": "中国民航大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国民航大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d1581a8658",
+    "name": "广东外语外贸大学",
+    "city": "待核验",
+    "schoolType": "语言",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广东外语外贸大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fb922e8b83",
+    "name": "郑州大学（中外合作）",
+    "city": "郑州",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "郑州大学（中外合作） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f3485372cc",
+    "name": "中国计量大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国计量大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "38d83f288e",
+    "name": "天津师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "天津师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "9cc6d5dd38",
+    "name": "安徽医科大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "安徽医科大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6bddcf1e12",
+    "name": "浙江工商大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江工商大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c631828958",
+    "name": "南京财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "fce83d4adf",
+    "name": "成都大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "成都大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "19ff5354cc",
+    "name": "首都经济贸易大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "首都经济贸易大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "a2ba21f865",
+    "name": "上海海洋大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海海洋大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "bb49baaf90",
+    "name": "北方工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北方工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "cfefe84db2",
+    "name": "南京林业大学",
+    "city": "待核验",
+    "schoolType": "农林",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京林业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d8313f4031",
+    "name": "广东财经大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广东财经大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "12dc677db6",
+    "name": "杭州电子科技大学",
+    "city": "成都",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "杭州电子科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "15f498f582",
+    "name": "汕头大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "汕头大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8df55e45f3",
+    "name": "西安工程大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西安工程大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ee6d29d533",
+    "name": "重庆师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "重庆师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "72576956f1",
+    "name": "北京交通大学（威海校区）",
+    "city": "北京",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京交通大学（威海校区） 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "2411c8e87b",
+    "name": "安徽师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "安徽师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8b0794fbd3",
+    "name": "延边大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "延边大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "095608253e",
+    "name": "湖北大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "湖北大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "15ad11e3a8",
+    "name": "青海大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "青海大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "07a35b9cb0",
+    "name": "上海体育大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海体育大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "a0fd731a66",
+    "name": "北京工商大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京工商大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f420616a0d",
+    "name": "南通大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南通大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "beb10ff7d2",
+    "name": "济南大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "济南大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ee96a5c28a",
+    "name": "浙江理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "66567ad835",
+    "name": "温州大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "温州大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "c662c9d56e",
+    "name": "上海立信会计金融学院",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海立信会计金融学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f3c7f87dc8",
+    "name": "大连医科大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "大连医科大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8b2abba4b5",
+    "name": "深圳技术大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "深圳技术大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "dcf5492349",
+    "name": "中央戏剧学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中央戏剧学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "f7b2281794",
+    "name": "新疆大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "新疆大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "75af0d7837",
+    "name": "曲阜师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "曲阜师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5be74d35e8",
+    "name": "苏州科技大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "苏州科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e9d1988b67",
+    "name": "西安外国语大学",
+    "city": "待核验",
+    "schoolType": "语言",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西安外国语大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "6d29161b44",
+    "name": "长沙理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "长沙理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "25d88a8e1c",
+    "name": "中国美术学院",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国美术学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e946390b56",
+    "name": "北京第二外国语学院",
+    "city": "待核验",
+    "schoolType": "语言",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京第二外国语学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b8555f0d9d",
+    "name": "四川师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "四川师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3b93c5599c",
+    "name": "河南财经政法大学",
+    "city": "待核验",
+    "schoolType": "财经",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河南财经政法大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "67fba86961",
+    "name": "燕山大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "燕山大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5ecf44e299",
+    "name": "石河子大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "石河子大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8026f8a5eb",
+    "name": "南京工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "南京工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "452384d94a",
+    "name": "四川外国语大学",
+    "city": "待核验",
+    "schoolType": "语言",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "四川外国语大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "022059c7c3",
+    "name": "山东师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "山东师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "055d31e8ee",
+    "name": "山西大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "山西大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "3206e0937e",
+    "name": "广东工业大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "广东工业大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "1056ffd6b3",
+    "name": "武汉工程大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "武汉工程大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e8f1f1d6e3",
+    "name": "石家庄铁道大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "石家庄铁道大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "aee6fca355",
+    "name": "陕西科技大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "陕西科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "1839e5d809",
+    "name": "上海电力大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "上海电力大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "d72114b5f4",
+    "name": "河北大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "河北大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "21815369bc",
+    "name": "福建师范大学",
+    "city": "待核验",
+    "schoolType": "师范",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "福建师范大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "e3a56fd406",
+    "name": "黑龙江中医药大学",
+    "city": "待核验",
+    "schoolType": "医药",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "黑龙江中医药大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "95864de18c",
+    "name": "复旦大学医学院",
+    "city": "上海",
+    "schoolType": "医药",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "复旦大学医学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "5a23d396fa",
+    "name": "中国科学技术大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国科学技术大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b473cd9fc3",
+    "name": "中国科学院大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国科学院大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "cd4d1880fa",
+    "name": "哈尔滨工业大学 (深圳)",
+    "city": "哈尔滨",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工业大学 (深圳) 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8b64f18b73",
+    "name": "西湖大学",
+    "city": "待核验",
+    "schoolType": "综合",
+    "levelTags": [
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "西湖大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "818950b4a6",
+    "name": "中国人民大学 (苏州校区)",
+    "city": "北京",
+    "schoolType": "综合",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "中国人民大学 (苏州校区) 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "937edf6559",
+    "name": "哈尔滨工业大学 (威海)",
+    "city": "哈尔滨",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "哈尔滨工业大学 (威海) 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "567e49da55",
+    "name": "电子科技大学 (沙河校区)",
+    "city": "成都",
+    "schoolType": "理工",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "电子科技大学 (沙河校区) 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "8707bf776d",
+    "name": "国防科技大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "国防科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "b552c4900e",
+    "name": "福建福耀科技大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "福建福耀科技大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "0507327fdf",
+    "name": "浙江大学医学院",
+    "city": "杭州",
+    "schoolType": "医药",
+    "levelTags": [
+      "211",
+      "985",
+      "C9",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "浙江大学医学院 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "816a101a94",
+    "name": "北京师范大学 (珠海校区)",
+    "city": "北京",
+    "schoolType": "师范",
+    "levelTags": [
+      "211",
+      "985",
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "北京师范大学 (珠海校区) 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  },
+  {
+    "id": "ba79277901",
+    "name": "深圳理工大学",
+    "city": "待核验",
+    "schoolType": "理工",
+    "levelTags": [
+      "双一流/高水平"
+    ],
+    "sourceIds": [
+      "inferred-from-rank-table"
+    ],
+    "summary": "深圳理工大学 的院校层次、城市和类型由公开校名/常识映射生成，具体学院、班型、校区、转专业和就业质量需继续核验。"
+  }
+]

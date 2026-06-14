@@ -1,20 +1,32 @@
 [
   {
-    "id": "demo-henan-official-2026",
-    "title": "2026 河南招生计划演示数据",
-    "sourceType": "demo",
-    "publisher": "本项目演示数据",
+    "id": "gk100-2025-rank-table",
+    "title": "河南2025年高考一分一段位次表！含批次线、位次对应大学",
+    "sourceType": "third_party_pending",
+    "publisher": "高考100",
+    "url": "https://www.gk100.com/read_31698432.htm",
     "collectedAt": "2026-06-14",
-    "confidenceLevel": "low",
-    "notes": "仅用于跑通静态 MVP 流程，不得作为真实志愿推荐依据。"
+    "confidenceLevel": "medium",
+    "notes": "物理类前1万 HTML 表格；历史类前1万来自同站图片OCR页面，需官方核验。"
   },
   {
-    "id": "demo-admission-2025",
-    "title": "2025 投档位次演示数据",
-    "sourceType": "demo",
-    "publisher": "本项目演示数据",
+    "id": "gk100-2026-rank-reference",
+    "title": "河南高考位次排名对应大学名单（2026年参考）",
+    "sourceType": "third_party_pending",
+    "publisher": "高考100",
+    "url": "https://www.gk100.com/read_50277220.htm",
     "collectedAt": "2026-06-14",
-    "confidenceLevel": "low",
-    "notes": "用于演示风险估计逻辑，后续必须替换为河南官方正式投档数据。"
+    "confidenceLevel": "medium",
+    "notes": "提供历史类前1万图片表和统计摘要。"
+  },
+  {
+    "id": "henan-official-query",
+    "title": "河南官方投档线查询入口",
+    "sourceType": "official_reference",
+    "publisher": "河南省教育考试院/河南高考信息平台",
+    "url": "https://datacenter.haeea.cn/PagePZQuery/ShowPZTDTJ.aspx",
+    "collectedAt": "2026-06-14",
+    "confidenceLevel": "high",
+    "notes": "官方查询入口对自动请求返回 412，后续需浏览器或人工导出核验。"
   }
 ]
