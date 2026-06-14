@@ -1,0 +1,20 @@
+[
+  {
+    "id": "demo-henan-official-2026",
+    "title": "2026 河南招生计划演示数据",
+    "sourceType": "demo",
+    "publisher": "本项目演示数据",
+    "collectedAt": "2026-06-14",
+    "confidenceLevel": "low",
+    "notes": "仅用于跑通静态 MVP 流程，不得作为真实志愿推荐依据。"
+  },
+  {
+    "id": "demo-admission-2025",
+    "title": "2025 投档位次演示数据",
+    "sourceType": "demo",
+    "publisher": "本项目演示数据",
+    "collectedAt": "2026-06-14",
+    "confidenceLevel": "low",
+    "notes": "用于演示风险估计逻辑，后续必须替换为河南官方正式投档数据。"
+  }
+]
