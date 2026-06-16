@@ -11,13 +11,15 @@ collection: Portfolio
 - [Solutions4 (GPT generated)](https://aeiou0123.github.io/files/Intermediate Microeconomics/中微第四次作业_答案详解版.pdf)
 - [Homework5](https://aeiou0123.github.io/files/Intermediate Microeconomics/中微第五次作业_逐问答题版.pdf)
 - [Solutions5 (GPT generated)](https://aeiou0123.github.io/files/Intermediate Microeconomics/中微第五次作业_答案详解版.pdf)
+- [Homework6](https://aeiou0123.github.io/files/Intermediate Microeconomics/中微第六次作业_答题版.pdf)
+- [Solutions6 (GPT generated)](https://aeiou0123.github.io/files/Intermediate Microeconomics/中微第六次作业_答案详解版.pdf)
 - [市场结构 (GPT recognized, Deepseek organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/市场结构.pdf)
 - [博弈论 (GPT recognized, Kimi organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/博弈论笔记整合.pdf)
 - [一般均衡 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/general_equilibrium_chapter.pdf)
 - [外部性 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/externalities_chapter.pdf)
 - [公共物品 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/public_goods_chapter.pdf)
 - [信息不对称 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/information_incentives_chapter_fixed.pdf)
-
+- [劳动要素市场 (GPT organized)](https://aeiou0123.github.io/files/Intermediate Microeconomics/labor_market_chapter.pdf)
 
 
 这是2026年中级微观经济学的习题题解与讲义整理 <br>
