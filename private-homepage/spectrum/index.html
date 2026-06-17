@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>政治光谱测试集合 | aeiou0123</title>
+    <meta
+      name="description"
+      content="aeiou0123 私人主页里的政治光谱测试集合页：日本、美国以及未来更多国家/地区的价值观测试入口。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/" aria-label="返回私人主页">
+          <span class="brand-mark" aria-hidden="true">SP</span>
+          <span>
+            <strong>Spectrum Tests</strong>
+            <small>private-homepage / politics lab</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="#available">可用测试</a>
+          <a href="#future">未来计划</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <p class="eyebrow">political spectrum test shelf</p>
+            <h1 id="hero-title">
+              <span>政治光谱</span>
+              <span>测试集合</span>
+            </h1>
+            <p class="hero-lead">
+              这里集中放不同国家和地区的政治、社会与制度价值观测试。每个测试独立维护题库和参照坐标，
+              结果只表示政策距离和价值组合，不构成投票建议。
+            </p>
+            <div class="hero-actions">
+              <a class="primary-action" href="#available">查看可用测试</a>
+              <span id="testCount">loading</span>
+            </div>
+          </div>
+          <div class="hero-board" aria-hidden="true">
+            <span>Japan</span>
+            <span>United States</span>
+            <span>Europe</span>
+            <span>Korea</span>
+            <span>Taiwan</span>
+            <b>More soon</b>
+          </div>
+        </section>
+
+        <section class="section-band" id="available" aria-labelledby="available-title">
+          <div class="section-heading">
+            <p class="eyebrow">available</p>
+            <h2 id="available-title">可用测试</h2>
+          </div>
+          <div class="test-grid" id="availableList"></div>
+        </section>
+
+        <section class="section-band" id="future" aria-labelledby="future-title">
+          <div class="section-heading">
+            <p class="eyebrow">planned shelf</p>
+            <h2 id="future-title">未来计划</h2>
+          </div>
+          <div class="test-grid future-grid" id="futureList"></div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Tests are descriptive, not prescriptive.</p>
+        <a href="#top">回到顶部</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

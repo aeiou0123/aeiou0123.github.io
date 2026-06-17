@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>美国政治光谱测试 | aeiou0123</title>
+    <meta
+      name="description"
+      content="一个 10 维度、160 题、中英双语的美国政治与社会价值观光谱测试。结果仅供参考，不构成投票建议。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/us-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/spectrum/" aria-label="返回测试集合">
+          <span class="brand-mark" aria-hidden="true">US</span>
+          <span>
+            <strong>US Spectrum</strong>
+            <small>politics lab / bilingual</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a id="navHome" href="/private-homepage/">私人主页</a>
+          <a id="navHub" href="/private-homepage/spectrum/">测试集合</a>
+          <a id="navStart" href="#quiz">开始</a>
+          <a id="navMethod" href="#method">方法</a>
+          <a id="navSources" href="#sources">来源</a>
+          <button class="language-toggle" id="languageToggle" type="button">EN</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow" id="heroEyebrow">United States political spectrum test</p>
+            <h1 id="hero-title">
+              <span id="heroTitleA">美国政治・社会价值观</span>
+              <span id="heroTitleB">光谱测试</span>
+            </h1>
+            <p class="hero-lead" id="heroLead"></p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="quick">
+                <span id="quickLabel">快速版</span>
+                <strong>40</strong>
+                <small id="quickDesc"></small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard">
+                <span id="standardLabel">标准版</span>
+                <strong>80</strong>
+                <small id="standardDesc"></small>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="full">
+                <span id="fullLabel">深度版</span>
+                <strong>160</strong>
+                <small id="fullDesc"></small>
+              </button>
+            </div>
+            <p class="disclaimer" id="scaleHint"></p>
+          </div>
+
+          <div class="hero-visual" aria-hidden="true">
+            <div class="axis-wheel">
+              <span>ECO</span><span>STATE</span><span>LIB</span><span>CULT</span><span>IMM</span>
+              <span>RACE</span><span>DEMO</span><span>FP</span><span>MIL</span><span>CLIM</span>
+              <b>US<br />Spectrum</b>
+            </div>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">mode</p>
+              <h2 id="questionCounter">Question</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+
+          <article class="question-card" id="questionCard">
+            <div class="question-meta">
+              <p class="axis-pill" id="axisLabel">ECO</p>
+              <span id="subdomainLabel">subdomain</span>
+            </div>
+            <h3 id="questionText">Question text</h3>
+            <div class="scale-helper" aria-hidden="true">
+              <span>Disagree</span>
+              <span>Neutral</span>
+              <span>Agree</span>
+            </div>
+            <div class="scale-row" id="scaleRow"></div>
+          </article>
+
+          <article class="question-card weight-card is-hidden" id="weightCard">
+            <p class="axis-pill" id="importanceAxis">axis</p>
+            <h3 id="importanceTitle">这个维度对你有多重要？</h3>
+            <p id="importanceLead"></p>
+            <div class="importance-row" id="importanceButtons"></div>
+            <button class="ghost-button" type="button" id="importanceDefault">使用默认重要性</button>
+          </article>
+
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 40</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow" id="resultKicker">result</p>
+            <h2 id="resultTitle">Mixed pragmatic profile</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制结果摘要</button>
+              <button class="ghost-button" type="button" id="exportPng">导出 PNG</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card">
+              <h3 id="sectionTags">组合标签</h3>
+              <ul class="tag-list" id="tagList"></ul>
+            </article>
+            <article class="result-card chart-card">
+              <h3 id="sectionRadar">十轴雷达</h3>
+              <canvas id="radarCanvas" width="460" height="460"></canvas>
+            </article>
+            <article class="result-card map-card">
+              <h3 id="sectionMap">坐标图</h3>
+              <div class="coordinate-tabs" id="coordinateTabs"></div>
+              <div class="coordinate-map" id="coordinateMap">
+                <i class="x-line"></i>
+                <i class="y-line"></i>
+              </div>
+              <div class="map-labels">
+                <span id="mapXAxis">x axis</span>
+                <span id="mapYAxis">y axis</span>
+              </div>
+            </article>
+          </div>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">axis scores</p>
+              <h2 id="sectionAxes">10 个维度</h2>
+            </div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">policy distance</p>
+              <h2 id="sectionDistance">参考政策距离</h2>
+            </div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">confidence</p>
+              <h2 id="sectionInsights">置信度与混合点</h2>
+            </div>
+            <ul class="insight-list" id="insightList"></ul>
+          </section>
+        </section>
+
+        <section class="method-section" id="method">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2 id="methodTitle">设计方法</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3 id="method1">160 题题库</h3>
+              <p id="method1Text"></p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3 id="method2">轴级重要性</h3>
+              <p id="method2Text"></p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3 id="method3">本地优先</h3>
+              <p id="method3Text"></p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section" id="sources">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2 id="sectionSources">参考资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Results are descriptive, not prescriptive.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
