@@ -1,0 +1,1394 @@
+{
+  "year": 2025,
+  "province": "河南",
+  "dataScope": "top10000_score_to_rank",
+  "generatedAt": "2026-06-17",
+  "tracks": {
+    "physics": {
+      "track": "physics",
+      "trackLabel": "物理类",
+      "year": 2025,
+      "province": "河南",
+      "rankMethod": "score_band_cumulative",
+      "entries": [
+        {
+          "score": 710,
+          "cumulativeRank": 12,
+          "sameScoreCount": 12,
+          "rankStart": 1,
+          "rankEnd": 12,
+          "hasScoreBand": true
+        },
+        {
+          "score": 709,
+          "cumulativeRank": 19,
+          "sameScoreCount": 7,
+          "rankStart": 13,
+          "rankEnd": 19,
+          "hasScoreBand": true
+        },
+        {
+          "score": 708,
+          "cumulativeRank": 23,
+          "sameScoreCount": 4,
+          "rankStart": 20,
+          "rankEnd": 23,
+          "hasScoreBand": true
+        },
+        {
+          "score": 707,
+          "cumulativeRank": 27,
+          "sameScoreCount": 4,
+          "rankStart": 24,
+          "rankEnd": 27,
+          "hasScoreBand": true
+        },
+        {
+          "score": 706,
+          "cumulativeRank": 33,
+          "sameScoreCount": 6,
+          "rankStart": 28,
+          "rankEnd": 33,
+          "hasScoreBand": true
+        },
+        {
+          "score": 705,
+          "cumulativeRank": 41,
+          "sameScoreCount": 8,
+          "rankStart": 34,
+          "rankEnd": 41,
+          "hasScoreBand": true
+        },
+        {
+          "score": 704,
+          "cumulativeRank": 52,
+          "sameScoreCount": 11,
+          "rankStart": 42,
+          "rankEnd": 52,
+          "hasScoreBand": true
+        },
+        {
+          "score": 703,
+          "cumulativeRank": 66,
+          "sameScoreCount": 14,
+          "rankStart": 53,
+          "rankEnd": 66,
+          "hasScoreBand": true
+        },
+        {
+          "score": 702,
+          "cumulativeRank": 82,
+          "sameScoreCount": 16,
+          "rankStart": 67,
+          "rankEnd": 82,
+          "hasScoreBand": true
+        },
+        {
+          "score": 701,
+          "cumulativeRank": 94,
+          "sameScoreCount": 12,
+          "rankStart": 83,
+          "rankEnd": 94,
+          "hasScoreBand": true
+        },
+        {
+          "score": 700,
+          "cumulativeRank": 108,
+          "sameScoreCount": 14,
+          "rankStart": 95,
+          "rankEnd": 108,
+          "hasScoreBand": true
+        },
+        {
+          "score": 699,
+          "cumulativeRank": 122,
+          "sameScoreCount": 14,
+          "rankStart": 109,
+          "rankEnd": 122,
+          "hasScoreBand": true
+        },
+        {
+          "score": 698,
+          "cumulativeRank": 151,
+          "sameScoreCount": 29,
+          "rankStart": 123,
+          "rankEnd": 151,
+          "hasScoreBand": true
+        },
+        {
+          "score": 697,
+          "cumulativeRank": 186,
+          "sameScoreCount": 35,
+          "rankStart": 152,
+          "rankEnd": 186,
+          "hasScoreBand": true
+        },
+        {
+          "score": 696,
+          "cumulativeRank": 213,
+          "sameScoreCount": 27,
+          "rankStart": 187,
+          "rankEnd": 213,
+          "hasScoreBand": true
+        },
+        {
+          "score": 695,
+          "cumulativeRank": 241,
+          "sameScoreCount": 28,
+          "rankStart": 214,
+          "rankEnd": 241,
+          "hasScoreBand": true
+        },
+        {
+          "score": 694,
+          "cumulativeRank": 272,
+          "sameScoreCount": 31,
+          "rankStart": 242,
+          "rankEnd": 272,
+          "hasScoreBand": true
+        },
+        {
+          "score": 693,
+          "cumulativeRank": 313,
+          "sameScoreCount": 41,
+          "rankStart": 273,
+          "rankEnd": 313,
+          "hasScoreBand": true
+        },
+        {
+          "score": 692,
+          "cumulativeRank": 339,
+          "sameScoreCount": 26,
+          "rankStart": 314,
+          "rankEnd": 339,
+          "hasScoreBand": true
+        },
+        {
+          "score": 691,
+          "cumulativeRank": 380,
+          "sameScoreCount": 41,
+          "rankStart": 340,
+          "rankEnd": 380,
+          "hasScoreBand": true
+        },
+        {
+          "score": 690,
+          "cumulativeRank": 416,
+          "sameScoreCount": 36,
+          "rankStart": 381,
+          "rankEnd": 416,
+          "hasScoreBand": true
+        },
+        {
+          "score": 689,
+          "cumulativeRank": 461,
+          "sameScoreCount": 45,
+          "rankStart": 417,
+          "rankEnd": 461,
+          "hasScoreBand": true
+        },
+        {
+          "score": 688,
+          "cumulativeRank": 511,
+          "sameScoreCount": 50,
+          "rankStart": 462,
+          "rankEnd": 511,
+          "hasScoreBand": true
+        },
+        {
+          "score": 687,
+          "cumulativeRank": 566,
+          "sameScoreCount": 55,
+          "rankStart": 512,
+          "rankEnd": 566,
+          "hasScoreBand": true
+        },
+        {
+          "score": 686,
+          "cumulativeRank": 627,
+          "sameScoreCount": 61,
+          "rankStart": 567,
+          "rankEnd": 627,
+          "hasScoreBand": true
+        },
+        {
+          "score": 685,
+          "cumulativeRank": 695,
+          "sameScoreCount": 68,
+          "rankStart": 628,
+          "rankEnd": 695,
+          "hasScoreBand": true
+        },
+        {
+          "score": 684,
+          "cumulativeRank": 779,
+          "sameScoreCount": 84,
+          "rankStart": 696,
+          "rankEnd": 779,
+          "hasScoreBand": true
+        },
+        {
+          "score": 683,
+          "cumulativeRank": 857,
+          "sameScoreCount": 78,
+          "rankStart": 780,
+          "rankEnd": 857,
+          "hasScoreBand": true
+        },
+        {
+          "score": 682,
+          "cumulativeRank": 961,
+          "sameScoreCount": 104,
+          "rankStart": 858,
+          "rankEnd": 961,
+          "hasScoreBand": true
+        },
+        {
+          "score": 681,
+          "cumulativeRank": 1047,
+          "sameScoreCount": 86,
+          "rankStart": 962,
+          "rankEnd": 1047,
+          "hasScoreBand": true
+        },
+        {
+          "score": 680,
+          "cumulativeRank": 1146,
+          "sameScoreCount": 99,
+          "rankStart": 1048,
+          "rankEnd": 1146,
+          "hasScoreBand": true
+        },
+        {
+          "score": 679,
+          "cumulativeRank": 1277,
+          "sameScoreCount": 131,
+          "rankStart": 1147,
+          "rankEnd": 1277,
+          "hasScoreBand": true
+        },
+        {
+          "score": 678,
+          "cumulativeRank": 1380,
+          "sameScoreCount": 103,
+          "rankStart": 1278,
+          "rankEnd": 1380,
+          "hasScoreBand": true
+        },
+        {
+          "score": 677,
+          "cumulativeRank": 1509,
+          "sameScoreCount": 129,
+          "rankStart": 1381,
+          "rankEnd": 1509,
+          "hasScoreBand": true
+        },
+        {
+          "score": 676,
+          "cumulativeRank": 1624,
+          "sameScoreCount": 115,
+          "rankStart": 1510,
+          "rankEnd": 1624,
+          "hasScoreBand": true
+        },
+        {
+          "score": 675,
+          "cumulativeRank": 1763,
+          "sameScoreCount": 139,
+          "rankStart": 1625,
+          "rankEnd": 1763,
+          "hasScoreBand": true
+        },
+        {
+          "score": 674,
+          "cumulativeRank": 1917,
+          "sameScoreCount": 154,
+          "rankStart": 1764,
+          "rankEnd": 1917,
+          "hasScoreBand": true
+        },
+        {
+          "score": 673,
+          "cumulativeRank": 2061,
+          "sameScoreCount": 144,
+          "rankStart": 1918,
+          "rankEnd": 2061,
+          "hasScoreBand": true
+        },
+        {
+          "score": 672,
+          "cumulativeRank": 2230,
+          "sameScoreCount": 169,
+          "rankStart": 2062,
+          "rankEnd": 2230,
+          "hasScoreBand": true
+        },
+        {
+          "score": 671,
+          "cumulativeRank": 2395,
+          "sameScoreCount": 165,
+          "rankStart": 2231,
+          "rankEnd": 2395,
+          "hasScoreBand": true
+        },
+        {
+          "score": 670,
+          "cumulativeRank": 2579,
+          "sameScoreCount": 184,
+          "rankStart": 2396,
+          "rankEnd": 2579,
+          "hasScoreBand": true
+        },
+        {
+          "score": 669,
+          "cumulativeRank": 2741,
+          "sameScoreCount": 162,
+          "rankStart": 2580,
+          "rankEnd": 2741,
+          "hasScoreBand": true
+        },
+        {
+          "score": 668,
+          "cumulativeRank": 2939,
+          "sameScoreCount": 198,
+          "rankStart": 2742,
+          "rankEnd": 2939,
+          "hasScoreBand": true
+        },
+        {
+          "score": 667,
+          "cumulativeRank": 3171,
+          "sameScoreCount": 232,
+          "rankStart": 2940,
+          "rankEnd": 3171,
+          "hasScoreBand": true
+        },
+        {
+          "score": 666,
+          "cumulativeRank": 3387,
+          "sameScoreCount": 216,
+          "rankStart": 3172,
+          "rankEnd": 3387,
+          "hasScoreBand": true
+        },
+        {
+          "score": 665,
+          "cumulativeRank": 3614,
+          "sameScoreCount": 227,
+          "rankStart": 3388,
+          "rankEnd": 3614,
+          "hasScoreBand": true
+        },
+        {
+          "score": 664,
+          "cumulativeRank": 3838,
+          "sameScoreCount": 224,
+          "rankStart": 3615,
+          "rankEnd": 3838,
+          "hasScoreBand": true
+        },
+        {
+          "score": 663,
+          "cumulativeRank": 4081,
+          "sameScoreCount": 243,
+          "rankStart": 3839,
+          "rankEnd": 4081,
+          "hasScoreBand": true
+        },
+        {
+          "score": 662,
+          "cumulativeRank": 4316,
+          "sameScoreCount": 235,
+          "rankStart": 4082,
+          "rankEnd": 4316,
+          "hasScoreBand": true
+        },
+        {
+          "score": 661,
+          "cumulativeRank": 4578,
+          "sameScoreCount": 262,
+          "rankStart": 4317,
+          "rankEnd": 4578,
+          "hasScoreBand": true
+        },
+        {
+          "score": 660,
+          "cumulativeRank": 4874,
+          "sameScoreCount": 296,
+          "rankStart": 4579,
+          "rankEnd": 4874,
+          "hasScoreBand": true
+        },
+        {
+          "score": 659,
+          "cumulativeRank": 5147,
+          "sameScoreCount": 273,
+          "rankStart": 4875,
+          "rankEnd": 5147,
+          "hasScoreBand": true
+        },
+        {
+          "score": 658,
+          "cumulativeRank": 5456,
+          "sameScoreCount": 309,
+          "rankStart": 5148,
+          "rankEnd": 5456,
+          "hasScoreBand": true
+        },
+        {
+          "score": 657,
+          "cumulativeRank": 5758,
+          "sameScoreCount": 302,
+          "rankStart": 5457,
+          "rankEnd": 5758,
+          "hasScoreBand": true
+        },
+        {
+          "score": 656,
+          "cumulativeRank": 6120,
+          "sameScoreCount": 362,
+          "rankStart": 5759,
+          "rankEnd": 6120,
+          "hasScoreBand": true
+        },
+        {
+          "score": 655,
+          "cumulativeRank": 6441,
+          "sameScoreCount": 321,
+          "rankStart": 6121,
+          "rankEnd": 6441,
+          "hasScoreBand": true
+        },
+        {
+          "score": 654,
+          "cumulativeRank": 6779,
+          "sameScoreCount": 338,
+          "rankStart": 6442,
+          "rankEnd": 6779,
+          "hasScoreBand": true
+        },
+        {
+          "score": 653,
+          "cumulativeRank": 7144,
+          "sameScoreCount": 365,
+          "rankStart": 6780,
+          "rankEnd": 7144,
+          "hasScoreBand": true
+        },
+        {
+          "score": 652,
+          "cumulativeRank": 7511,
+          "sameScoreCount": 367,
+          "rankStart": 7145,
+          "rankEnd": 7511,
+          "hasScoreBand": true
+        },
+        {
+          "score": 651,
+          "cumulativeRank": 7914,
+          "sameScoreCount": 403,
+          "rankStart": 7512,
+          "rankEnd": 7914,
+          "hasScoreBand": true
+        },
+        {
+          "score": 650,
+          "cumulativeRank": 8281,
+          "sameScoreCount": 367,
+          "rankStart": 7915,
+          "rankEnd": 8281,
+          "hasScoreBand": true
+        },
+        {
+          "score": 649,
+          "cumulativeRank": 8687,
+          "sameScoreCount": 406,
+          "rankStart": 8282,
+          "rankEnd": 8687,
+          "hasScoreBand": true
+        },
+        {
+          "score": 648,
+          "cumulativeRank": 9130,
+          "sameScoreCount": 443,
+          "rankStart": 8688,
+          "rankEnd": 9130,
+          "hasScoreBand": true
+        },
+        {
+          "score": 647,
+          "cumulativeRank": 9537,
+          "sameScoreCount": 407,
+          "rankStart": 9131,
+          "rankEnd": 9537,
+          "hasScoreBand": true
+        },
+        {
+          "score": 646,
+          "cumulativeRank": 9989,
+          "sameScoreCount": 452,
+          "rankStart": 9538,
+          "rankEnd": 9989,
+          "hasScoreBand": true
+        },
+        {
+          "score": 645,
+          "cumulativeRank": 10445,
+          "sameScoreCount": 456,
+          "rankStart": 9990,
+          "rankEnd": 10445,
+          "hasScoreBand": true
+        }
+      ],
+      "minScoreWithinTop10000": 646,
+      "maxScore": 710,
+      "firstScoreBeyondTop10000": 645,
+      "firstRankBeyondTop10000": 10445,
+      "source": {
+        "id": "henan-2025-score-rank-physics",
+        "title": "2025年河南省普通高招分数段统计表（物理类）",
+        "sourceType": "official_reference",
+        "publisher": "河南省教育考试院，经阳光高考转载发布",
+        "url": "https://t3.chei.com.cn/news/getfile/2293390724-2293390722-7a455e1c13a42590d11419daa183466a.pdf",
+        "sourcePageUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202506/20250625/2293390722.html",
+        "localFile": "raw-data/score-rank-2025/henan-2025-physics-score-rank.pdf",
+        "collectedAt": "2026-06-17",
+        "confidenceLevel": "high",
+        "notes": "官方扫描 PDF 的前10000名分数段，经图像核对录入。考生人数为对应总分及以上累计人数。"
+      }
+    },
+    "history": {
+      "track": "history",
+      "trackLabel": "历史类",
+      "year": 2025,
+      "province": "河南",
+      "rankMethod": "score_band_cumulative",
+      "entries": [
+        {
+          "score": 686,
+          "cumulativeRank": 12,
+          "sameScoreCount": 12,
+          "rankStart": 1,
+          "rankEnd": 12,
+          "hasScoreBand": true
+        },
+        {
+          "score": 685,
+          "cumulativeRank": 12,
+          "sameScoreCount": 0,
+          "rankStart": null,
+          "rankEnd": 12,
+          "hasScoreBand": false
+        },
+        {
+          "score": 684,
+          "cumulativeRank": 13,
+          "sameScoreCount": 1,
+          "rankStart": 13,
+          "rankEnd": 13,
+          "hasScoreBand": true
+        },
+        {
+          "score": 683,
+          "cumulativeRank": 14,
+          "sameScoreCount": 1,
+          "rankStart": 14,
+          "rankEnd": 14,
+          "hasScoreBand": true
+        },
+        {
+          "score": 682,
+          "cumulativeRank": 19,
+          "sameScoreCount": 5,
+          "rankStart": 15,
+          "rankEnd": 19,
+          "hasScoreBand": true
+        },
+        {
+          "score": 681,
+          "cumulativeRank": 23,
+          "sameScoreCount": 4,
+          "rankStart": 20,
+          "rankEnd": 23,
+          "hasScoreBand": true
+        },
+        {
+          "score": 680,
+          "cumulativeRank": 25,
+          "sameScoreCount": 2,
+          "rankStart": 24,
+          "rankEnd": 25,
+          "hasScoreBand": true
+        },
+        {
+          "score": 679,
+          "cumulativeRank": 27,
+          "sameScoreCount": 2,
+          "rankStart": 26,
+          "rankEnd": 27,
+          "hasScoreBand": true
+        },
+        {
+          "score": 678,
+          "cumulativeRank": 29,
+          "sameScoreCount": 2,
+          "rankStart": 28,
+          "rankEnd": 29,
+          "hasScoreBand": true
+        },
+        {
+          "score": 677,
+          "cumulativeRank": 34,
+          "sameScoreCount": 5,
+          "rankStart": 30,
+          "rankEnd": 34,
+          "hasScoreBand": true
+        },
+        {
+          "score": 676,
+          "cumulativeRank": 36,
+          "sameScoreCount": 2,
+          "rankStart": 35,
+          "rankEnd": 36,
+          "hasScoreBand": true
+        },
+        {
+          "score": 675,
+          "cumulativeRank": 41,
+          "sameScoreCount": 5,
+          "rankStart": 37,
+          "rankEnd": 41,
+          "hasScoreBand": true
+        },
+        {
+          "score": 674,
+          "cumulativeRank": 48,
+          "sameScoreCount": 7,
+          "rankStart": 42,
+          "rankEnd": 48,
+          "hasScoreBand": true
+        },
+        {
+          "score": 673,
+          "cumulativeRank": 61,
+          "sameScoreCount": 13,
+          "rankStart": 49,
+          "rankEnd": 61,
+          "hasScoreBand": true
+        },
+        {
+          "score": 672,
+          "cumulativeRank": 67,
+          "sameScoreCount": 6,
+          "rankStart": 62,
+          "rankEnd": 67,
+          "hasScoreBand": true
+        },
+        {
+          "score": 671,
+          "cumulativeRank": 77,
+          "sameScoreCount": 10,
+          "rankStart": 68,
+          "rankEnd": 77,
+          "hasScoreBand": true
+        },
+        {
+          "score": 670,
+          "cumulativeRank": 88,
+          "sameScoreCount": 11,
+          "rankStart": 78,
+          "rankEnd": 88,
+          "hasScoreBand": true
+        },
+        {
+          "score": 669,
+          "cumulativeRank": 97,
+          "sameScoreCount": 9,
+          "rankStart": 89,
+          "rankEnd": 97,
+          "hasScoreBand": true
+        },
+        {
+          "score": 668,
+          "cumulativeRank": 108,
+          "sameScoreCount": 11,
+          "rankStart": 98,
+          "rankEnd": 108,
+          "hasScoreBand": true
+        },
+        {
+          "score": 667,
+          "cumulativeRank": 121,
+          "sameScoreCount": 13,
+          "rankStart": 109,
+          "rankEnd": 121,
+          "hasScoreBand": true
+        },
+        {
+          "score": 666,
+          "cumulativeRank": 133,
+          "sameScoreCount": 12,
+          "rankStart": 122,
+          "rankEnd": 133,
+          "hasScoreBand": true
+        },
+        {
+          "score": 665,
+          "cumulativeRank": 142,
+          "sameScoreCount": 9,
+          "rankStart": 134,
+          "rankEnd": 142,
+          "hasScoreBand": true
+        },
+        {
+          "score": 664,
+          "cumulativeRank": 155,
+          "sameScoreCount": 13,
+          "rankStart": 143,
+          "rankEnd": 155,
+          "hasScoreBand": true
+        },
+        {
+          "score": 663,
+          "cumulativeRank": 171,
+          "sameScoreCount": 16,
+          "rankStart": 156,
+          "rankEnd": 171,
+          "hasScoreBand": true
+        },
+        {
+          "score": 662,
+          "cumulativeRank": 188,
+          "sameScoreCount": 17,
+          "rankStart": 172,
+          "rankEnd": 188,
+          "hasScoreBand": true
+        },
+        {
+          "score": 661,
+          "cumulativeRank": 195,
+          "sameScoreCount": 7,
+          "rankStart": 189,
+          "rankEnd": 195,
+          "hasScoreBand": true
+        },
+        {
+          "score": 660,
+          "cumulativeRank": 210,
+          "sameScoreCount": 15,
+          "rankStart": 196,
+          "rankEnd": 210,
+          "hasScoreBand": true
+        },
+        {
+          "score": 659,
+          "cumulativeRank": 227,
+          "sameScoreCount": 17,
+          "rankStart": 211,
+          "rankEnd": 227,
+          "hasScoreBand": true
+        },
+        {
+          "score": 658,
+          "cumulativeRank": 242,
+          "sameScoreCount": 15,
+          "rankStart": 228,
+          "rankEnd": 242,
+          "hasScoreBand": true
+        },
+        {
+          "score": 657,
+          "cumulativeRank": 260,
+          "sameScoreCount": 18,
+          "rankStart": 243,
+          "rankEnd": 260,
+          "hasScoreBand": true
+        },
+        {
+          "score": 656,
+          "cumulativeRank": 285,
+          "sameScoreCount": 25,
+          "rankStart": 261,
+          "rankEnd": 285,
+          "hasScoreBand": true
+        },
+        {
+          "score": 655,
+          "cumulativeRank": 309,
+          "sameScoreCount": 24,
+          "rankStart": 286,
+          "rankEnd": 309,
+          "hasScoreBand": true
+        },
+        {
+          "score": 654,
+          "cumulativeRank": 333,
+          "sameScoreCount": 24,
+          "rankStart": 310,
+          "rankEnd": 333,
+          "hasScoreBand": true
+        },
+        {
+          "score": 653,
+          "cumulativeRank": 361,
+          "sameScoreCount": 28,
+          "rankStart": 334,
+          "rankEnd": 361,
+          "hasScoreBand": true
+        },
+        {
+          "score": 652,
+          "cumulativeRank": 392,
+          "sameScoreCount": 31,
+          "rankStart": 362,
+          "rankEnd": 392,
+          "hasScoreBand": true
+        },
+        {
+          "score": 651,
+          "cumulativeRank": 422,
+          "sameScoreCount": 30,
+          "rankStart": 393,
+          "rankEnd": 422,
+          "hasScoreBand": true
+        },
+        {
+          "score": 650,
+          "cumulativeRank": 450,
+          "sameScoreCount": 28,
+          "rankStart": 423,
+          "rankEnd": 450,
+          "hasScoreBand": true
+        },
+        {
+          "score": 649,
+          "cumulativeRank": 482,
+          "sameScoreCount": 32,
+          "rankStart": 451,
+          "rankEnd": 482,
+          "hasScoreBand": true
+        },
+        {
+          "score": 648,
+          "cumulativeRank": 518,
+          "sameScoreCount": 36,
+          "rankStart": 483,
+          "rankEnd": 518,
+          "hasScoreBand": true
+        },
+        {
+          "score": 647,
+          "cumulativeRank": 549,
+          "sameScoreCount": 31,
+          "rankStart": 519,
+          "rankEnd": 549,
+          "hasScoreBand": true
+        },
+        {
+          "score": 646,
+          "cumulativeRank": 578,
+          "sameScoreCount": 29,
+          "rankStart": 550,
+          "rankEnd": 578,
+          "hasScoreBand": true
+        },
+        {
+          "score": 645,
+          "cumulativeRank": 614,
+          "sameScoreCount": 36,
+          "rankStart": 579,
+          "rankEnd": 614,
+          "hasScoreBand": true
+        },
+        {
+          "score": 644,
+          "cumulativeRank": 660,
+          "sameScoreCount": 46,
+          "rankStart": 615,
+          "rankEnd": 660,
+          "hasScoreBand": true
+        },
+        {
+          "score": 643,
+          "cumulativeRank": 720,
+          "sameScoreCount": 60,
+          "rankStart": 661,
+          "rankEnd": 720,
+          "hasScoreBand": true
+        },
+        {
+          "score": 642,
+          "cumulativeRank": 774,
+          "sameScoreCount": 54,
+          "rankStart": 721,
+          "rankEnd": 774,
+          "hasScoreBand": true
+        },
+        {
+          "score": 641,
+          "cumulativeRank": 821,
+          "sameScoreCount": 47,
+          "rankStart": 775,
+          "rankEnd": 821,
+          "hasScoreBand": true
+        },
+        {
+          "score": 640,
+          "cumulativeRank": 874,
+          "sameScoreCount": 53,
+          "rankStart": 822,
+          "rankEnd": 874,
+          "hasScoreBand": true
+        },
+        {
+          "score": 639,
+          "cumulativeRank": 936,
+          "sameScoreCount": 62,
+          "rankStart": 875,
+          "rankEnd": 936,
+          "hasScoreBand": true
+        },
+        {
+          "score": 638,
+          "cumulativeRank": 990,
+          "sameScoreCount": 54,
+          "rankStart": 937,
+          "rankEnd": 990,
+          "hasScoreBand": true
+        },
+        {
+          "score": 637,
+          "cumulativeRank": 1047,
+          "sameScoreCount": 57,
+          "rankStart": 991,
+          "rankEnd": 1047,
+          "hasScoreBand": true
+        },
+        {
+          "score": 636,
+          "cumulativeRank": 1112,
+          "sameScoreCount": 65,
+          "rankStart": 1048,
+          "rankEnd": 1112,
+          "hasScoreBand": true
+        },
+        {
+          "score": 635,
+          "cumulativeRank": 1180,
+          "sameScoreCount": 68,
+          "rankStart": 1113,
+          "rankEnd": 1180,
+          "hasScoreBand": true
+        },
+        {
+          "score": 634,
+          "cumulativeRank": 1240,
+          "sameScoreCount": 60,
+          "rankStart": 1181,
+          "rankEnd": 1240,
+          "hasScoreBand": true
+        },
+        {
+          "score": 633,
+          "cumulativeRank": 1313,
+          "sameScoreCount": 73,
+          "rankStart": 1241,
+          "rankEnd": 1313,
+          "hasScoreBand": true
+        },
+        {
+          "score": 632,
+          "cumulativeRank": 1382,
+          "sameScoreCount": 69,
+          "rankStart": 1314,
+          "rankEnd": 1382,
+          "hasScoreBand": true
+        },
+        {
+          "score": 631,
+          "cumulativeRank": 1475,
+          "sameScoreCount": 93,
+          "rankStart": 1383,
+          "rankEnd": 1475,
+          "hasScoreBand": true
+        },
+        {
+          "score": 630,
+          "cumulativeRank": 1547,
+          "sameScoreCount": 72,
+          "rankStart": 1476,
+          "rankEnd": 1547,
+          "hasScoreBand": true
+        },
+        {
+          "score": 629,
+          "cumulativeRank": 1634,
+          "sameScoreCount": 87,
+          "rankStart": 1548,
+          "rankEnd": 1634,
+          "hasScoreBand": true
+        },
+        {
+          "score": 628,
+          "cumulativeRank": 1731,
+          "sameScoreCount": 97,
+          "rankStart": 1635,
+          "rankEnd": 1731,
+          "hasScoreBand": true
+        },
+        {
+          "score": 627,
+          "cumulativeRank": 1833,
+          "sameScoreCount": 102,
+          "rankStart": 1732,
+          "rankEnd": 1833,
+          "hasScoreBand": true
+        },
+        {
+          "score": 626,
+          "cumulativeRank": 1923,
+          "sameScoreCount": 90,
+          "rankStart": 1834,
+          "rankEnd": 1923,
+          "hasScoreBand": true
+        },
+        {
+          "score": 625,
+          "cumulativeRank": 2032,
+          "sameScoreCount": 109,
+          "rankStart": 1924,
+          "rankEnd": 2032,
+          "hasScoreBand": true
+        },
+        {
+          "score": 624,
+          "cumulativeRank": 2158,
+          "sameScoreCount": 126,
+          "rankStart": 2033,
+          "rankEnd": 2158,
+          "hasScoreBand": true
+        },
+        {
+          "score": 623,
+          "cumulativeRank": 2268,
+          "sameScoreCount": 110,
+          "rankStart": 2159,
+          "rankEnd": 2268,
+          "hasScoreBand": true
+        },
+        {
+          "score": 622,
+          "cumulativeRank": 2375,
+          "sameScoreCount": 107,
+          "rankStart": 2269,
+          "rankEnd": 2375,
+          "hasScoreBand": true
+        },
+        {
+          "score": 621,
+          "cumulativeRank": 2500,
+          "sameScoreCount": 125,
+          "rankStart": 2376,
+          "rankEnd": 2500,
+          "hasScoreBand": true
+        },
+        {
+          "score": 620,
+          "cumulativeRank": 2608,
+          "sameScoreCount": 108,
+          "rankStart": 2501,
+          "rankEnd": 2608,
+          "hasScoreBand": true
+        },
+        {
+          "score": 619,
+          "cumulativeRank": 2754,
+          "sameScoreCount": 146,
+          "rankStart": 2609,
+          "rankEnd": 2754,
+          "hasScoreBand": true
+        },
+        {
+          "score": 618,
+          "cumulativeRank": 2901,
+          "sameScoreCount": 147,
+          "rankStart": 2755,
+          "rankEnd": 2901,
+          "hasScoreBand": true
+        },
+        {
+          "score": 617,
+          "cumulativeRank": 3030,
+          "sameScoreCount": 129,
+          "rankStart": 2902,
+          "rankEnd": 3030,
+          "hasScoreBand": true
+        },
+        {
+          "score": 616,
+          "cumulativeRank": 3185,
+          "sameScoreCount": 155,
+          "rankStart": 3031,
+          "rankEnd": 3185,
+          "hasScoreBand": true
+        },
+        {
+          "score": 615,
+          "cumulativeRank": 3337,
+          "sameScoreCount": 152,
+          "rankStart": 3186,
+          "rankEnd": 3337,
+          "hasScoreBand": true
+        },
+        {
+          "score": 614,
+          "cumulativeRank": 3480,
+          "sameScoreCount": 143,
+          "rankStart": 3338,
+          "rankEnd": 3480,
+          "hasScoreBand": true
+        },
+        {
+          "score": 613,
+          "cumulativeRank": 3645,
+          "sameScoreCount": 165,
+          "rankStart": 3481,
+          "rankEnd": 3645,
+          "hasScoreBand": true
+        },
+        {
+          "score": 612,
+          "cumulativeRank": 3818,
+          "sameScoreCount": 173,
+          "rankStart": 3646,
+          "rankEnd": 3818,
+          "hasScoreBand": true
+        },
+        {
+          "score": 611,
+          "cumulativeRank": 3972,
+          "sameScoreCount": 154,
+          "rankStart": 3819,
+          "rankEnd": 3972,
+          "hasScoreBand": true
+        },
+        {
+          "score": 610,
+          "cumulativeRank": 4141,
+          "sameScoreCount": 169,
+          "rankStart": 3973,
+          "rankEnd": 4141,
+          "hasScoreBand": true
+        },
+        {
+          "score": 609,
+          "cumulativeRank": 4353,
+          "sameScoreCount": 212,
+          "rankStart": 4142,
+          "rankEnd": 4353,
+          "hasScoreBand": true
+        },
+        {
+          "score": 608,
+          "cumulativeRank": 4542,
+          "sameScoreCount": 189,
+          "rankStart": 4354,
+          "rankEnd": 4542,
+          "hasScoreBand": true
+        },
+        {
+          "score": 607,
+          "cumulativeRank": 4725,
+          "sameScoreCount": 183,
+          "rankStart": 4543,
+          "rankEnd": 4725,
+          "hasScoreBand": true
+        },
+        {
+          "score": 606,
+          "cumulativeRank": 4916,
+          "sameScoreCount": 191,
+          "rankStart": 4726,
+          "rankEnd": 4916,
+          "hasScoreBand": true
+        },
+        {
+          "score": 605,
+          "cumulativeRank": 5105,
+          "sameScoreCount": 189,
+          "rankStart": 4917,
+          "rankEnd": 5105,
+          "hasScoreBand": true
+        },
+        {
+          "score": 604,
+          "cumulativeRank": 5311,
+          "sameScoreCount": 206,
+          "rankStart": 5106,
+          "rankEnd": 5311,
+          "hasScoreBand": true
+        },
+        {
+          "score": 603,
+          "cumulativeRank": 5500,
+          "sameScoreCount": 189,
+          "rankStart": 5312,
+          "rankEnd": 5500,
+          "hasScoreBand": true
+        },
+        {
+          "score": 602,
+          "cumulativeRank": 5707,
+          "sameScoreCount": 207,
+          "rankStart": 5501,
+          "rankEnd": 5707,
+          "hasScoreBand": true
+        },
+        {
+          "score": 601,
+          "cumulativeRank": 5929,
+          "sameScoreCount": 222,
+          "rankStart": 5708,
+          "rankEnd": 5929,
+          "hasScoreBand": true
+        },
+        {
+          "score": 600,
+          "cumulativeRank": 6178,
+          "sameScoreCount": 249,
+          "rankStart": 5930,
+          "rankEnd": 6178,
+          "hasScoreBand": true
+        },
+        {
+          "score": 599,
+          "cumulativeRank": 6410,
+          "sameScoreCount": 232,
+          "rankStart": 6179,
+          "rankEnd": 6410,
+          "hasScoreBand": true
+        },
+        {
+          "score": 598,
+          "cumulativeRank": 6664,
+          "sameScoreCount": 254,
+          "rankStart": 6411,
+          "rankEnd": 6664,
+          "hasScoreBand": true
+        },
+        {
+          "score": 597,
+          "cumulativeRank": 6932,
+          "sameScoreCount": 268,
+          "rankStart": 6665,
+          "rankEnd": 6932,
+          "hasScoreBand": true
+        },
+        {
+          "score": 596,
+          "cumulativeRank": 7190,
+          "sameScoreCount": 258,
+          "rankStart": 6933,
+          "rankEnd": 7190,
+          "hasScoreBand": true
+        },
+        {
+          "score": 595,
+          "cumulativeRank": 7436,
+          "sameScoreCount": 246,
+          "rankStart": 7191,
+          "rankEnd": 7436,
+          "hasScoreBand": true
+        },
+        {
+          "score": 594,
+          "cumulativeRank": 7705,
+          "sameScoreCount": 269,
+          "rankStart": 7437,
+          "rankEnd": 7705,
+          "hasScoreBand": true
+        },
+        {
+          "score": 593,
+          "cumulativeRank": 7978,
+          "sameScoreCount": 273,
+          "rankStart": 7706,
+          "rankEnd": 7978,
+          "hasScoreBand": true
+        },
+        {
+          "score": 592,
+          "cumulativeRank": 8282,
+          "sameScoreCount": 304,
+          "rankStart": 7979,
+          "rankEnd": 8282,
+          "hasScoreBand": true
+        },
+        {
+          "score": 591,
+          "cumulativeRank": 8585,
+          "sameScoreCount": 303,
+          "rankStart": 8283,
+          "rankEnd": 8585,
+          "hasScoreBand": true
+        },
+        {
+          "score": 590,
+          "cumulativeRank": 8903,
+          "sameScoreCount": 318,
+          "rankStart": 8586,
+          "rankEnd": 8903,
+          "hasScoreBand": true
+        },
+        {
+          "score": 589,
+          "cumulativeRank": 9187,
+          "sameScoreCount": 284,
+          "rankStart": 8904,
+          "rankEnd": 9187,
+          "hasScoreBand": true
+        },
+        {
+          "score": 588,
+          "cumulativeRank": 9488,
+          "sameScoreCount": 301,
+          "rankStart": 9188,
+          "rankEnd": 9488,
+          "hasScoreBand": true
+        },
+        {
+          "score": 587,
+          "cumulativeRank": 9816,
+          "sameScoreCount": 328,
+          "rankStart": 9489,
+          "rankEnd": 9816,
+          "hasScoreBand": true
+        },
+        {
+          "score": 586,
+          "cumulativeRank": 10140,
+          "sameScoreCount": 324,
+          "rankStart": 9817,
+          "rankEnd": 10140,
+          "hasScoreBand": true
+        }
+      ],
+      "minScoreWithinTop10000": 587,
+      "maxScore": 686,
+      "firstScoreBeyondTop10000": 586,
+      "firstRankBeyondTop10000": 10140,
+      "source": {
+        "id": "henan-2025-score-rank-history",
+        "title": "2025年河南省普通高招分数段统计表（历史类）",
+        "sourceType": "official_reference",
+        "publisher": "河南省教育考试院，经阳光高考转载发布",
+        "url": "https://t2.chei.com.cn/news/getfile/2293390723-2293390722-9a914209342dc6ad627e685e4e696629.pdf",
+        "sourcePageUrl": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202506/20250625/2293390722.html",
+        "localFile": "raw-data/score-rank-2025/henan-2025-history-score-rank.pdf",
+        "collectedAt": "2026-06-17",
+        "confidenceLevel": "high",
+        "notes": "官方扫描 PDF 的前10000名分数段，经图像核对录入。考生人数为对应总分及以上累计人数。"
+      }
+    }
+  }
+}

@@ -48,5 +48,35 @@
     "collectedAt": "2026-06-17",
     "confidenceLevel": "high",
     "notes": "高校招生章程官方查询入口；需逐校回查后才能写入学校事实。"
+  },
+  {
+    "id": "henan-2025-score-rank-source-page",
+    "title": "2025年河南省普通高招分数段统计表发布页",
+    "sourceType": "official_reference",
+    "publisher": "阳光高考 / 河南省教育考试院",
+    "url": "https://gaokao.chsi.com.cn/gkxx/zc/ss/202506/20250625/2293390722.html",
+    "collectedAt": "2026-06-17",
+    "confidenceLevel": "high",
+    "notes": "页面附有物理类、历史类官方分数段统计表 PDF。"
+  },
+  {
+    "id": "henan-2025-score-rank-physics",
+    "title": "2025年河南省普通高招分数段统计表（物理类）",
+    "sourceType": "official_reference",
+    "publisher": "河南省教育考试院，经阳光高考转载发布",
+    "url": "https://t3.chei.com.cn/news/getfile/2293390724-2293390722-7a455e1c13a42590d11419daa183466a.pdf",
+    "collectedAt": "2026-06-17",
+    "confidenceLevel": "high",
+    "notes": "官方扫描 PDF 的前10000名分数段，经图像核对录入。考生人数为对应总分及以上累计人数。"
+  },
+  {
+    "id": "henan-2025-score-rank-history",
+    "title": "2025年河南省普通高招分数段统计表（历史类）",
+    "sourceType": "official_reference",
+    "publisher": "河南省教育考试院，经阳光高考转载发布",
+    "url": "https://t2.chei.com.cn/news/getfile/2293390723-2293390722-9a914209342dc6ad627e685e4e696629.pdf",
+    "collectedAt": "2026-06-17",
+    "confidenceLevel": "high",
+    "notes": "官方扫描 PDF 的前10000名分数段，经图像核对录入。考生人数为对应总分及以上累计人数。"
   }
 ]
