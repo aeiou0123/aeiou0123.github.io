@@ -1,32 +1,52 @@
 [
   {
     "id": "gk100-2025-rank-table",
-    "title": "河南2025年高考一分一段位次表！含批次线、位次对应大学",
-    "sourceType": "third_party_pending",
+    "title": "河南2025年高考一分一段位次表及位次对应大学",
+    "sourceType": "third_party",
     "publisher": "高考100",
     "url": "https://www.gk100.com/read_31698432.htm",
     "collectedAt": "2026-06-14",
     "confidenceLevel": "medium",
-    "notes": "物理类前1万 HTML 表格；历史类前1万来自同站图片OCR页面，需官方核验。"
+    "notes": "物理类前1万 HTML 表格；仅用于候选发现，需官方核验。"
   },
   {
     "id": "gk100-2026-rank-reference",
     "title": "河南高考位次排名对应大学名单（2026年参考）",
-    "sourceType": "third_party_pending",
+    "sourceType": "third_party",
     "publisher": "高考100",
     "url": "https://www.gk100.com/read_50277220.htm",
     "collectedAt": "2026-06-14",
-    "confidenceLevel": "medium",
-    "notes": "提供历史类前1万图片表和统计摘要。"
+    "confidenceLevel": "low",
+    "notes": "历史类前1万来自同站图片 OCR；仅用于候选发现，需官方核验。"
   },
   {
     "id": "henan-official-query",
     "title": "河南官方投档线查询入口",
-    "sourceType": "official_reference",
-    "publisher": "河南省教育考试院/河南高考信息平台",
+    "sourceType": "henan_official_query",
+    "publisher": "河南省教育考试院 / 河南高考信息平台",
     "url": "https://datacenter.haeea.cn/PagePZQuery/ShowPZTDTJ.aspx",
-    "collectedAt": "2026-06-14",
+    "collectedAt": "2026-06-17",
     "confidenceLevel": "high",
-    "notes": "官方查询入口对自动请求返回 412，后续需浏览器或人工导出核验。"
+    "notes": "官方查询入口；当前未完成逐条解析，需人工或浏览器导出核验。"
+  },
+  {
+    "id": "henan-eea-home",
+    "title": "河南省教育考试院",
+    "sourceType": "henan_official",
+    "publisher": "河南省教育考试院",
+    "url": "https://www.haeea.cn/",
+    "collectedAt": "2026-06-17",
+    "confidenceLevel": "high",
+    "notes": "河南招生考试官方信息发布入口。"
+  },
+  {
+    "id": "sunshine-gaokao-charters",
+    "title": "教育部阳光高考招生章程查询",
+    "sourceType": "sunshine_gaokao",
+    "publisher": "教育部阳光高考平台",
+    "url": "https://gaokao.chsi.com.cn/zsgs/zhangcheng/listVerifedZszc--method-index.dhtml",
+    "collectedAt": "2026-06-17",
+    "confidenceLevel": "high",
+    "notes": "高校招生章程官方查询入口；需逐校回查后才能写入学校事实。"
   }
 ]
