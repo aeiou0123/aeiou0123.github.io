@@ -1,6 +1,6 @@
 (function () {
   const lock = window.TW_SPECTRUM_LOCKED;
-  const storageKey = "tw-spectrum-unlocked-payload-v1";
+  const storageKey = "tw-spectrum-unlocked-payload-v2";
 
   const state = {
     data: null,
