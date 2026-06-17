@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>台湾政治光谱测试 | aeiou0123</title>
+    <meta
+      name="description"
+      content="一个需要访问密码的台湾政治光谱测试，覆盖国家认同、两岸、安全、经济、住房、社会文化、能源环境与民主治理。"
+    />
+    <meta name="robots" content="noindex,nofollow" />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/tw-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="lock-shell" id="unlockShell" aria-labelledby="unlock-title">
+      <div class="lock-panel">
+        <a class="back-link" href="/private-homepage/spectrum/">返回测试集合</a>
+        <p class="eyebrow">restricted local test</p>
+        <h1 id="unlock-title">台湾政治光谱测试</h1>
+        <p class="lock-copy">
+          这个页面需要访问密码。解锁后，题库、参照对象和结果解释只会在浏览器本地解密与计算。
+        </p>
+        <form class="unlock-form" id="unlockForm">
+          <label for="passwordInput">访问密码</label>
+          <div class="password-row">
+            <input
+              id="passwordInput"
+              name="password"
+              type="password"
+              inputmode="numeric"
+              autocomplete="current-password"
+              required
+            />
+            <button id="unlockButton" type="submit">解锁</button>
+          </div>
+          <p class="unlock-error" id="unlockError" role="alert"></p>
+        </form>
+        <p class="lock-note">
+          说明：这是静态站的前端加密门，适合避免公开误入与搜索索引；不等同于服务器级访问控制。
+        </p>
+      </div>
+    </section>
+
+    <div class="site-shell is-hidden" id="appShell">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/spectrum/" aria-label="返回测试集合">
+          <span class="brand-mark" aria-hidden="true">TW</span>
+          <span>
+            <strong>TW Spectrum</strong>
+            <small>restricted politics lab</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="/private-homepage/spectrum/">测试集合</a>
+          <a href="#quiz">开始</a>
+          <a href="#method">方法</a>
+          <a href="#sources">来源</a>
+          <button class="nav-button" id="lockButton" type="button">锁定</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Taiwan political spectrum test</p>
+            <h1 id="hero-title">
+              <span>台湾政治光谱</span>
+              <span>增强版测试</span>
+            </h1>
+            <p class="hero-lead">
+              用 8 个维度测量你在国家认同、两岸风险、国防外交、经济分配、住房世代、社会文化、能源环境与民主治理上的相对位置。
+              结果会显示组合标签、党派/派系距离、议题热力图和不同议题视角下的匹配变化。
+            </p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="quick">
+                <span>快速版</span>
+                <strong>40</strong>
+                <small>每维 5 题，先看大致坐标。</small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard">
+                <span>标准版</span>
+                <strong>80</strong>
+                <small>每维 10 题，覆盖主要议题。</small>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="full">
+                <span>深度版</span>
+                <strong>160</strong>
+                <small>完整 8 维题库，适合认真分析。</small>
+              </button>
+            </div>
+            <p class="disclaimer">
+              1 表示完全不同意，9 表示完全同意，5 表示中立或不确定。结果只描述题库内政策距离，不构成投票建议。
+            </p>
+          </div>
+
+          <div class="hero-board" aria-hidden="true">
+            <div class="board-grid">
+              <span>D1</span><span>D2</span><span>D3</span><span>D4</span>
+              <span>D5</span><span>D6</span><span>D7</span><span>D8</span>
+            </div>
+            <b>8D<br />Taiwan</b>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">mode</p>
+              <h2 id="questionCounter">第 1 题 / 80</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+
+          <article class="question-card">
+            <div class="question-meta">
+              <p class="axis-pill" id="axisLabel">维度</p>
+              <span id="issueLabel">议题</span>
+            </div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="scale-helper" aria-hidden="true">
+              <span>不同意</span>
+              <span>中立</span>
+              <span>同意</span>
+            </div>
+            <div class="scale-row" id="scaleRow"></div>
+          </article>
+
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 80</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow">result</p>
+            <h2 id="resultTitle">混合型画像</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制结果摘要</button>
+              <button class="ghost-button" type="button" id="exportPng">导出 PNG</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card">
+              <h3>组合标签</h3>
+              <ul class="tag-list" id="tagList"></ul>
+            </article>
+            <article class="result-card chart-card">
+              <h3>八维雷达</h3>
+              <canvas id="radarCanvas" width="480" height="480"></canvas>
+            </article>
+            <article class="result-card map-card">
+              <h3>二维坐标</h3>
+              <div class="coordinate-tabs" id="coordinateTabs"></div>
+              <div class="coordinate-map" id="coordinateMap">
+                <i class="x-line"></i>
+                <i class="y-line"></i>
+              </div>
+              <div class="map-labels">
+                <span id="mapXAxis">x axis</span>
+                <span id="mapYAxis">y axis</span>
+              </div>
+            </article>
+          </div>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">analysis</p>
+              <h2>结果解读</h2>
+            </div>
+            <div class="interpretation-grid" id="interpretationGrid"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">axis scores</p>
+              <h2>8 个维度</h2>
+            </div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">policy distance</p>
+              <h2>党派/派系距离</h2>
+            </div>
+            <div class="view-tabs" id="matchViewTabs"></div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">issue heatmap</p>
+              <h2>题目热力图</h2>
+            </div>
+            <div class="heatmap" id="heatmap"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">strong signals</p>
+              <h2>立场强度与不确定点</h2>
+            </div>
+            <ul class="insight-list" id="strongestList"></ul>
+          </section>
+        </section>
+
+        <section class="method-section" id="method">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2>设计方法</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>8 维台湾模型</h3>
+              <p>台湾政治不能只用传统左右轴描述，因此将国家身份、两岸安全、经济民生、社会文化与民主治理分开测量。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>160 题题库</h3>
+              <p>每维 20 题，快速版和标准版从同一题库抽取，完整深度版使用全部题目。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>本地解密与计算</h3>
+              <p>题库通过密码在浏览器本地解密，答题、计分、匹配和 PNG 生成都不上传服务器。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section" id="sources">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2>参考资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Results are descriptive, not prescriptive.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
