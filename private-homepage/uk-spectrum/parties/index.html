@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>英国党派/派系坐标 | UK Spectrum</title>
+    <meta
+      name="description"
+      content="英国政治光谱测试的内置党派与派系参照坐标、地区适用范围、置信度与来源说明。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/uk-spectrum/parties/" />
+    <link rel="icon" href="../../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/uk-spectrum/" aria-label="返回英国测试">
+          <span class="brand-mark" aria-hidden="true">UK</span>
+          <span>
+            <strong>Party References</strong>
+            <small>heuristic coordinates</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/uk-spectrum/">英国测试</a>
+          <a href="/private-homepage/uk-spectrum/data/">数据页</a>
+          <a href="/private-homepage/spectrum/">测试集合</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero compact-hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">party and faction references</p>
+            <h1 id="hero-title">
+              <span>英国党派/派系</span>
+              <span>参照坐标</span>
+            </h1>
+            <p class="hero-lead">
+              这些坐标是建站用初始启发式估计，用于计算政策距离和可视化位置。它们不代表党派官方立场，也不构成投票建议。
+            </p>
+          </div>
+        </section>
+
+        <section class="panel table-card">
+          <div class="section-heading compact">
+            <p class="eyebrow">reference table</p>
+            <h2>内置参照对象</h2>
+          </div>
+          <div class="view-tabs" id="regionFilters"></div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead id="partyTableHead"></thead>
+              <tbody id="partyTableBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="sources-section">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2>资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Coordinates are seeds for calibration, not official claims.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="parties.js"></script>
+  </body>
+</html>

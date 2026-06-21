@@ -36,6 +36,18 @@ window.SPECTRUM_REGISTRY = [
     summary: "公开法国版增强测试，覆盖经济分配、欧洲/主权、共和国身份、秩序自由、生态生产、制度民粹、外交战略与地方社会。",
   },
   {
+    id: "uk",
+    title_zh: "英国政治光谱测试",
+    title_en: "United Kingdom Political Spectrum Test",
+    region: "United Kingdom",
+    href: "/private-homepage/uk-spectrum/",
+    status: "available",
+    question_count: 160,
+    axis_count: 10,
+    languages: ["中文"],
+    summary: "公开英国版增强测试，覆盖财政福利、市场劳动、移民身份、Brexit、Union/Devolution、气候能源、制度改革与外交安全。",
+  },
+  {
     id: "global",
     title_zh: "全球意识形态测试",
     title_en: "Global Ideology Test",

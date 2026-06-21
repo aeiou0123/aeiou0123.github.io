@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>英国政治光谱测试 | aeiou0123</title>
+    <meta
+      name="description"
+      content="一个 10 维、160 题、1-9 打分的英国政治光谱测试，包含地区视角、议题权重、党派距离、多图可视化和结果导出。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/uk-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/spectrum/" aria-label="返回测试集合">
+          <span class="brand-mark" aria-hidden="true">UK</span>
+          <span>
+            <strong>UK Spectrum</strong>
+            <small>politics lab / public</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="/private-homepage/spectrum/">测试集合</a>
+          <a href="#quiz">开始</a>
+          <a href="/private-homepage/uk-spectrum/parties/">党派页</a>
+          <a href="/private-homepage/uk-spectrum/data/">数据页</a>
+          <a href="#sources">来源</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">United Kingdom political spectrum test</p>
+            <h1 id="hero-title">
+              <span>英国政治光谱</span>
+              <span>增强版测试</span>
+            </h1>
+            <p class="hero-lead">
+              用 10 个维度测量你在英国当前政策争议中的相对位置：公共服务与税收、市场与劳动、移民与身份、秩序与自由、
+              Brexit 与欧洲、Union 与自治、气候能源、制度改革、平等文化，以及外交安全。结果不是投票建议。
+            </p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="quick">
+                <span>快速版</span>
+                <strong>40</strong>
+                <small>每维 4 题，先看大致位置。</small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard">
+                <span>标准版</span>
+                <strong>80</strong>
+                <small>每维 8 题，覆盖主要裂缝。</small>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="full">
+                <span>深度版</span>
+                <strong>160</strong>
+                <small>完整 10 维题库，结果更稳定。</small>
+              </button>
+            </div>
+            <p class="disclaimer">
+              1 表示完全不同意，9 表示完全同意，5 表示中立或不确定。党派坐标为模型估计，不代表官方立场。
+            </p>
+          </div>
+
+          <div class="hero-board" aria-hidden="true">
+            <div class="board-grid">
+              <span>A</span><span>B</span><span>C</span><span>D</span><span>E</span>
+              <span>F</span><span>G</span><span>H</span><span>I</span><span>J</span>
+            </div>
+            <b>10D<br />United Kingdom</b>
+          </div>
+        </section>
+
+        <section class="panel weight-panel is-hidden" id="weightPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">issue weights</p>
+              <h2>调整你更看重的议题</h2>
+            </div>
+            <button class="ghost-button" type="button" id="resetWeights">恢复默认权重</button>
+          </div>
+          <p class="panel-copy">
+            维度分数只由答题决定；权重只影响党派/派系距离排序。默认权重会更重视 Brexit 与 Union/Devolution 这两条英国政治裂缝。
+          </p>
+          <div class="weight-list" id="weightList"></div>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="cancelWeights">返回模式选择</button>
+            <button class="primary-button" type="button" id="startWeightedQuiz">开始答题</button>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">mode</p>
+              <h2 id="questionCounter">第 1 题 / 80</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+
+          <article class="question-card">
+            <div class="question-meta">
+              <p class="axis-pill" id="axisLabel">维度</p>
+              <span id="issueLabel">议题</span>
+            </div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="scale-helper" aria-hidden="true">
+              <span>不同意</span>
+              <span>中立</span>
+              <span>同意</span>
+            </div>
+            <div class="scale-row" id="scaleRow"></div>
+          </article>
+
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 80</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow">result</p>
+            <h2 id="resultTitle">混合型英国选民</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制结果摘要</button>
+              <button class="ghost-button" type="button" id="exportPng">导出 PNG</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="region-strip">
+            <p class="eyebrow">regional lens</p>
+            <div class="region-tabs" id="regionTabs"></div>
+            <p id="regionNote" class="region-note"></p>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card">
+              <h3>组合标签</h3>
+              <ul class="tag-list" id="tagList"></ul>
+            </article>
+            <article class="result-card chart-card">
+              <h3>十维雷达</h3>
+              <canvas id="radarCanvas" width="480" height="480"></canvas>
+            </article>
+            <article class="result-card map-card">
+              <h3>二维政治地图</h3>
+              <div class="coordinate-tabs" id="coordinateTabs"></div>
+              <div class="coordinate-map" id="coordinateMap">
+                <i class="x-line"></i>
+                <i class="y-line"></i>
+              </div>
+              <div class="map-labels">
+                <span id="mapXAxis">x axis</span>
+                <span id="mapYAxis">y axis</span>
+              </div>
+              <div class="map-legend" id="mapLegend"></div>
+            </article>
+          </div>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">analysis</p>
+              <h2>结果解读</h2>
+            </div>
+            <div class="interpretation-grid" id="interpretationGrid"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">axis scores</p>
+              <h2>10 个维度</h2>
+            </div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">policy distance</p>
+              <h2>党派/派系距离</h2>
+            </div>
+            <div class="view-tabs" id="matchViewTabs"></div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">issue heatmap</p>
+              <h2>题目热力图</h2>
+            </div>
+            <div class="heatmap" id="heatmap"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">strong signals</p>
+              <h2>最大影响题目与低置信维度</h2>
+            </div>
+            <ul class="insight-list" id="strongestList"></ul>
+          </section>
+        </section>
+
+        <section class="method-section" id="method">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2>设计方法</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>10 维英国模型</h3>
+              <p>英国政治同时存在经济、文化、Brexit、Union/Devolution、气候与选制裂缝，因此不压缩成单一左右轴。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>可调议题权重</h3>
+              <p>维度分数保持原样，党派距离用权重重算。你可以让公共服务、Brexit、自治或国防对匹配结果更重要。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>地区视角</h3>
+              <p>UK-wide、England、Scotland、Wales、Northern Ireland 使用同一套答案，但解释和参照对象按地区过滤。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section" id="sources">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2>参考资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Results are descriptive, not prescriptive.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
