@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>德国测试数据与方法 | Germany Spectrum</title>
+    <meta
+      name="description"
+      content="德国政治光谱测试的数据结构、计分方法、议题权重、地区视角、联盟相容性、局限说明和本地结果导出。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/de-spectrum/data/" />
+    <link rel="icon" href="../../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/de-spectrum/" aria-label="返回德国测试">
+          <span class="brand-mark" aria-hidden="true">DE</span>
+          <span>
+            <strong>Data & Method</strong>
+            <small>local export only</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/de-spectrum/">德国测试</a>
+          <a href="/private-homepage/de-spectrum/parties/">党派页</a>
+          <a href="/private-homepage/de-spectrum/issues/">题目解释</a>
+          <a href="/private-homepage/spectrum/">测试集合</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero compact-hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">data and methodology</p>
+            <h1 id="hero-title">
+              <span>德国测试</span>
+              <span>数据与方法</span>
+            </h1>
+            <p class="hero-lead">
+              本页解释 10 维计分、16 个议题块、权重、地区视角、党派距离和联盟相容性。导出功能只读取当前浏览器最近一次结果。
+            </p>
+          </div>
+        </section>
+
+        <section class="panel export-card">
+          <div class="section-heading compact">
+            <p class="eyebrow">local export</p>
+            <h2>导出最近一次结果</h2>
+          </div>
+          <p id="lastResultStatus" class="panel-copy">正在读取本地结果。</p>
+          <div class="export-actions">
+            <button class="ghost-button" type="button" id="exportJson">导出 JSON</button>
+            <button class="ghost-button" type="button" id="exportCsv">导出 CSV</button>
+            <button class="ghost-button" type="button" id="clearResult">清除本地结果</button>
+          </div>
+          <pre class="code-box" id="resultPreview"></pre>
+        </section>
+
+        <section class="panel table-card">
+          <div class="section-heading compact">
+            <p class="eyebrow">schema</p>
+            <h2>核心数据结构</h2>
+          </div>
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>对象</th>
+                  <th>字段</th>
+                  <th>说明</th>
+                </tr>
+              </thead>
+              <tbody id="schemaBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="method-section">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2>计分与局限</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>维度分</h3>
+              <p>每题 1-9 转换为 -1 到 +1；反向题乘以 -1；每个维度按题目权重平均后映射到 0-100。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>党派距离</h3>
+              <p>党派/派系相似度使用用户维度权重后的加权欧氏距离，再归一化为 0-100。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>联盟相容性</h3>
+              <p>联盟分数先把成员党坐标求平均，再与用户坐标比较；它只表示政策距离，不预测组阁可能性。</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>后续校准</h3>
+              <p>可用 CHES、Manifesto、Wahl-O-Mat、政党纲领、专家标注和匿名用户数据做 PCA/factor analysis 校准。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2>资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>No login, no upload, no backend.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="../data.js"></script>
+    <script src="data-page.js"></script>
+  </body>
+</html>

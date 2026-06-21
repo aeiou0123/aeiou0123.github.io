@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>德国政治光谱测试 | aeiou0123</title>
+    <meta
+      name="description"
+      content="一个公开的德国政治光谱测试：10 维、160 题、1-9 打分、议题权重、东西德/城乡视角、党派/派系距离和联盟相容性。"
+    />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/de-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="site-shell" id="top">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/spectrum/" aria-label="返回测试集合">
+          <span class="brand-mark" aria-hidden="true">DE</span>
+          <span>
+            <strong>Germany Spectrum</strong>
+            <small>politics lab / public</small>
+          </span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="/private-homepage/spectrum/">测试集合</a>
+          <a href="#quiz">开始</a>
+          <a href="/private-homepage/de-spectrum/parties/">党派页</a>
+          <a href="/private-homepage/de-spectrum/data/">数据页</a>
+          <a href="/private-homepage/de-spectrum/issues/">题目解释</a>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero de-hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">Germany political spectrum test</p>
+            <h1 id="hero-title">
+              <span>德国政治光谱</span>
+              <span>增强版测试</span>
+            </h1>
+            <p class="hero-lead">
+              德国政治不能只压缩成“左/右”：社会国家、债务刹车、气候转型、移民庇护、文化自由、
+              欧盟一体化、NATO 与援乌、自由宪政、东西德/城乡差异和国家现代化都在同时塑形。
+              本测试用于理解政策距离和价值组合，不构成投票建议。
+            </p>
+            <div class="mode-actions" id="quiz">
+              <button class="mode-card" type="button" data-start-mode="quick">
+                <span>快速版</span>
+                <strong>40</strong>
+                <small>按 10 维均衡抽题，先看大致位置。</small>
+              </button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard">
+                <span>标准版</span>
+                <strong>80</strong>
+                <small>16 个议题块各 5 题，适合认真测一次。</small>
+              </button>
+              <button class="mode-card" type="button" data-start-mode="full">
+                <span>深度版</span>
+                <strong>160</strong>
+                <small>完整题库，结果解释和党派距离更稳定。</small>
+              </button>
+            </div>
+            <p class="disclaimer">
+              1 表示完全不同意，9 表示完全同意，5 表示中立或不确定。党派/派系坐标是建站初始启发式估计，不代表官方立场。
+            </p>
+          </div>
+
+          <div class="hero-board" aria-hidden="true">
+            <div class="board-grid">
+              <span>Sozialstaat</span><span>EU</span><span>Klima</span><span>NATO</span><span>Ost/West</span>
+              <span>Migration</span><span>Freiheit</span><span>Schuldenbremse</span><span>Industrie</span><span>Demokratie</span>
+            </div>
+            <b>10D<br />Germany</b>
+          </div>
+        </section>
+
+        <section class="panel weight-panel is-hidden" id="weightPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow">issue weights</p>
+              <h2>调整你更看重的议题</h2>
+            </div>
+            <button class="ghost-button" type="button" id="resetWeights">恢复默认权重</button>
+          </div>
+          <p class="panel-copy">
+            维度分只由答案决定；权重只影响党派/派系距离、联盟相容性和对照视角排序。答题时还可以标记“重要题”，用于结果页解释。
+          </p>
+          <div class="weight-list" id="weightList"></div>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="cancelWeights">返回模式选择</button>
+            <button class="primary-button" type="button" id="startWeightedQuiz">开始答题</button>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div>
+              <p class="eyebrow" id="modeLabel">mode</p>
+              <h2 id="questionCounter">第 1 题 / 80</h2>
+            </div>
+            <button class="ghost-button" type="button" id="restartTop">重新开始</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div class="progress-bar" id="progressBar"></div>
+          </div>
+
+          <article class="question-card">
+            <div class="question-meta">
+              <p class="axis-pill" id="axisLabel">维度</p>
+              <span id="topicLabel">议题块</span>
+              <span id="issueLabel">议题</span>
+            </div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="scale-helper" aria-hidden="true">
+              <span>不同意</span>
+              <span>中立</span>
+              <span>同意</span>
+            </div>
+            <div class="scale-row" id="scaleRow"></div>
+            <button class="important-toggle" type="button" id="importantToggle" aria-pressed="false">
+              标记为重要题
+            </button>
+          </article>
+
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 80</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow">result</p>
+            <h2 id="resultTitle">混合型德国选民</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制结果摘要</button>
+              <button class="ghost-button" type="button" id="exportPng">导出 PNG</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="region-strip">
+            <p class="eyebrow">regional lens</p>
+            <div class="region-tabs" id="regionTabs"></div>
+            <p id="regionNote" class="region-note"></p>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card">
+              <h3>组合标签</h3>
+              <ul class="tag-list" id="tagList"></ul>
+            </article>
+            <article class="result-card chart-card">
+              <h3>十维雷达</h3>
+              <canvas id="radarCanvas" width="480" height="480"></canvas>
+              <div class="axis-legend" id="axisLegend"></div>
+            </article>
+            <article class="result-card map-card">
+              <h3>二维政治地图</h3>
+              <div class="coordinate-tabs" id="coordinateTabs"></div>
+              <div class="coordinate-map" id="coordinateMap">
+                <i class="x-line"></i>
+                <i class="y-line"></i>
+              </div>
+              <div class="map-labels">
+                <span id="mapXAxis">x axis</span>
+                <span id="mapYAxis">y axis</span>
+              </div>
+              <div class="map-legend" id="mapLegend"></div>
+            </article>
+          </div>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">analysis</p>
+              <h2>结果解读</h2>
+            </div>
+            <div class="interpretation-grid" id="interpretationGrid"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">axis scores</p>
+              <h2>10 个维度</h2>
+            </div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">policy distance</p>
+              <h2>党派/派系距离</h2>
+            </div>
+            <div class="view-tabs" id="matchViewTabs"></div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">coalition lens</p>
+              <h2>联盟相容性简版</h2>
+            </div>
+            <div class="coalition-list" id="coalitionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">issue heatmap</p>
+              <h2>题目热力图</h2>
+            </div>
+            <div class="heatmap" id="heatmap"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact">
+              <p class="eyebrow">strong signals</p>
+              <h2>最大影响题、重要题与低置信维度</h2>
+            </div>
+            <ul class="insight-list" id="strongestList"></ul>
+          </section>
+        </section>
+
+        <section class="method-section" id="method">
+          <div class="section-heading">
+            <p class="eyebrow">method</p>
+            <h2>设计方法</h2>
+          </div>
+          <div class="method-grid">
+            <article>
+              <span>01</span>
+              <h3>16 个议题块</h3>
+              <p>题库覆盖经济分配、债务刹车、气候能源、移民庇护、文化自由、欧盟、外交安全、民主制度、东西德差异和国家现代化等裂缝。</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>10 维汇总</h3>
+              <p>结果页把 160 题汇总为 10 个可解释维度，避免把德国政治简化成单一左右翼坐标。</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>只在本地计算</h3>
+              <p>答案、权重和最近结果只保存在当前浏览器。本页没有登录、后端、数据库，也不会上传原始答案。</p>
+            </article>
+          </div>
+        </section>
+
+        <section class="sources-section" id="sources">
+          <div class="section-heading">
+            <p class="eyebrow">references</p>
+            <h2>资料入口</h2>
+          </div>
+          <ul class="source-list" id="sourceList"></ul>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p>Results are descriptive, not prescriptive.</p>
+        <a href="#top">Back to top</a>
+      </footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

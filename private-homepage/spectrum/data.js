@@ -48,6 +48,18 @@ window.SPECTRUM_REGISTRY = [
     summary: "公开英国版增强测试，覆盖财政福利、市场劳动、移民身份、Brexit、Union/Devolution、气候能源、制度改革与外交安全。",
   },
   {
+    id: "de",
+    title_zh: "德国政治光谱测试",
+    title_en: "Germany Political Spectrum Test",
+    region: "Germany",
+    href: "/private-homepage/de-spectrum/",
+    status: "available",
+    question_count: 160,
+    axis_count: 10,
+    languages: ["中文"],
+    summary: "公开德国版增强测试，覆盖社会国家、债务刹车、气候能源、移民庇护、文化自由、欧盟、外交安全、自由宪政、地区差异与国家现代化。",
+  },
+  {
     id: "global",
     title_zh: "全球意识形态测试",
     title_en: "Global Ideology Test",
