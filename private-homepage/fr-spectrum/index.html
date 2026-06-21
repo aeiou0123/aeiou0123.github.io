@@ -3,53 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>台湾政治光谱测试 | aeiou0123</title>
+    <title>法国政治光谱测试 | aeiou0123</title>
     <meta
       name="description"
-      content="一个需要访问密码的台湾政治光谱测试，覆盖国家认同、两岸、安全、经济、住房、社会文化、能源环境与民主治理。"
+      content="一个 8 维、160 题、1-9 打分的法国政治光谱测试，包含党派/派系距离、多坐标视角、题目热力图和 PNG 分享。"
     />
-    <meta name="robots" content="noindex,nofollow" />
-    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/tw-spectrum/" />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/fr-spectrum/" />
     <link rel="icon" href="../assets/favicon.svg" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <section class="lock-shell" id="unlockShell" aria-labelledby="unlock-title">
-      <div class="lock-panel">
-        <a class="back-link" href="/private-homepage/spectrum/">返回测试集合</a>
-        <p class="eyebrow">restricted local test</p>
-        <h1 id="unlock-title">台湾政治光谱测试</h1>
-        <p class="lock-copy">
-          这个页面需要访问密码。解锁后，题库、参照对象和结果解释只会在浏览器本地解密与计算。
-        </p>
-        <form class="unlock-form" id="unlockForm">
-          <label for="passwordInput">访问密码</label>
-          <div class="password-row">
-            <input
-              id="passwordInput"
-              name="password"
-              type="password"
-              inputmode="numeric"
-              autocomplete="current-password"
-              required
-            />
-            <button id="unlockButton" type="submit">解锁</button>
-          </div>
-          <p class="unlock-error" id="unlockError" role="alert"></p>
-        </form>
-        <p class="lock-note">
-          说明：这是静态站的前端加密门，适合避免公开误入与搜索索引；不等同于服务器级访问控制。
-        </p>
-      </div>
-    </section>
-
-    <div class="site-shell is-hidden" id="appShell">
+    <div class="site-shell" id="top">
       <header class="topbar">
         <a class="brand" href="/private-homepage/spectrum/" aria-label="返回测试集合">
-          <span class="brand-mark" aria-hidden="true">TW</span>
+          <span class="brand-mark" aria-hidden="true">FR</span>
           <span>
-            <strong>TW Spectrum</strong>
-            <small>restricted politics lab</small>
+            <strong>FR Spectrum</strong>
+            <small>politics lab / public</small>
           </span>
         </a>
         <nav class="topnav" aria-label="页面导航">
@@ -58,41 +28,40 @@
           <a href="#quiz">开始</a>
           <a href="#method">方法</a>
           <a href="#sources">来源</a>
-          <button class="nav-button" id="lockButton" type="button">锁定</button>
         </nav>
       </header>
 
       <main>
         <section class="hero" aria-labelledby="hero-title">
           <div class="hero-copy">
-            <p class="eyebrow">Taiwan political spectrum test</p>
+            <p class="eyebrow">France political spectrum test</p>
             <h1 id="hero-title">
-              <span>台湾政治光谱</span>
+              <span>法国政治光谱</span>
               <span>增强版测试</span>
             </h1>
             <p class="hero-lead">
-              用 8 个维度测量你在国家认同、两岸风险、国防外交、经济分配、住房世代、社会文化、能源环境与民主治理上的相对位置。
-              结果会显示组合标签、党派/派系距离、议题热力图和不同议题视角下的匹配变化。
+              用 8 个维度测量你在法国现实议题中的相对位置：经济分配、欧洲与主权、共和国身份、治安自由、生态生产、制度民粹、外交战略，以及国家能力与地方社会。
+              结果会给出画像标签、党派/派系距离、多坐标投影、议题热力图和影响结果最大的题目。
             </p>
             <div class="mode-actions" id="quiz">
               <button class="mode-card" type="button" data-start-mode="quick">
                 <span>快速版</span>
                 <strong>40</strong>
-                <small>每维 5 题，先看大致坐标。</small>
+                <small>每维 5 题，适合先看大致坐标。</small>
               </button>
               <button class="mode-card is-featured" type="button" data-start-mode="standard">
                 <span>标准版</span>
                 <strong>80</strong>
-                <small>每维 10 题，覆盖主要议题。</small>
+                <small>每维 10 题，覆盖主要法国议题。</small>
               </button>
               <button class="mode-card" type="button" data-start-mode="full">
                 <span>深度版</span>
                 <strong>160</strong>
-                <small>完整 8 维题库，适合认真分析。</small>
+                <small>完整 8 维题库，结果更稳定。</small>
               </button>
             </div>
             <p class="disclaimer">
-              1 表示完全不同意，9 表示完全同意，5 表示中立或不确定。结果只描述题库内政策距离，不构成投票建议。
+              1 表示完全不同意，9 表示完全同意，5 表示中立或不确定。结果只描述本题库内的政策距离，不构成投票建议。
             </p>
           </div>
 
@@ -101,7 +70,7 @@
               <span>D1</span><span>D2</span><span>D3</span><span>D4</span>
               <span>D5</span><span>D6</span><span>D7</span><span>D8</span>
             </div>
-            <b>8D<br />Taiwan</b>
+            <b>8D<br />France</b>
           </div>
         </section>
 
@@ -161,7 +130,7 @@
               <canvas id="radarCanvas" width="480" height="480"></canvas>
             </article>
             <article class="result-card map-card">
-              <h3>二维坐标</h3>
+              <h3>二维政治地图</h3>
               <div class="coordinate-tabs" id="coordinateTabs"></div>
               <div class="coordinate-map" id="coordinateMap">
                 <i class="x-line"></i>
@@ -211,7 +180,7 @@
           <section class="result-section">
             <div class="section-heading compact">
               <p class="eyebrow">strong signals</p>
-              <h2>立场强度与不确定点</h2>
+              <h2>影响结果最大的题目</h2>
             </div>
             <ul class="insight-list" id="strongestList"></ul>
           </section>
@@ -225,18 +194,18 @@
           <div class="method-grid">
             <article>
               <span>01</span>
-              <h3>8 维台湾模型</h3>
-              <p>台湾政治不能只用传统左右轴描述，因此将国家身份、两岸安全、经济民生、社会文化与民主治理分开测量。</p>
+              <h3>8 维法国模型</h3>
+              <p>法国政治不能只用传统左右轴描述，因此把福利国家、欧洲统合、共和国身份、治安自由、生态产业和制度民粹拆开测量。</p>
             </article>
             <article>
               <span>02</span>
               <h3>160 题题库</h3>
-              <p>每维 20 题，快速版和标准版从同一题库抽取，完整深度版使用全部题目。</p>
+              <p>每维 20 题，正反向尽量平衡。快速版和标准版从同一题库抽取，深度版使用完整题库。</p>
             </article>
             <article>
               <span>03</span>
-              <h3>本地解密与计算</h3>
-              <p>题库通过密码在浏览器本地解密，答题、计分、匹配和 PNG 生成都不上传服务器。</p>
+              <h3>启发式参照</h3>
+              <p>党派/派系坐标参考公开资料和专家调查入口做首版估计，不代表官方立场，也不会给出投票建议。</p>
             </article>
           </div>
         </section>

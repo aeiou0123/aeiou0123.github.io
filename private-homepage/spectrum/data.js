@@ -24,6 +24,18 @@ window.SPECTRUM_REGISTRY = [
     summary: "中英双语美国版，覆盖经济、国家能力、自由秩序、文化、移民、种族、制度、外交、军事与气候。",
   },
   {
+    id: "fr",
+    title_zh: "法国政治光谱测试",
+    title_en: "France Political Spectrum Test",
+    region: "France",
+    href: "/private-homepage/fr-spectrum/",
+    status: "available",
+    question_count: 160,
+    axis_count: 8,
+    languages: ["中文"],
+    summary: "公开法国版增强测试，覆盖经济分配、欧洲/主权、共和国身份、秩序自由、生态生产、制度民粹、外交战略与地方社会。",
+  },
+  {
     id: "global",
     title_zh: "全球意识形态测试",
     title_en: "Global Ideology Test",

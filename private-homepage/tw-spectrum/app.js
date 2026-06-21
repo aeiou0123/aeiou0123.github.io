@@ -27,7 +27,7 @@
       "axisLabel", "issueLabel", "questionText", "scaleRow", "prevQuestion", "skipQuestion",
       "answeredCount", "restartTop", "restartBottom", "resultTitle", "resultSummary",
       "confidenceText", "copyResult", "exportPng", "tagList", "radarCanvas", "coordinateTabs",
-      "coordinateMap", "mapXAxis", "mapYAxis", "interpretationGrid", "dimensionList",
+      "coordinateMap", "mapXAxis", "mapYAxis", "mapLegend", "interpretationGrid", "dimensionList",
       "matchViewTabs", "matchList", "heatmap", "strongestList", "sourceList",
     ].forEach((id) => {
       els[id] = query(id);
@@ -470,13 +470,16 @@
     els.mapXAxis.textContent = view.xLabel;
     els.mapYAxis.textContent = view.yLabel;
     els.coordinateMap.querySelectorAll(".map-dot").forEach((dot) => dot.remove());
+    els.mapLegend.replaceChildren();
 
-    state.data.profiles.forEach((profile) => {
-      const point = computePoint(profile.scores, view);
-      addDot(point.x, point.y, profile.name, campColor(profile.camp), false);
+    state.result.matches.slice(0, 10).forEach((match, index) => {
+      const point = computePoint(match.profile.scores, view);
+      const color = campColor(match.profile.camp);
+      addDot(point.x, point.y, String(index + 1), color, false, `${match.profile.name}: ${Math.round(point.x)}, ${Math.round(point.y)}`);
+      addLegend(index + 1, match.profile.name, color, Math.round(match.similarity));
     });
     const userPoint = computePoint(state.result.scores, view);
-    addDot(userPoint.x, userPoint.y, "你", "#cf5549", true);
+    addDot(userPoint.x, userPoint.y, "你", "#cf5549", true, `你: ${Math.round(userPoint.x)}, ${Math.round(userPoint.y)}`);
   }
 
   function computePoint(scores, view) {
@@ -490,17 +493,23 @@
     return axes.reduce((sum, axisId) => sum + scores[axisId], 0) / axes.length;
   }
 
-  function addDot(x, y, label, color, isUser) {
+  function addDot(x, y, label, color, isUser, title) {
     const dot = document.createElement("span");
     dot.className = `map-dot${isUser ? " user" : ""}`;
     dot.style.left = `${clamp(x, 2, 98)}%`;
     dot.style.bottom = `${clamp(y, 2, 98)}%`;
     dot.style.setProperty("--dot-color", color);
-    dot.title = `${label}: ${Math.round(x)}, ${Math.round(y)}`;
-    const text = document.createElement("span");
-    text.textContent = label;
-    dot.append(text);
+    dot.textContent = label;
+    dot.title = title;
     els.coordinateMap.append(dot);
+  }
+
+  function addLegend(number, name, color, similarity) {
+    const item = document.createElement("div");
+    item.className = "legend-item";
+    item.innerHTML = `<i style="--dot-color:${color}">${number}</i><span>${name} · ${similarity}</span>`;
+    item.title = `${name} · 相似度 ${similarity}`;
+    els.mapLegend.append(item);
   }
 
   function campColor(camp) {
@@ -607,6 +616,7 @@
           state.result.matches = buildMatches(state.result.scores, state.matchView);
           renderMatchViewTabs();
           renderMatches();
+          renderCoordinateMap();
         });
         return button;
       }),
@@ -630,7 +640,10 @@
         const score = document.createElement("div");
         score.className = "similarity";
         score.innerHTML = `${Math.round(match.similarity)}<span>相似度</span>`;
-        card.append(body, score);
+        const bar = document.createElement("i");
+        bar.className = "match-bar";
+        bar.style.setProperty("--match", `${Math.round(match.similarity)}%`);
+        card.append(body, score, bar);
         return card;
       }),
     );
@@ -721,29 +734,34 @@
     ctx.fillStyle = "#f4f7f4";
     ctx.fillRect(0, 0, canvas.width, canvas.height);
     ctx.fillStyle = "#17202a";
-    ctx.font = "900 54px Microsoft YaHei, sans-serif";
-    ctx.fillText("台湾政治光谱测试", 80, 110);
-    ctx.font = "800 42px Microsoft YaHei, sans-serif";
-    ctx.fillText(state.result.label.name, 80, 180);
-    ctx.font = "24px Microsoft YaHei, sans-serif";
-    wrapText(ctx, state.result.label.summary, 80, 235, 1040, 34);
+    ctx.font = "900 42px Microsoft YaHei, sans-serif";
+    ctx.fillText("台湾政治光谱测试", 80, 104);
+    ctx.font = "800 34px Microsoft YaHei, sans-serif";
+    wrapText(ctx, state.result.label.name, 80, 168, 1040, 42);
+    ctx.font = "21px Microsoft YaHei, sans-serif";
+    wrapText(ctx, state.result.label.summary, 80, 230, 1040, 31);
     ctx.fillStyle = "#647184";
-    ctx.fillText(`置信度 ${state.result.overallConfidence}/100 · 结果仅供参考，不构成投票建议`, 80, 335);
+    ctx.font = "18px Microsoft YaHei, sans-serif";
+    ctx.fillText(`置信度 ${state.result.overallConfidence}/100 · 结果仅供参考，不构成投票建议`, 80, 330);
 
     let y = 410;
     state.data.axes.forEach((axis) => {
       const value = state.result.scores[axis.id];
       ctx.fillStyle = "#17202a";
-      ctx.font = "700 22px Microsoft YaHei, sans-serif";
+      ctx.font = "700 18px Microsoft YaHei, sans-serif";
       ctx.fillText(`${axis.id} ${axis.name}`, 80, y);
       ctx.fillStyle = "#dfe7e8";
       roundRect(ctx, 330, y - 22, 650, 20, 10);
       ctx.fill();
-      ctx.fillStyle = axis.color;
+      const gradient = ctx.createLinearGradient(330, 0, 980, 0);
+      gradient.addColorStop(0, "#cf5549");
+      gradient.addColorStop(0.5, axis.color);
+      gradient.addColorStop(1, "#2f8f6f");
+      ctx.fillStyle = gradient;
       roundRect(ctx, 330, y - 22, 650 * (value / 100), 20, 10);
       ctx.fill();
       ctx.fillStyle = "#17202a";
-      ctx.font = "900 24px Microsoft YaHei, sans-serif";
+      ctx.font = "900 22px Microsoft YaHei, sans-serif";
       ctx.fillText(String(value), 1010, y);
       y += 62;
     });
