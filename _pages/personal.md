@@ -17,6 +17,10 @@ A casual personal homepage for small websites, diary fragments, everyday thought
 
 ## Project shelf
 
+### [中级微观经济学课程论文：从 Hotelling 到选举制度](/personal/paper/IMpaper/)
+
+This page hosts the latest PDF version of my intermediate microeconomics course paper on electoral systems, spatial competition, multidimensional preferences, social choice paradoxes, candidate strategy, and institutional tradeoffs. A Bilibili explanation video is linked on the paper page.
+
 More entries can be added here later, for example:
 
 - personal web toys or small tools
