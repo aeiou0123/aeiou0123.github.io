@@ -17,9 +17,9 @@ A casual personal homepage for small websites, diary fragments, everyday thought
 
 ## Project shelf
 
-### [中级微观经济学课程论文：从 Hotelling 到选举制度](/personal/paper/IMpaper/)
+### [课程论文存档：选举制度与 Token / AI Agent 市场结构](/personal/paper/IMpaper/)
 
-This page hosts the latest PDF version of my intermediate microeconomics course paper on electoral systems, spatial competition, multidimensional preferences, social choice paradoxes, candidate strategy, and institutional tradeoffs. A Bilibili explanation video is linked on the paper page.
+This page hosts PDF versions of my course papers. It currently includes one paper on electoral systems, spatial competition, multidimensional preferences, social choice paradoxes, candidate strategy, and institutional tradeoffs, and another paper on Token / AI Agent adoption, firm costs, competition, and market structure. The first paper has a Bilibili explanation video; the second is PDF-only for now.
 
 More entries can be added here later, for example:
 
