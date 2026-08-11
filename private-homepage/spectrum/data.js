@@ -24,6 +24,18 @@ window.SPECTRUM_REGISTRY = [
     summary: "中英双语美国版，覆盖经济、国家能力、自由秩序、文化、移民、种族、制度、外交、军事与气候。",
   },
   {
+    id: "cn",
+    title_zh: "中国大陆政治光谱测试",
+    title_en: "China Mainland Political Spectrum Test",
+    region: "China",
+    href: "/private-homepage/cn-spectrum/",
+    status: "available",
+    question_count: 160,
+    axis_count: 8,
+    languages: ["简体中文"],
+    summary: "需访问密码。以 8 个政策维度理解经济、福利、制度、秩序、国家认同、文化、技术治理与生态发展，并与社会思潮理想类型对照。",
+  },
+  {
     id: "fr",
     title_zh: "法国政治光谱测试",
     title_en: "France Political Spectrum Test",

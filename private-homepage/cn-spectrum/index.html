@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>中国大陆政治光谱测试 | aeiou0123</title>
+    <meta name="description" content="密码保护的中国大陆八维政治光谱测试，全部计算在浏览器本地完成。" />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/cn-spectrum/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="lock-shell" id="unlockShell" aria-labelledby="unlock-title">
+      <div class="lock-panel">
+        <a class="back-link" href="/private-homepage/spectrum/">返回政治光谱集合</a>
+        <p class="eyebrow">restricted local test</p>
+        <h1 id="unlock-title">中国大陆政治光谱测试</h1>
+        <p class="lock-copy">题库、参照类型与解释资料将在浏览器中解密。答案和结果不会上传。</p>
+        <form class="unlock-form" id="unlockForm">
+          <label for="passwordInput">访问密码</label>
+          <div class="password-row">
+            <input id="passwordInput" name="password" type="password" inputmode="numeric" autocomplete="current-password" required />
+            <button id="unlockButton" type="submit">解锁</button>
+          </div>
+          <p class="unlock-error" id="unlockError" role="alert"></p>
+        </form>
+        <p class="lock-note">静态密码门用于降低直接访问和搜索暴露，不等同于服务器级访问控制。</p>
+      </div>
+    </section>
+
+    <div class="site-shell is-hidden" id="appShell">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/spectrum/" aria-label="返回政治光谱集合">
+          <span class="brand-mark" aria-hidden="true">CN</span>
+          <span><strong>CN Spectrum</strong><small>policy atlas / private</small></span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/spectrum/">测试集合</a>
+          <a href="references/">参照类型</a>
+          <a href="issues/">维度议题</a>
+          <a href="method/">数据方法</a>
+          <button class="icon-button" id="lockButton" type="button" title="锁定页面" aria-label="锁定页面">锁</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">China mainland political spectrum</p>
+            <h1 id="hero-title"><span>中国大陆</span><span>政治光谱测试</span></h1>
+            <p class="hero-lead">从经济体制、分配福利、制度参与、治理安全、国家认同、社会文化、治理方式与发展模式，观察你的八维政策取舍。</p>
+            <div class="mode-actions" id="start">
+              <button class="mode-card" type="button" data-start-mode="quick"><span>快速版</span><strong>40</strong><small>约 6–8 分钟</small></button>
+              <button class="mode-card is-featured" type="button" data-start-mode="standard"><span>标准版</span><strong>80</strong><small>约 12–16 分钟</small></button>
+              <button class="mode-card" type="button" data-start-mode="full"><span>深度版</span><strong>160</strong><small>约 22–30 分钟</small></button>
+            </div>
+            <p class="disclaimer">1 表示强烈反对，5 表示中立或难判断，9 表示强烈赞同。仅供政治社会学理解，不构成现实政治或组织加入建议。</p>
+          </div>
+          <figure class="hero-media"><img src="policy-collage.webp" alt="城市住房、公共服务、通勤、制造业、小商业和绿色交通组成的政策生活拼贴" /></figure>
+        </section>
+
+        <section class="resume-banner is-hidden" id="resumeBanner">
+          <div><strong>检测到当前会话中的未完成测试</strong><span id="resumeText"></span></div>
+          <div class="inline-actions"><button class="primary-button" id="resumeButton" type="button">继续</button><button class="ghost-button" id="discardProgress" type="button">清除</button></div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head"><div><p class="eyebrow" id="modeLabel">mode</p><h2 id="questionCounter">第 1 题 / 80</h2></div><button class="ghost-button" id="restartTop" type="button">重新开始</button></div>
+          <div class="progress-shell" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
+          <article class="question-card">
+            <div class="question-meta"><span class="axis-pill" id="axisLabel">维度</span><span id="issueLabel">议题</span></div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="scale-helper"><span>强烈反对</span><span>中立</span><span>强烈赞同</span></div>
+            <div class="scale-row" id="scaleRow"></div>
+            <button class="important-toggle" id="importantToggle" type="button" aria-pressed="false">标记为重要题</button>
+          </article>
+          <div class="quiz-actions"><button class="ghost-button" id="prevQuestion" type="button">上一题</button><span id="answeredCount">0 / 80</span><button class="ghost-button" id="skipQuestion" type="button">跳过</button></div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero">
+            <p class="eyebrow">your policy profile</p>
+            <h2 id="resultTitle">多维混合型观察者</h2>
+            <p class="result-summary" id="resultSummary"></p>
+            <p class="confidence-text" id="confidenceText"></p>
+            <ul class="tag-list" id="tagList"></ul>
+            <div class="result-actions"><button class="ghost-button" id="copyResult" type="button">复制摘要</button><button class="ghost-button" id="exportPng" type="button">导出 PNG</button><button class="ghost-button" id="restartBottom" type="button">重新测试</button></div>
+          </div>
+
+          <div class="result-layout">
+            <article class="result-card chart-card"><div class="card-head"><h3>八维雷达</h3><span>-100 至 +100</span></div><canvas id="radarCanvas" width="520" height="520"></canvas><div class="axis-legend" id="axisLegend"></div></article>
+            <article class="result-card map-card"><div class="card-head"><h3>政策坐标地图</h3><span>编号点为参照类型</span></div><div class="coordinate-tabs" id="coordinateTabs"></div><div class="coordinate-map" id="coordinateMap"><i class="x-line"></i><i class="y-line"></i></div><div class="map-labels"><span id="mapXAxis"></span><span id="mapYAxis"></span></div><div class="map-legend" id="mapLegend"></div></article>
+          </div>
+
+          <section class="result-section"><div class="section-heading"><p class="eyebrow">reading</p><h2>分领域解读</h2></div><div class="interpretation-grid" id="interpretationGrid"></div></section>
+          <section class="result-section"><div class="section-heading"><p class="eyebrow">dimensions</p><h2>八维分数与稳定度</h2></div><div class="dimension-list" id="dimensionList"></div></section>
+
+          <section class="result-section">
+            <div class="section-heading"><p class="eyebrow">reference distance</p><h2>理想类型距离</h2><p>参照坐标为启发式估计，不代表任何群体或组织的正式立场。</p></div>
+            <div class="match-view-tabs" id="matchViewTabs"></div>
+            <div class="match-list" id="matchList"></div>
+          </section>
+
+          <div class="result-layout lower-grid">
+            <article class="result-card"><div class="card-head"><h3>平行坐标对照</h3><span>你与前三参照</span></div><canvas id="parallelCanvas" width="760" height="390"></canvas><div class="parallel-legend" id="parallelLegend"></div></article>
+            <article class="result-card"><div class="card-head"><h3>答案热力图</h3><span>按维度排列</span></div><div class="heatmap" id="heatmap"></div><div class="heat-legend"><span>反向端</span><span>中立/跳过</span><span>正向端</span></div></article>
+          </div>
+
+          <section class="result-section"><div class="section-heading"><p class="eyebrow">sensitivity</p><h2>重要题与结果敏感性</h2></div><div class="signal-grid"><article><h3>影响最大的回答</h3><ol id="strongestList"></ol></article><article><h3>不稳定维度</h3><div id="uncertaintyList"></div></article></div></section>
+        </section>
+
+        <section class="method-strip" id="method">
+          <div><p class="eyebrow">local first</p><h2>结果只留在当前浏览器</h2><p>题目按方向修正后汇总为八维分数，参照距离使用所选维度上的归一化欧氏距离。短模式只提供概览。</p></div>
+          <div class="method-links"><a href="references/">查看参照类型</a><a href="issues/">查看维度议题</a><a href="method/">查看计分方法</a></div>
+        </section>
+      </main>
+      <footer><span>CN Spectrum · 2026</span><span>试测版 · 本地计算 · 不构成建议</span></footer>
+    </div>
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

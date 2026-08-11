@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta name="robots" content="noindex,nofollow" />
+    <title>数据与计分方法 | 中国大陆政治光谱测试</title><link rel="canonical" href="https://aeiou0123.github.io/private-homepage/cn-spectrum/method/" /><link rel="icon" href="../../assets/favicon.svg" /><link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-page="method">
+    <section class="lock-shell" id="unlockShell"><div class="lock-panel"><a class="back-link" href="../">返回主测试</a><p class="eyebrow">restricted method note</p><h1>数据与计分方法</h1><p class="lock-copy">此资料页与主测试使用同一访问密码。</p><form class="unlock-form" id="unlockForm"><label for="passwordInput">访问密码</label><div class="password-row"><input id="passwordInput" type="password" inputmode="numeric" autocomplete="current-password" required /><button id="unlockButton" type="submit">解锁</button></div><p class="unlock-error" id="unlockError" role="alert"></p></form><p class="lock-note">静态密码门不等同于服务器级访问控制。</p></div></section>
+    <div class="site-shell is-hidden" id="appShell">
+      <header class="topbar"><a class="brand" href="../"><span class="brand-mark">CN</span><span><strong>Method Notes</strong><small>scoring / limits / export</small></span></a><nav class="topnav"><a href="../">主测试</a><a href="../references/">参照类型</a><a href="../issues/">维度议题</a><a href="/private-homepage/spectrum/">测试集合</a><button class="icon-button" id="lockButton" type="button" title="锁定页面">锁</button></nav></header>
+      <main class="info-main"><section class="info-hero"><p class="eyebrow">method and data</p><h1>计分、稳定度与局限</h1><p>这是一套理论计分的试测工具。它把具体政策回答投影到多个描述性维度，不把细小分差解释为统计显著差异。</p></section>
+        <div class="info-grid"><article class="info-card"><h2>维度计分</h2><p>回答值先按 <code>(answer - 5) / 4</code> 转换为 <code>-1..+1</code>，再乘以题目方向。每维取已答题平均值并乘以 100，显示为 <code>-100..+100</code>。</p></article><article class="info-card"><h2>类型距离</h2><p>在当前对照视角所含维度上计算欧氏距离，再以该空间的最大可能距离归一化为 0–100。视角切换只改变参照排序，不改变原始分数。</p></article><article class="info-card"><h2>结果稳定度</h2><p>稳定度综合题目覆盖、同维回答一致性和回答模式多样性。它用于提醒“哪些结论应更谨慎”，不是经过代表性样本验证的心理测量信度。</p></article><article class="info-card"><h2>已知局限</h2><p>题库与理想类型仍需真实样本、项目分析、探索和验证性因子分析，以及不同群体的测量等值性检验。类型坐标不代表组织或人群的正式立场。</p></article></div>
+        <section class="result-section"><div class="section-heading"><p class="eyebrow">data shape</p><h2>解密后的数据结构</h2></div><table class="org-table"><thead><tr><th>字段</th><th>内容</th></tr></thead><tbody id="schemaTable"></tbody></table></section>
+        <section class="result-section"><div class="section-heading"><p class="eyebrow">current session</p><h2>导出当前结果</h2></div><p id="exportStatus"></p><div class="inline-actions"><button class="primary-button" id="exportJson" type="button">导出 JSON</button><button class="ghost-button" id="exportCsv" type="button">导出 CSV</button></div></section>
+        <section class="result-section"><div class="section-heading"><p class="eyebrow">sources</p><h2>主要资料入口</h2></div><ul class="source-list" id="sourceList"></ul></section>
+      </main><footer><span>CN Spectrum · Method</span><span>本地计算 · 不上传答案</span></footer>
+    </div><script src="../data.js"></script><script src="../info-page.js"></script>
+  </body>
+</html>
