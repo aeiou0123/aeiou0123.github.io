@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>计分与方法 | 中国青年社会画像测试</title>
+    <link rel="icon" href="../../assets/favicon.svg" />
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body data-info-page="method">
+    <section class="lock-shell" id="unlockShell" aria-labelledby="unlock-title">
+      <div class="lock-panel youth-lock">
+        <a class="back-link" href="../">← 返回测试</a>
+        <p class="eyebrow">method notes / private access</p>
+        <h1 id="unlock-title">计分与方法</h1>
+        <p class="lock-copy">方法页与测试共用访问密码。已经在当前会话解锁测试时，会直接进入。</p>
+        <form class="unlock-form" id="unlockForm"><label for="passwordInput">访问密码</label><div class="password-row"><input id="passwordInput" type="password" autocomplete="current-password" required /><button id="unlockButton" type="submit">解锁</button></div><p class="unlock-error" id="unlockError" role="alert"></p></form>
+      </div>
+    </section>
+    <div class="site-shell is-hidden" id="appShell">
+      <header class="topbar">
+        <a class="brand" href="../"><span class="brand-mark">YV</span><span><strong>Youth Values</strong><small>method notes</small></span></a>
+        <nav class="topnav"><a href="../">返回测试</a><a href="../dimensions/">维度</a><button class="nav-button" id="lockButton" type="button">锁定</button></nav>
+      </header>
+      <main class="info-shell">
+        <section class="info-hero"><div><p class="eyebrow">descriptive index / pilot</p><h1>这是一套试测模型</h1></div><p>当前版本把现实生活中的选择映射为连续描述性指数。它尚未使用代表性样本完成项目分析、因子验证或 IRT/MIRT 校准，因此不会把微小分差解释成精确测量。</p></section>
+        <section class="info-grid">
+          <article class="info-card"><h2>资料层级</h2><p>正式调查用于建立教育、家庭、就业和社会态度框架；现实行为资料帮助识别选择约束；青年社交媒体话语只用于发现情境和语言，不作为总体分布证据。</p></article>
+          <article class="info-card"><h2>阶段等价</h2><p>160 个概念题位中，112 题使用共同文本，48 题为高中、大学和初入职场提供等价场景。三个版本使用相同构念、方向和权重。</p></article>
+          <article class="info-card"><h2>多重载荷</h2><p>1–9 回答先转换为 -1 到 +1。同一道题可以同时对多个构念提供不同权重和方向的信息，再将加权均值映射到 0–100。</p></article>
+          <article class="info-card"><h2>结果稳定度</h2><p>稳定度只综合题目覆盖、跳过比例、构念内方向和回答区分度。它不等同于 Cronbach's alpha、测试重测信度或后验标准误。</p></article>
+          <article class="info-card"><h2>隐私与密码</h2><p>题库以 AES-GCM 密文发布，密码在浏览器中派生密钥。解密题库、答案和结果只保存在当前会话；关闭浏览器或主动锁定后清除。静态门禁不是服务器权限控制。</p></article>
+          <article class="info-card"><h2>后续校准</h2><p>获得试测样本后依次检查认知访谈、项目分布、项目-总分相关、EFA/CFA、MIRT/IRT、阶段测量等值性和结果叙事的稳健性。</p></article>
+        </section>
+        <section class="result-section"><div class="section-heading compact"><p class="eyebrow">references</p><h2>资料入口</h2></div><div class="source-list" id="methodSources"></div></section>
+        <section class="info-card"><h2>使用边界</h2><p>本测试用于理解个人价值组合与生活策略，不用于心理诊断、政治分类、升学就业筛选、人员管理或人生决策。类型名称只是连续指数的叙事入口，不代表自然存在的固定群体。</p></section>
+      </main>
+    </div>
+    <script src="../data.js"></script><script src="../info-page.js"></script>
+  </body>
+</html>

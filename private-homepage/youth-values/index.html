@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex,nofollow" />
+    <title>中国青年社会画像测试 | aeiou0123</title>
+    <meta name="description" content="面向高中、大学和初入职场青年的社会价值与生活策略试测。页面需要访问密码，所有计算在浏览器本地完成。" />
+    <link rel="canonical" href="https://aeiou0123.github.io/private-homepage/youth-values/" />
+    <link rel="icon" href="../assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <section class="lock-shell" id="unlockShell" aria-labelledby="unlock-title">
+      <div class="lock-panel youth-lock">
+        <a class="back-link" href="/private-homepage/">← 返回私人主页</a>
+        <p class="eyebrow">youth profile / private access</p>
+        <h1 id="unlock-title">中国青年社会画像测试</h1>
+        <p class="lock-copy">这个页面需要访问密码。解锁后，题库、计分与结果解释只会在当前浏览器会话中解密和计算。</p>
+        <form class="unlock-form" id="unlockForm">
+          <label for="passwordInput">访问密码</label>
+          <div class="password-row">
+            <input id="passwordInput" name="password" type="password" autocomplete="current-password" required />
+            <button id="unlockButton" type="submit">解锁</button>
+          </div>
+          <p class="unlock-error" id="unlockError" role="alert"></p>
+        </form>
+        <p class="lock-note">静态密码门用于降低直接访问和搜索暴露，不等同于服务器级权限控制。</p>
+      </div>
+    </section>
+
+    <div class="site-shell is-hidden" id="appShell">
+      <header class="topbar">
+        <a class="brand" href="/private-homepage/" aria-label="返回私人主页">
+          <span class="brand-mark" aria-hidden="true">YV</span>
+          <span><strong>Youth Values</strong><small>social profile / private</small></span>
+        </a>
+        <nav class="topnav" aria-label="页面导航">
+          <a href="/private-homepage/">私人主页</a>
+          <a href="#start">开始</a>
+          <a href="dimensions/">维度</a>
+          <a href="method/">方法</a>
+          <button class="nav-button" type="button" id="lockButton">锁定</button>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero youth-hero" aria-labelledby="hero-title">
+          <div class="hero-copy">
+            <p class="eyebrow">China youth social profile</p>
+            <h1 id="hero-title"><span>中国青年</span><span>社会画像</span><span>测试</span></h1>
+            <p class="hero-lead">从升学、求职、家庭、市场、公共规则和技术转型中的真实权衡，理解你的社会价值与生活策略。</p>
+            <div class="privacy-line"><span aria-hidden="true">●</span> 160 个统一题位 · 三阶段等价场景 · 本地计算</div>
+          </div>
+          <figure class="youth-collage">
+            <img src="assets/youth-life-collage.webp" alt="图书馆、校园、通勤、求职、家庭联系和城市生活组成的青年生活拼贴" />
+          </figure>
+        </section>
+
+        <section class="panel start-panel" id="start" aria-labelledby="stage-title">
+          <div class="panel-head">
+            <div><p class="eyebrow">life stage</p><h2 id="stage-title">先选择你现在更接近的阶段</h2></div>
+            <span class="local-badge">不上传答案</span>
+          </div>
+          <div class="stage-grid" id="stageGrid"></div>
+          <div class="mode-block is-hidden" id="modeBlock">
+            <div class="section-heading compact"><p class="eyebrow">test depth</p><h2>选择测试深度</h2></div>
+            <div class="mode-actions" id="modeActions"></div>
+            <p class="start-note">1 表示非常不同意或强烈偏向左侧，9 表示非常同意或强烈偏向右侧，5 表示中立或难判断。结果是描述性指数，不是诊断或评价。</p>
+          </div>
+          <div class="resume-banner is-hidden" id="resumeBanner">
+            <div><strong>检测到当前会话中的未完成进度</strong><span id="resumeText"></span></div>
+            <div class="resume-actions"><button class="primary-button" id="resumeButton" type="button">继续答题</button><button class="ghost-button" id="discardProgress" type="button">清除进度</button></div>
+          </div>
+        </section>
+
+        <section class="panel quiz-panel is-hidden" id="quizPanel" aria-live="polite">
+          <div class="panel-head">
+            <div><p class="eyebrow" id="modeLabel">mode</p><h2 id="questionCounter">第 1 题 / 80</h2></div>
+            <button class="ghost-button" type="button" id="restartTop">重新选择</button>
+          </div>
+          <div class="progress-shell" aria-hidden="true"><div class="progress-bar" id="progressBar"></div></div>
+          <article class="question-card youth-question">
+            <div class="question-meta"><span class="scenario-pill" id="stagePill">生活情境</span><span id="importantStatus">按第一反应回答</span></div>
+            <h3 id="questionText">题目加载中</h3>
+            <div class="choice-anchors"><span id="lowAnchor">非常不同意</span><span id="midAnchor">中立 / 难判断</span><span id="highAnchor">非常同意</span></div>
+            <div class="scale-row" id="scaleRow"></div>
+            <button class="important-toggle" type="button" id="importantToggle" aria-pressed="false">标记为对我很重要</button>
+          </article>
+          <div class="quiz-actions">
+            <button class="ghost-button" type="button" id="prevQuestion">上一题</button>
+            <span id="answeredCount">0 / 80</span>
+            <button class="ghost-button" type="button" id="skipQuestion">跳过</button>
+          </div>
+        </section>
+
+        <section class="panel result-panel is-hidden" id="resultPanel" aria-live="polite">
+          <div class="result-hero youth-result-hero">
+            <p class="eyebrow">your social profile</p>
+            <div class="result-stage" id="resultStage">大学阶段 · 标准版</div>
+            <h2 id="resultTitle">混合型青年观察者</h2>
+            <p id="resultSummary" class="result-summary"></p>
+            <p id="confidenceText" class="confidence-text"></p>
+            <div class="tag-list" id="secondaryTags"></div>
+            <div class="result-actions">
+              <button class="ghost-button" type="button" id="copyResult">复制摘要</button>
+              <button class="ghost-button" type="button" id="exportPng">导出 PNG</button>
+              <button class="ghost-button" type="button" id="exportJson">导出 JSON</button>
+              <button class="ghost-button" type="button" id="restartBottom">重新测试</button>
+            </div>
+          </div>
+
+          <div class="result-layout youth-result-layout">
+            <article class="result-card chart-card">
+              <h3>代表性构念轮廓</h3>
+              <canvas id="radarCanvas" width="520" height="520"></canvas>
+              <div class="axis-legend" id="radarLegend"></div>
+            </article>
+            <article class="result-card map-card">
+              <h3>成对价值地图</h3>
+              <div class="coordinate-tabs" id="pairedTabs"></div>
+              <div class="coordinate-map paired-map" id="pairedMap"><i class="x-line"></i><i class="y-line"></i><span class="user-point" id="userPoint">你</span></div>
+              <div class="map-labels"><span id="mapXAxis"></span><span id="mapYAxis"></span></div>
+              <div class="pair-legend" id="pairLegend"></div>
+            </article>
+          </div>
+
+          <section class="result-section">
+            <div class="section-heading compact"><p class="eyebrow">stage reading</p><h2>阶段化画像解读</h2></div>
+            <div class="interpretation-grid" id="interpretationGrid"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact"><p class="eyebrow">paired tensions</p><h2>关键组合与条件敏感性</h2></div>
+            <div class="tension-grid" id="tensionGrid"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact"><p class="eyebrow">28 descriptive indices</p><h2>六大领域 · 28 个描述性指数</h2></div>
+            <div class="domain-tabs" id="domainTabs"></div>
+            <div class="dimension-list" id="dimensionList"></div>
+          </section>
+
+          <section class="result-section">
+            <div class="section-heading compact"><p class="eyebrow">response pattern</p><h2>题目热力图</h2></div>
+            <div class="heatmap" id="heatmap"></div>
+          </section>
+
+          <section class="result-section insight-columns">
+            <article><div class="section-heading compact"><p class="eyebrow">strong signals</p><h2>最有影响的回答</h2></div><ul class="insight-list" id="strongestList"></ul></article>
+            <article><div class="section-heading compact"><p class="eyebrow">important to you</p><h2>你标记的重要题</h2></div><ul class="insight-list" id="importantList"></ul></article>
+          </section>
+
+          <section class="result-section stability-panel">
+            <div class="section-heading compact"><p class="eyebrow">stability note</p><h2>结果稳定度提示</h2></div>
+            <div class="stability-grid" id="stabilityGrid"></div>
+            <p class="method-note">稳定度只反映本次题目覆盖、跳过比例、配对方向和回答分散情况，不是经过样本验证的心理测量信度。</p>
+          </section>
+
+          <section class="result-section source-section">
+            <div class="section-heading compact"><p class="eyebrow">references</p><h2>资料与方法入口</h2></div>
+            <div class="source-list" id="sourceList"></div>
+          </section>
+        </section>
+      </main>
+
+      <footer class="footer"><p>描述个人的价值组合，不评价谁更正确。</p><a href="#top">回到顶部</a></footer>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
