@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Claim2Value | 北大金融AI智能体大赛项目展示</title>
+    <meta
+      name="description"
+      content="Claim2Value: 面向硬科技企业的技术声明事实核验与动态财务影响推演智能体系统。"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg-main: #080c14;
+        --bg-card: #0f172a;
+        --bg-card-hover: #172554;
+        --border-subtle: #1e293b;
+        --border-accent: #38bdf8;
+        --text-primary: #f8fafc;
+        --text-secondary: #94a3b8;
+        --text-muted: #64748b;
+        --accent-blue: #38bdf8;
+        --accent-emerald: #10b981;
+        --accent-amber: #f59e0b;
+        --accent-purple: #a855f7;
+        --accent-rose: #f43f5e;
+        --radius-sm: 8px;
+        --radius-md: 14px;
+        --radius-lg: 20px;
+        --font-sans: 'Plus Jakarta Sans', 'Noto Sans SC', sans-serif;
+        --font-mono: 'Fira Code', monospace;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-main);
+        color: var(--text-primary);
+        font-family: var(--font-sans);
+        line-height: 1.6;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background-image: 
+          radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+          radial-gradient(circle at 85% 65%, rgba(168, 85, 247, 0.07) 0%, transparent 45%),
+          linear-gradient(rgba(30, 41, 59, 0.25) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(30, 41, 59, 0.25) 1px, transparent 1px);
+        background-size: 100% 100%, 100% 100%, 36px 36px, 36px 36px;
+      }
+
+      /* Global Header Navigation Pill */
+      .portal-nav {
+        position: sticky;
+        top: 16px;
+        z-index: 100;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background: rgba(15, 23, 42, 0.85);
+        backdrop-filter: blur(16px);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: 999px;
+        box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+      }
+
+      .portal-brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        color: var(--text-primary);
+        font-weight: 700;
+        font-size: 0.95rem;
+      }
+
+      .portal-brand-badge {
+        background: linear-gradient(135deg, #0284c7, #38bdf8);
+        color: #fff;
+        padding: 3px 8px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-family: var(--font-mono);
+      }
+
+      .portal-links {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .portal-link {
+        color: var(--text-secondary);
+        text-decoration: none;
+        font-size: 0.85rem;
+        padding: 6px 14px;
+        border-radius: 999px;
+        transition: all 0.2s ease;
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+      }
+
+      .portal-link:hover {
+        color: #fff;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .portal-link.active {
+        color: var(--accent-blue);
+        background: rgba(56, 189, 248, 0.12);
+        font-weight: 600;
+      }
+
+      .container {
+        max-width: 1160px;
+        margin: 0 auto;
+        padding: 40px 20px 80px;
+      }
+
+      /* Hero Banner */
+      .hero {
+        padding: 40px 0 30px;
+        text-align: left;
+      }
+
+      .hero-tagline {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: var(--font-mono);
+        font-size: 0.82rem;
+        color: var(--accent-blue);
+        background: rgba(56, 189, 248, 0.1);
+        padding: 6px 14px;
+        border-radius: 999px;
+        border: 1px solid rgba(56, 189, 248, 0.3);
+        margin-bottom: 20px;
+      }
+
+      .hero h1 {
+        font-size: clamp(2.2rem, 5vw, 3.5rem);
+        font-weight: 800;
+        letter-spacing: -0.03em;
+        line-height: 1.15;
+        margin-bottom: 16px;
+        background: linear-gradient(135deg, #ffffff 30%, #93c5fd 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+      .hero-desc {
+        font-size: 1.15rem;
+        color: var(--text-secondary);
+        max-width: 780px;
+        line-height: 1.7;
+        margin-bottom: 28px;
+      }
+
+      .hero-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        margin-bottom: 32px;
+      }
+
+      .meta-pill {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        font-size: 0.82rem;
+        padding: 6px 14px;
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: 8px;
+        color: var(--text-secondary);
+      }
+
+      .meta-pill strong {
+        color: var(--text-primary);
+      }
+
+      .action-btns {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
+
+      .btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 11px 22px;
+        border-radius: 10px;
+        font-size: 0.95rem;
+        font-weight: 600;
+        text-decoration: none;
+        cursor: pointer;
+        transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #0284c7, #0ea5e9);
+        color: #fff;
+        box-shadow: 0 4px 18px rgba(14, 165, 233, 0.35);
+        border: none;
+      }
+
+      .btn-primary:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 6px 24px rgba(14, 165, 233, 0.5);
+      }
+
+      .btn-secondary {
+        background: var(--bg-card);
+        color: var(--text-primary);
+        border: 1px solid var(--border-subtle);
+      }
+
+      .btn-secondary:hover {
+        background: rgba(255, 255, 255, 0.06);
+        border-color: var(--accent-blue);
+      }
+
+      /* Architecture Grid */
+      .section-title {
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin: 50px 0 20px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+      }
+
+      .section-title::before {
+        content: '';
+        display: inline-block;
+        width: 4px;
+        height: 24px;
+        background: var(--accent-blue);
+        border-radius: 2px;
+      }
+
+      .pipeline-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 18px;
+        margin-top: 20px;
+      }
+
+      .pipe-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 24px;
+        position: relative;
+        transition: all 0.3s ease;
+      }
+
+      .pipe-card:hover {
+        border-color: rgba(56, 189, 248, 0.4);
+        transform: translateY(-4px);
+        box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4);
+      }
+
+      .pipe-step {
+        font-family: var(--font-mono);
+        font-size: 0.75rem;
+        font-weight: 700;
+        color: var(--accent-blue);
+        text-transform: uppercase;
+        margin-bottom: 8px;
+        letter-spacing: 0.05em;
+      }
+
+      .pipe-card h3 {
+        font-size: 1.15rem;
+        margin-bottom: 10px;
+        color: var(--text-primary);
+      }
+
+      .pipe-card p {
+        font-size: 0.88rem;
+        color: var(--text-secondary);
+        line-height: 1.6;
+      }
+
+      /* Interactive Workbench (绿的谐波案例) */
+      .workbench {
+        background: var(--bg-card);
+        border: 1px solid rgba(56, 189, 248, 0.25);
+        border-radius: var(--radius-lg);
+        padding: 32px;
+        margin-top: 24px;
+        box-shadow: 0 16px 40px rgba(0, 0, 0, 0.5);
+      }
+
+      .wb-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 16px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid var(--border-subtle);
+      }
+
+      .wb-badge {
+        background: rgba(16, 185, 129, 0.15);
+        color: var(--accent-emerald);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        padding: 4px 10px;
+        border-radius: 6px;
+        font-size: 0.75rem;
+        font-family: var(--font-mono);
+        font-weight: 600;
+      }
+
+      .claim-box {
+        background: rgba(2, 6, 23, 0.7);
+        border: 1px solid var(--border-subtle);
+        border-left: 4px solid var(--accent-blue);
+        border-radius: var(--radius-sm);
+        padding: 16px 20px;
+        margin: 24px 0;
+      }
+
+      .claim-box .label {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        text-transform: uppercase;
+        font-family: var(--font-mono);
+        margin-bottom: 4px;
+      }
+
+      .claim-box .text {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #f8fafc;
+      }
+
+      /* Evidence & Verdict strip */
+      .evidence-strip {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 16px;
+        margin-bottom: 28px;
+      }
+
+      .ev-card {
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-sm);
+        padding: 16px;
+      }
+
+      .ev-card-label {
+        font-size: 0.78rem;
+        color: var(--text-muted);
+        margin-bottom: 6px;
+      }
+
+      .ev-card-val {
+        font-size: 0.95rem;
+        font-weight: 600;
+      }
+
+      /* Scenario Controller */
+      .scenario-control-bar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+        background: rgba(2, 6, 23, 0.8);
+        border: 1px solid var(--border-subtle);
+        padding: 16px 20px;
+        border-radius: var(--radius-md);
+        margin-bottom: 28px;
+      }
+
+      .scenario-tabs {
+        display: flex;
+        gap: 8px;
+      }
+
+      .scenario-btn {
+        background: transparent;
+        border: 1px solid var(--border-subtle);
+        color: var(--text-secondary);
+        font-family: var(--font-sans);
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: all 0.2s ease;
+      }
+
+      .scenario-btn:hover {
+        background: rgba(255, 255, 255, 0.06);
+        color: #fff;
+      }
+
+      .scenario-btn.active {
+        background: var(--accent-blue);
+        color: #080c14;
+        border-color: var(--accent-blue);
+        box-shadow: 0 0 14px rgba(56, 189, 248, 0.4);
+      }
+
+      /* Financial Indicators Grid */
+      .indicators-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        margin-bottom: 28px;
+      }
+
+      .ind-card {
+        background: rgba(255, 255, 255, 0.03);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 20px;
+        text-align: left;
+        transition: all 0.25s ease;
+      }
+
+      .ind-card:hover {
+        border-color: rgba(56, 189, 248, 0.3);
+      }
+
+      .ind-label {
+        font-size: 0.8rem;
+        color: var(--text-secondary);
+        margin-bottom: 6px;
+      }
+
+      .ind-value {
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-family: var(--font-mono);
+        color: #fff;
+      }
+
+      .ind-sub {
+        font-size: 0.75rem;
+        color: var(--accent-emerald);
+        margin-top: 4px;
+      }
+
+      /* Chart Section */
+      .chart-container {
+        background: rgba(2, 6, 23, 0.6);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 24px;
+        margin-top: 20px;
+      }
+
+      .chart-title {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text-primary);
+        margin-bottom: 16px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .bar-group {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+        margin-top: 20px;
+        text-align: center;
+      }
+
+      .bar-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .bar-track {
+        width: 100%;
+        max-width: 68px;
+        height: 180px;
+        background: rgba(255, 255, 255, 0.04);
+        border-radius: 8px 8px 0 0;
+        display: flex;
+        align-items: flex-end;
+        position: relative;
+        overflow: hidden;
+      }
+
+      .bar-fill {
+        width: 100%;
+        background: linear-gradient(180deg, #38bdf8 0%, #0284c7 100%);
+        border-radius: 8px 8px 0 0;
+        transition: height 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      .bar-val {
+        font-family: var(--font-mono);
+        font-size: 0.9rem;
+        font-weight: 700;
+        color: #fff;
+      }
+
+      .bar-year {
+        font-size: 0.85rem;
+        color: var(--text-muted);
+        font-weight: 600;
+      }
+
+      /* Case Benchmarks List */
+      .case-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        gap: 18px;
+        margin-top: 20px;
+      }
+
+      .case-card {
+        background: var(--bg-card);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 24px;
+        transition: all 0.25s ease;
+      }
+
+      .case-card:hover {
+        border-color: rgba(56, 189, 248, 0.35);
+        transform: translateY(-3px);
+      }
+
+      .case-head {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 12px;
+      }
+
+      .case-code {
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        color: var(--text-muted);
+      }
+
+      .case-card h4 {
+        font-size: 1.1rem;
+        color: #fff;
+        margin-bottom: 8px;
+      }
+
+      .case-card p {
+        font-size: 0.88rem;
+        color: var(--text-secondary);
+        line-height: 1.6;
+        margin-bottom: 14px;
+      }
+
+      .case-badge {
+        display: inline-block;
+        font-size: 0.75rem;
+        padding: 3px 8px;
+        border-radius: 4px;
+        background: rgba(245, 158, 11, 0.15);
+        color: var(--accent-amber);
+        border: 1px solid rgba(245, 158, 11, 0.3);
+      }
+
+      /* Team & Documentation */
+      .team-box {
+        background: rgba(15, 23, 42, 0.6);
+        border: 1px solid var(--border-subtle);
+        border-radius: var(--radius-md);
+        padding: 28px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 20px;
+      }
+
+      .team-info h3 {
+        font-size: 1.15rem;
+        margin-bottom: 6px;
+      }
+
+      .team-info p {
+        color: var(--text-secondary);
+        font-size: 0.9rem;
+      }
+
+      footer {
+        text-align: center;
+        padding: 40px 20px;
+        color: var(--text-muted);
+        font-size: 0.85rem;
+        border-top: 1px solid var(--border-subtle);
+        margin-top: 60px;
+      }
+
+      @media (max-width: 768px) {
+        .portal-nav {
+          border-radius: var(--radius-md);
+          flex-direction: column;
+          gap: 10px;
+        }
+        .portal-links {
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .workbench {
+          padding: 20px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Top Floating Navigation -->
+    <header class="portal-nav">
+      <a href="/private-homepage/" class="portal-brand">
+        <span class="portal-brand-badge">PROJ</span>
+        <span>Claim2Value · AI Agent</span>
+      </a>
+      <nav class="portal-links">
+        <a href="/private-homepage/" class="portal-link">⇦ 返回放课后主页</a>
+        <a href="https://aeiou0123.github.io/" class="portal-link">🏛️ 金禾学术主站</a>
+        <a href="https://github.com/aeiou0123/pku-financial-ai-agent" target="_blank" rel="noreferrer" class="portal-link active">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+          GitHub 源码
+        </a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero-tagline">
+          <span>🏆 北大金融AI智能体大赛 2026 参赛项目</span>
+          <span>·</span>
+          <span>Claim2Value Pipeline</span>
+        </div>
+        <h1>从技术声明到价值映射：<br />硬科技企业自动化核验与估值智能体</h1>
+        <p class="hero-desc">
+          基于多源证据链（券商研报、产业数据库、发明专利）与确定性规则引擎 StateVerifier，突破传统大模型在金融分析中的幻觉缺陷，对高端制造业非结构化技术声明进行自动核验，并动态重构企业 BOM 成本与 DCF 估值影响。
+        </p>
+
+        <div class="hero-meta">
+          <div class="meta-pill"><strong>开发团队：</strong> aeiou0123 (Lead) / Sun Shengyao / Feisheng Luo</div>
+          <div class="meta-pill"><strong>技术栈：</strong> Python 3.11+ / Streamlit / LLM / StateVerifier</div>
+          <div class="meta-pill"><strong>基准用例：</strong> 绿的谐波 / 步科股份 / 双环传动</div>
+          <div class="meta-pill"><strong>复现特性：</strong> 本地免 API Key 规则回测 + 动态 DCF 模型</div>
+        </div>
+
+        <div class="action-btns">
+          <a href="#demo" class="btn btn-primary">
+            <span>在线把玩案例数据</span>
+            <span>↓</span>
+          </a>
+          <a href="https://github.com/aeiou0123/pku-financial-ai-agent" target="_blank" rel="noreferrer" class="btn btn-secondary">
+            <span>查看完整工程代码</span>
+            <span>↗</span>
+          </a>
+        </div>
+      </section>
+
+      <!-- System Architecture Pipeline -->
+      <h2 class="section-title">智能体核心系统流水线</h2>
+      <div class="pipeline-grid">
+        <article class="pipe-card">
+          <div class="pipe-step">Step 01</div>
+          <h3>技术声明抽取 (Claim Extraction)</h3>
+          <p>从公告、调研纪要与研报中抽取结构化技术参数声明，建立包含产品线、技术指标、时间跨度与对标实体的 Claim 库。</p>
+        </article>
+
+        <article class="pipe-card">
+          <div class="pipe-step">Step 02</div>
+          <h3>多源证据账本 (Evidence Ledger)</h3>
+          <p>检索券商研报、专利数据库与产业链供应链数据，按信息层级（官方信披 > 行业研报 > 媒体自述）赋予证据置信度评分（0~1.0）。</p>
+        </article>
+
+        <article class="pipe-card">
+          <div class="pipe-step">Step 03</div>
+          <h3>确定性规则核验 (StateVerifier)</h3>
+          <p>拒绝大模型“无脑放行”。采用逻辑一致性校验，针对口径不一、时限模糊、统计缺失等情形返回 abstained / partially_supported，根除幻觉。</p>
+        </article>
+
+        <article class="pipe-card">
+          <div class="pipe-step">Step 04</div>
+          <h3>动态财务映射 (Financial Modeling)</h3>
+          <p>将通过核验的技术突破传导至 BOM 物料成本、单件 ASP、产能爬坡与市占率，输出基准、乐观与悲观三种动态估值情景。</p>
+        </article>
+      </div>
+
+      <!-- Interactive Benchmark Workbench -->
+      <h2 class="section-title" id="demo">核心基准案例：绿的谐波 (688017) 事实核验与财务推演</h2>
+      <div class="workbench">
+        <div class="wb-header">
+          <div>
+            <h3 style="font-size: 1.3rem; margin-bottom: 4px;">绿的谐波 · 机器人关节模组轻量化声明</h3>
+            <p style="font-size: 0.88rem; color: var(--text-muted); font-family: var(--font-mono);">Case ID: GH_001_LOCAL · 工业机器人核心零部件</p>
+          </div>
+          <span class="wb-badge">● 本地完全可复现原型</span>
+        </div>
+
+        <div class="claim-box">
+          <div class="label">待核验技术声明 (Claim)</div>
+          <div class="text">“绿的谐波新一代谐波减速器关节模组减重 30% 以上，推动单机力矩密度与响应速度显著提升。”</div>
+        </div>
+
+        <div class="evidence-strip">
+          <div class="ev-card">
+            <div class="ev-card-label">证据来源 (Evidence Source)</div>
+            <div class="ev-card-val">华泰证券深度行业研报 (PDF)</div>
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">置信评分: 0.75 / Level: analyst_report</p>
+          </div>
+          <div class="ev-card">
+            <div class="ev-card-label">核验裁决 (Verification Verdict)</div>
+            <div class="ev-card-val" style="color: var(--accent-amber);">Partially Supported (部分支持)</div>
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">规则拦截: 同口径对比基准缺失，予以审慎性标注</p>
+          </div>
+          <div class="ev-card">
+            <div class="ev-card-label">财务传导路径 (Impact Route)</div>
+            <div class="ev-card-val" style="color: var(--accent-emerald);">BOM 成本优化 → ASP 提升 → 产能放量</div>
+            <p style="font-size: 0.78rem; color: var(--text-muted); margin-top: 4px;">驱动人形机器人与工业机械臂关节渗透</p>
+          </div>
+        </div>
+
+        <!-- Scenario Switcher -->
+        <div class="scenario-control-bar">
+          <div>
+            <strong style="font-size: 0.95rem;">财务推演情景切换：</strong>
+            <span style="font-size: 0.85rem; color: var(--text-secondary); margin-left: 6px;">基于传导模型重构 2025-2027 年核心指标</span>
+          </div>
+          <div class="scenario-tabs">
+            <button class="scenario-btn active" onclick="switchScenario('base')">基准情景 (Base)</button>
+            <button class="scenario-btn" onclick="switchScenario('upside')">乐观情景 (Upside)</button>
+            <button class="scenario-btn" onclick="switchScenario('downside')">保守情景 (Downside)</button>
+          </div>
+        </div>
+
+        <!-- Dynamic Indicator Cards -->
+        <div class="indicators-grid">
+          <div class="ind-card">
+            <div class="ind-label">2027E 预测营业总收入</div>
+            <div class="ind-value" id="valRevenue">19.75 亿</div>
+            <div class="ind-sub" id="subRevenue">减速器+模组协同放量</div>
+          </div>
+          <div class="ind-card">
+            <div class="ind-label">综合预测毛利率 (Gross Margin)</div>
+            <div class="ind-value" id="valMargin">47.1%</div>
+            <div class="ind-sub" id="subMargin">工艺成熟带来良率提升</div>
+          </div>
+          <div class="ind-card">
+            <div class="ind-label">2027E 预测 EBITDA</div>
+            <div class="ind-value" id="valEbitda">5.16 亿</div>
+            <div class="ind-sub" id="subEbitda">EBITDA Margin 26.1%</div>
+          </div>
+          <div class="ind-card">
+            <div class="ind-label">谐波减速器年出货量</div>
+            <div class="ind-value" id="valUnits">130 万台</div>
+            <div class="ind-sub" id="subUnits">关节模组另计 20 万台</div>
+          </div>
+        </div>
+
+        <!-- Visual Bar Comparison -->
+        <div class="chart-container">
+          <div class="chart-title">
+            <span>2025E - 2027E 营业收入演进趋势 (单位：亿元 CNY)</span>
+            <span style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--accent-blue);" id="scenarioLabel">Current: Base Scenario</span>
+          </div>
+          <div class="bar-group">
+            <div class="bar-col">
+              <div class="bar-val" id="barVal2025">12.50</div>
+              <div class="bar-track">
+                <div class="bar-fill" id="bar2025" style="height: 52%;"></div>
+              </div>
+              <div class="bar-year">2025E</div>
+            </div>
+            <div class="bar-col">
+              <div class="bar-val" id="barVal2026">15.80</div>
+              <div class="bar-track">
+                <div class="bar-fill" id="bar2026" style="height: 68%;"></div>
+              </div>
+              <div class="bar-year">2026E</div>
+            </div>
+            <div class="bar-col">
+              <div class="bar-val" id="barVal2027">19.75</div>
+              <div class="bar-track">
+                <div class="bar-fill" id="bar2027" style="height: 85%;"></div>
+              </div>
+              <div class="bar-year">2027E</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Cases -->
+      <h2 class="section-title">其余标的验证扩展</h2>
+      <div class="case-list">
+        <article class="case-card">
+          <div class="case-head">
+            <span class="case-badge">电机与驱动</span>
+            <span class="case-code">688160.SH</span>
+          </div>
+          <h4>步科股份 · 无框力矩电机</h4>
+          <p>核心声明：第四代 FMK 系列电机功率密度提升 20%，2025 年出货突破 8.3 万台（同比+247%）。</p>
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">
+            Status: 产能与需求端双重声明校验中
+          </div>
+        </article>
+
+        <article class="case-card">
+          <div class="case-head">
+            <span class="case-badge">重载精密减速器</span>
+            <span class="case-code">002472.SZ</span>
+          </div>
+          <h4>双环传动 · RV 减速器与大客户供应链</h4>
+          <p>核心声明：RV 减速器扭矩密度达 180 N·m/kg，获特斯拉人形机器人 4000 套验证订单。</p>
+          <div style="font-size: 0.8rem; color: var(--text-muted); font-family: var(--font-mono);">
+            Status: 客户订单类证据链核验中
+          </div>
+        </article>
+      </div>
+
+      <!-- Team Box -->
+      <div class="team-box">
+        <div class="team-info">
+          <h3>项目已开源至 GitHub</h3>
+          <p>包含本地单用例执行脚本、测试用例回归套件与 Streamlit 交互前端。</p>
+        </div>
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="https://github.com/aeiou0123/pku-financial-ai-agent" target="_blank" rel="noreferrer" class="btn btn-primary">
+            浏览仓库与文档
+          </a>
+          <a href="/private-homepage/" class="btn btn-secondary">
+            返回放课后主页
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 aeiou0123 · Claim2Value 金融AI智能体项目 · 西安交通大学金禾经济研究中心</p>
+    </footer>
+
+    <script>
+      const scenarioData = {
+        base: {
+          label: 'Current: Base Scenario (基准情景)',
+          revenue: '19.75 亿',
+          subRev: '谐波130万台 + 模组20万台',
+          margin: '47.1%',
+          subMargin: '工艺成熟稳定良率',
+          ebitda: '5.16 亿',
+          subEbitda: 'EBITDA Margin 26.1%',
+          units: '130 万台',
+          subUnits: '关节模组 20 万台',
+          b2025: { val: '12.50', height: '52%' },
+          b2026: { val: '15.80', height: '68%' },
+          b2027: { val: '19.75', height: '85%' }
+        },
+        upside: {
+          label: 'Current: Upside Scenario (乐观渗透情景)',
+          revenue: '23.70 亿',
+          subRev: '谐波156万台 + 模组26万台 (+20%)',
+          margin: '49.5%',
+          subMargin: '规模效应毛利率再升 2.4pct',
+          ebitda: '6.82 亿',
+          subEbitda: 'EBITDA Margin 28.8%',
+          units: '156 万台',
+          subUnits: '模组出货上修至 26 万台',
+          b2025: { val: '14.20', height: '60%' },
+          b2026: { val: '18.60', height: '78%' },
+          b2027: { val: '23.70', height: '100%' }
+        },
+        downside: {
+          label: 'Current: Downside Scenario (保守防守情景)',
+          revenue: '15.80 亿',
+          subRev: '行业扩产价格竞争承压 (-20%)',
+          margin: '43.8%',
+          subMargin: 'ASP承压毛利率小幅回调',
+          ebitda: '3.65 亿',
+          subEbitda: 'EBITDA Margin 23.1%',
+          units: '104 万台',
+          subUnits: '模组出货下修至 14 万台',
+          b2025: { val: '10.80', height: '44%' },
+          b2026: { val: '13.20', height: '56%' },
+          b2027: { val: '15.80', height: '66%' }
+        }
+      };
+
+      function switchScenario(key) {
+        const data = scenarioData[key];
+        if (!data) return;
+
+        // update buttons
+        document.querySelectorAll('.scenario-btn').forEach(btn => btn.classList.remove('active'));
+        event.target.classList.add('active');
+
+        // update values with subtle fade
+        document.getElementById('scenarioLabel').textContent = data.label;
+        document.getElementById('valRevenue').textContent = data.revenue;
+        document.getElementById('subRevenue').textContent = data.subRev;
+        document.getElementById('valMargin').textContent = data.margin;
+        document.getElementById('subMargin').textContent = data.subMargin;
+        document.getElementById('valEbitda').textContent = data.ebitda;
+        document.getElementById('subEbitda').textContent = data.subEbitda;
+        document.getElementById('valUnits').textContent = data.units;
+        document.getElementById('subUnits').textContent = data.subUnits;
+
+        // update bar chart
+        document.getElementById('barVal2025').textContent = data.b2025.val;
+        document.getElementById('bar2025').style.height = data.b2025.height;
+        document.getElementById('barVal2026').textContent = data.b2026.val;
+        document.getElementById('bar2026').style.height = data.b2026.height;
+        document.getElementById('barVal2027').textContent = data.b2027.val;
+        document.getElementById('bar2027').style.height = data.b2027.height;
+      }
+    </script>
+  </body>
+</html>
