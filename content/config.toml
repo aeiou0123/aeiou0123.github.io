@@ -1,0 +1,92 @@
+[site]
+title = "Kyle Wei"
+description = "Undergraduate Researcher in Quantitative Economics & Finance at Xi'an Jiaotong University."
+favicon = "/favicon.svg"
+last_updated = "September 2026"
+
+[author]
+name = "Kyle Wei"
+title = "Undergraduate in Quantitative Economics & Finance"
+institution = "Jinhe Center for Economic Research, Xi'an Jiaotong University"
+avatar = "/1.jpg"
+
+[social]
+email = "aeioudeaustria0123@163.com"
+location = "Xi'an, China"
+location_url = "https://maps.google.com/?q=Xi'an+Jiaotong+University"
+location_details = [
+  "Jinhe Center for Economic Research,",
+  "Xi'an Jiaotong University, Xi'an, Shaanxi, China"
+]
+github = "https://github.com/aeiou0123"
+
+[features]
+enable_likes = true
+enable_one_page_mode = false
+
+[i18n]
+enabled = true
+locales = ["zh", "en"]
+default_locale = "en"
+mode = "auto"
+fixed_locale = "en"
+persist = true
+switcher = true
+
+[i18n.labels]
+zh = "中文"
+en = "English"
+
+[[navigation]]
+title = "About"
+type = "page"
+target = "about"
+href = "/"
+
+[[navigation]]
+title = "Research"
+type = "page"
+target = "research"
+href = "/research"
+
+[[navigation]]
+title = "Projects"
+type = "page"
+target = "projects"
+href = "/projects"
+
+[[navigation]]
+title = "Notes"
+type = "page"
+target = "notes"
+href = "/notes"
+
+[[navigation]]
+title = "Publications"
+type = "page"
+target = "publications"
+href = "/publications"
+
+[[navigation]]
+title = "CV"
+type = "page"
+target = "cv"
+href = "/cv"
+
+[[navigation]]
+title = "Awards"
+type = "page"
+target = "awards"
+href = "/awards"
+
+[[navigation]]
+title = "Teaching"
+type = "page"
+target = "teaching"
+href = "/teaching"
+
+[[navigation]]
+title = "Services"
+type = "page"
+target = "services"
+href = "/services"

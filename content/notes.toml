@@ -1,0 +1,105 @@
+type = "card"
+title = "Course Lecture Notes & Resources"
+description = "Curated course notes, problem set solutions, and mathematical economics summaries from AI4Learning Econ."
+
+[[items]]
+title = "Intermediate Microeconomics"
+subtitle = "XJTU Jinhe Center (Grade: 95)"
+date = "Spring 2026"
+tags = ["Microeconomics", "Consumer Theory", "Producer Theory", "General Equilibrium"]
+content = """
+* Comprehensive lecture notes and homework solutions covering Utility Maximization, Cost Minimization, Monopoly/Oligopoly Pricing, and General Equilibrium.
+* Download Lecture Notes & Problem Sets:
+  * [Homework 1 (PDF)](/files/Intermediate%20Microeconomics/HW1.pdf)
+  * [Homework 2 (PDF)](/files/Intermediate%20Microeconomics/homework2.pdf)
+  * [Homework 2 Solutions (PDF)](/files/Intermediate%20Microeconomics/hw2.pdf)
+  * [Homework 4 Solutions (PDF)](/files/Intermediate%20Microeconomics/中微第四次作业_答案详解版.pdf)
+"""
+
+[[items]]
+title = "Intermediate Macroeconomics"
+subtitle = "XJTU Jinhe Center (Grade: 100)"
+date = "Spring 2026"
+tags = ["Macroeconomics", "IS-LM", "Solow Growth", "DSGE Foundations"]
+content = """
+* Classical, Keynesian, and Modern growth models with rigorous mathematical derivations and problem sets.
+* Download Lecture Notes & Problem Sets:
+  * [Classical & Keynesian Frameworks (PDF)](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
+  * [Homework 1: Ch03-05 (PDF)](/files/Intermediate%20Macroeconomics/homework1.pdf)
+  * [Homework 2: Ch06-09 (PDF)](/files/Intermediate%20Macroeconomics/homework2macro.pdf)
+  * [Homework 2 Solutions (PDF)](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
+  * [Homework 3: Ch10-12 (PDF)](/files/Intermediate%20Macroeconomics/homework3macro.pdf)
+"""
+
+[[items]]
+title = "Applied Statistics & Econometrics"
+subtitle = "XJTU School of Mathematics and Statistics (Grade: 93)"
+date = "Fall 2025"
+tags = ["Statistics", "Sampling Distributions", "Hypothesis Testing", "Estimation"]
+content = """
+* Rigorous statistical analysis notes spanning graphical descriptive techniques, sampling distributions, and parameter estimation.
+* Download Lecture Notes:
+  * [Course Introduction (PDF)](/files/Introduction_Applied_Statistics.pdf)
+  * [Chapter I: Graphical Descriptive Techniques (PDF)](/files/Graphical_descriptive_techniques_notes.pdf)
+  * [Chapter II: Summary Statistics (PDF)](/files/Summary_statistics_notes.pdf)
+  * [Chapter III: Data Collection (PDF)](/files/Data_collection_notes.pdf)
+  * [Chapter IV: Sampling Distributions (PDF)](/files/Sampling_distributions_notes.pdf)
+"""
+
+[[items]]
+title = "Financial Markets & Institutions"
+subtitle = "XJTU Jinhe Center (Grade: 92)"
+date = "Spring 2026"
+tags = ["Finance", "Money Markets", "Bond Pricing", "Federal Reserve"]
+content = """
+* Analysis of modern financial architectures, monetary policy transmission, subprime mortgage crisis, and exchange rate pegging mechanisms.
+* Download Lecture Notes:
+  * [Subprime Crisis & Policy Responses (PDF)](/files/Financial%20Institution/financial_markets_notes.pdf)
+  * [Financial Markets, Interest Rates & Fed (PDF)](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
+  * [Money, Bond, Mortgage & FX Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
+  * [Equity & Derivatives Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
+"""
+
+[[items]]
+title = "Principles of Finance & Corporate Finance"
+subtitle = "XJTU Jinhe Center (Grade: 94)"
+date = "Spring 2026"
+tags = ["Corporate Finance", "NPV", "Capital Budgeting", "Asset Pricing"]
+content = """
+* Corporate finance foundations, discounted cash flow (DCF), NPV decisions, and capital budgeting.
+* Download Lecture Notes:
+  * [Comprehensive Review Notes (PDF)](/files/Principles%20of%20Finance/finance_review_notes.pdf)
+  * [Ch01: Introduction & Q&A Solutions (PDF)](/files/Principles%20of%20Finance/公司理财_CH01_公司理财导论_练习答题与详细题解.pdf)
+  * [Ch04: Capital Budgeting Methods & Solutions (PDF)](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
+  * [Ch05: Financial Markets & NPV Solutions (PDF)](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
+"""
+
+[[items]]
+title = "Accounting Principles"
+subtitle = "XJTU Jinhe Center (Grade: 96)"
+date = "Fall 2025"
+tags = ["Accounting", "Financial Statements", "Accrual Accounting", "Income Statement"]
+content = """
+* Systemic walkthrough of accounting information systems, accrual concepts, and financial statement mechanics.
+* Download Lecture Notes:
+  * [Chapter I: Financial Statements (PDF)](/files/Chapter1.pdf)
+  * [Chapter II: In-depth Financial Statements (PDF)](/files/Chapter_2.pdf)
+  * [Chapter III: Accounting Information System (PDF)](/files/Chapter_3.pdf)
+  * [Chapter IV: Accrual Accounting Concepts (PDF)](/files/Chapter_4.pdf)
+  * [Chapter V: Merchandising Operations (PDF)](/files/Chapter_5.pdf)
+"""
+
+[[items]]
+title = "Mathematical Methods for Economics & AI (Advanced)"
+subtitle = "AI4Learning Econ Special Series"
+date = "Spring 2026"
+tags = ["Mathematical Economics", "Analysis", "Industrial Organization", "Growth Theory"]
+content = """
+* Advanced computational and mathematical lecture series.
+* Download Notes:
+  * [Mathematical Analysis for Econ & Finance (PDF)](/files/AI4LearningEcon/math4econ.pdf)
+  * [Mathematical Methods in Econ Research (PDF)](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
+  * [AI for Economics & Finance (PDF)](/files/AI4LearningEcon/ai4econ.pdf)
+  * [Economic Growth Theory (PDF)](/files/AI4LearningEcon/经济增长.pdf)
+  * [Industrial Organization (PDF)](/files/AI4LearningEcon/产业组织学.pdf)
+"""

@@ -1,0 +1,105 @@
+type = "card"
+title = "核心课程讲义与公开笔记"
+description = "西安交通大学本科核心专业课讲义、习题解析与 AI4Learning Econ 数理知识库。"
+
+[[items]]
+title = "中级微观经济学 (Intermediate Microeconomics)"
+subtitle = "金禾经济研究中心（课程成绩：95 分）"
+date = "2026 春"
+tags = ["微观经济学", "消费者理论", "生产理论", "一般均衡", "博弈论"]
+content = """
+* 系统涵盖效用最大化、支出最小化、垄断与寡头定价、要素市场与一般均衡理论。
+* 下载课程讲义与习题解析：
+  * [第一次作业习题（PDF）](/files/Intermediate%20Microeconomics/HW1.pdf)
+  * [第二次作业习题（PDF）](/files/Intermediate%20Microeconomics/homework2.pdf)
+  * [第二次作业解析（PDF）](/files/Intermediate%20Microeconomics/hw2.pdf)
+  * [第四次作业详解版（PDF）](/files/Intermediate%20Microeconomics/中微第四次作业_答案详解版.pdf)
+"""
+
+[[items]]
+title = "中级宏观经济学 (Intermediate Macroeconomics)"
+subtitle = "金禾经济研究中心（课程成绩：100 分 满分）"
+date = "2026 春"
+tags = ["宏观经济学", "IS-LM 模型", "Solow 增长模型", "总供给总需求"]
+content = """
+* 全面整理古典主义、凯恩斯主义与现代增长理论模型推导与大题详解。
+* 下载课程讲义与习题解析：
+  * [古典与凯恩斯学派框架（PDF）](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
+  * [作业一：Ch03-05（PDF）](/files/Intermediate%20Macroeconomics/homework1.pdf)
+  * [作业二：Ch06-09（PDF）](/files/Intermediate%20Macroeconomics/homework2macro.pdf)
+  * [作业二详解（PDF）](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
+  * [作业三：Ch10-12（PDF）](/files/Intermediate%20Macroeconomics/homework3macro.pdf)
+"""
+
+[[items]]
+title = "应用统计学与计量经济基础 (Applied Statistics)"
+subtitle = "数学与统计学院（课程成绩：93 分）"
+date = "2025 秋"
+tags = ["统计学", "抽样分布", "参数估计", "假设检验"]
+content = """
+* 梳理图表描述性技术、汇总统计量、数据收集方法与抽样分布定理推导。
+* 下载课程讲义：
+  * [课程概论（PDF）](/files/Introduction_Applied_Statistics.pdf)
+  * [第一章：图表描述性技术（PDF）](/files/Graphical_descriptive_techniques_notes.pdf)
+  * [第二章：汇总统计量（PDF）](/files/Summary_statistics_notes.pdf)
+  * [第三章：数据收集（PDF）](/files/Data_collection_notes.pdf)
+  * [第四章：抽样分布（PDF）](/files/Sampling_distributions_notes.pdf)
+"""
+
+[[items]]
+title = "金融市场学与金融机构 (Financial Markets & Institutions)"
+subtitle = "金禾经济研究中心（课程成绩：92 分）"
+date = "2026 春"
+tags = ["金融学", "货币市场", "债券定价", "次贷危机", "汇率制度"]
+content = """
+* 深入分析次贷危机政策应对、利率决定机制、美联储调控、货币/债券/衍生品市场及香港联系汇率制。
+* 下载课程讲义：
+  * [次贷危机及其应对政策（PDF）](/files/Financial%20Institution/financial_markets_notes.pdf)
+  * [金融市场概论、利率与美联储（PDF）](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
+  * [货币、债券、抵押贷款与外汇市场（PDF）](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
+  * [股票市场与衍生品市场（PDF）](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
+"""
+
+[[items]]
+title = "金融学原理与公司理财 (Principles of Finance)"
+subtitle = "金禾经济研究中心（课程成绩：94 分）"
+date = "2026 春"
+tags = ["公司金融", "资本预算", "NPV", "资本市场"]
+content = """
+* 公司金融基石、现金流折现（DCF）、净现值法则与资本市场概述。
+* 下载课程讲义：
+  * [总体复习笔记（PDF）](/files/Principles%20of%20Finance/finance_review_notes.pdf)
+  * [第一章：公司理财导论及题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH01_公司理财导论_练习答题与详细题解.pdf)
+  * [第四章：资本预算方法及题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
+  * [第五章：金融市场与 NPV 题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
+"""
+
+[[items]]
+title = "会计学原理 (Principles of Accounting)"
+subtitle = "金禾经济研究中心（课程成绩：96 分）"
+date = "2025 秋"
+tags = ["会计学", "财务报表", "权责发生制", "多步式利润表"]
+content = """
+* 财务报表架构、借贷记账法、权责发生制调整与商业营运利润表详解。
+* 下载课程讲义：
+  * [第一章：财务报表概论（PDF）](/files/Chapter1.pdf)
+  * [第二章：深入财务报表（PDF）](/files/Chapter_2.pdf)
+  * [第三章：会计信息系统（PDF）](/files/Chapter_3.pdf)
+  * [第四章：权责发生制概念（PDF）](/files/Chapter_4.pdf)
+  * [第五章：商品营运与利润表（PDF）](/files/Chapter_5.pdf)
+"""
+
+[[items]]
+title = "经济与金融研究数理方法进阶"
+subtitle = "AI4Learning Econ 专题系列"
+date = "2026 春"
+tags = ["数理经济学", "数学分析", "产业组织学", "经济增长理论"]
+content = """
+* 汇编数理分析、前沿 AI 方法与理论专题。
+* 下载讲义：
+  * [数学分析 III 经济金融专版（PDF）](/files/AI4LearningEcon/math4econ.pdf)
+  * [经济与金融研究的数理方法（PDF）](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
+  * [AI for Econ & Finance（PDF）](/files/AI4LearningEcon/ai4econ.pdf)
+  * [经济增长理论专题（PDF）](/files/AI4LearningEcon/经济增长.pdf)
+  * [产业组织学专题（PDF）](/files/AI4LearningEcon/产业组织学.pdf)
+"""

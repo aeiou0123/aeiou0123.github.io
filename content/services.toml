@@ -1,0 +1,22 @@
+type = "card"
+title = "Professional Experience & Service"
+description = "Professional internships, academic service, and open-source knowledge stewardship."
+
+[[items]]
+title = "CIB Research (Industrial Research) · Macroeconomic Research Intern"
+subtitle = "Macro Market Department"
+date = "2026.07 – 2026.09"
+content = """
+* **Macro Dynamics**: Monitored and analyzed macro high-frequency data, authoring research reports focusing on China's 'K-shaped' divergence and economic transmission channels.
+* **Credit & Debt Cycles**: Applied Ray Dalio's long-term debt cycle framework to analyze property market dynamics and deleveraging paths.
+* **Global Trade**: Systematically tracked Sino-European trade policies and EU regulatory developments, evaluating macro market impacts.
+"""
+
+[[items]]
+title = "AI4Learning Econ Open-Source Academic Knowledge Base"
+subtitle = "Lead Developer & Community Maintainer"
+date = "2025.08 – Present"
+content = """
+* Curated open-access lecture notes, exercise problem sets, and code implementations in microeconomics, macroeconomics, and econometrics.
+* Supported and mentored peers in mastering quantitative methods and computational workflows in economics.
+"""
