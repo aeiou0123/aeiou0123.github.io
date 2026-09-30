@@ -1,8 +1,9 @@
-# Curriculum Vitae
+# Mengqi Wei
 
-> **Kyle Wei** · Jinhe Center for Economic Research, Xi'an Jiaotong University  
-> **Email**: [aeioudeaustria0123@163.com](mailto:aeioudeaustria0123@163.com) · **GitHub**: [github.com/aeiou0123](https://github.com/aeiou0123)  
-> [📄 Download English CV (PDF)](/files/CV.pdf) · [📄 Download Chinese CV (PDF)](/files/CV-Simplified_Chinese.pdf)
+> **Third-Year Undergraduate in Quantitative Economics and Finance**  
+> Jinhe Center for Economic Research, Xi'an Jiaotong University, Shaanxi, China  
+> **Email**: [aeioudeaustria0123@stu.xjtu.edu.cn](mailto:aeioudeaustria0123@stu.xjtu.edu.cn) | **Tel**: (+86) 185-0381-0003 | **GitHub**: [github.com/aeiou0123](https://github.com/aeiou0123) | **Homepage**: [aeiou0123.github.io](https://aeiou0123.github.io)  
+> [📄 Download English CV (PDF)](/files/CV_Mengqi_Wei_EN.pdf) · [📄 Download Chinese CV (PDF)](/files/CV_Mengqi_Wei_ZH.pdf)
 
 ---
 
@@ -11,12 +12,12 @@
 ### **Xi'an Jiaotong University (XJTU), Jinhe Center for Economic Research**
 * **Degree**: Third-Year Undergraduate in Quantitative Economics and Finance *(Expected June 2028)*
 * **Timeline**: 2025.09 – Present
-* **Academic Performance**: Sophomore Year GPA: **90.73 / 100** · Class Rank: **1 / 22**
+* **Academic Performance**: Sophomore Year GPA: **90.73 / 100** · Sophomore Rank: **1 / 22**
 
 ### **Xi'an Jiaotong University (XJTU), School of Mathematics and Statistics**
 * **Degree**: First-Year Undergraduate in Mathematics
 * **Timeline**: 2024.09 – 2025.07
-* **Academic Performance**: Freshman Year GPA: **87.81 / 100** · Class Rank: **3 / 109**
+* **Academic Performance**: Freshman Year GPA: **87.81 / 100** · Freshman Rank: **3 / 109**
 
 ### **Xi'an Jiaotong University (XJTU), Qian Xuesen College**
 * **Program**: Pre-College, Special Class for the Gifted Young (SCGY)
@@ -27,9 +28,9 @@
 
 ## Research Interests
 
-* **AI Exposure & Market Structure**: AI exposure measurement, impacts of AI on firm decision-making, and industrial market structure.
-* **Industrial Organization**: Theoretical Industrial Organization (IO) and Empirical IO.
-* **Macroeconomics & Macro-Finance**: Macro transmission mechanisms, monetary models, and business cycles.
+* **AI Exposure Measurement, Impacts of AI on Firm Decision-Making and Market Structure**
+* **Industrial Organization (IO) and Empirical IO**
+* **Macroeconomics and Macro-Finance**
 
 ---
 
@@ -64,7 +65,7 @@
 * Compiled cross-country macroeconomic time-series panels to evaluate supply-side pass-through elasticities under geopolitical disruptions.
 
 ### **AI4Learning Econ: Open-Source Lecture Notes and Academic Repository**
-* **Role**: Independent Open-Source Project Founder · [Browse Notes](/notes)
+* **Role**: Independent Open-Source Project · [Browse Notes](/notes)
 * **Timeline**: 2025.08 – Present
 * Built and maintained an academic homepage curating structured lecture notes, exercise solutions, and course working papers covering Mathematical Analysis, Intermediate Micro/Macro, Econometrics, Game Theory, and Industrial Organization.
 
@@ -72,8 +73,8 @@
 
 ## Professional Experience
 
-### **CIB Research (Industrial Research) · Macroeconomic Research Intern**
-* **Department**: Macro Market Department
+### **CIB Research (Industrial Research)**
+* **Role**: Macroeconomic Research Intern · Macro Market Department
 * **Timeline**: 2026.07 – 2026.09
 * Tracked high-frequency macro indicators and examined structural dynamics of China's "K-shaped" economic divergence.
 * Applied Ray Dalio's debt cycle framework to examine structural dynamics and deleveraging in the property market.
@@ -83,23 +84,23 @@
 
 ## Coursework & Academic Preparation
 
-* **Core Economics & Finance**: Intermediate Macroeconomics (**100 / 100**), Principles of Accounting (**96 / 100**), Intermediate Microeconomics (**95 / 100**), Principles of Finance (**94 / 100**), Financial Markets & Institutions (**92 / 100**).
-* **Mathematics & Statistics**: Advanced Algebra & Analytic Geometry II (**93 / 100**), Applied Statistics (**93 / 100**), Probability Theory & Mathematical Statistics (**92 / 100**), University Physics (**90 / 100**), Mathematical Analysis (**90 / 86**).
-* **Advanced & Self-Study**: Machine Learning, Deep Learning, Reinforcement Learning, Industrial Organization, Operations Research, Advanced Econometrics.
+* **Core Economics & Finance**: Intermediate Macroeconomics (**100 / 100**), Principles of Accounting (**96 / 100**), Intermediate Microeconomics (**95 / 100**), Principles of Finance (**94 / 100**), Financial Markets & Institutions (**92 / 100**)
+* **Mathematics & Statistics**: Advanced Algebra & Analytic Geometry II (**93 / 100**), Applied Statistics (**93 / 100**), Probability Theory & Mathematical Statistics (**92 / 100**), University Physics (**90 / 100**), Mathematical Analysis (**90/86**)
+* **Advanced & Self-Study**: Machine Learning, Deep Learning, Reinforcement Learning, Industrial Organization, Operations Research, Econometrics
 
 ---
 
 ## Honors & Awards
 
-* **National Scholarship** (Ministry of Education, PRC · Top Undergraduate Honor) | *2025 – 2026*
+* **National Scholarship** (Ministry of Education, Top Undergraduate Honor) | *2025 – 2026*
 * **First-Class Academic Scholarship**, Xi'an Jiaotong University | *2024 – 2025*
 * **National College Students Statistical Modeling Competition**, Shaanxi Provincial 1st Prize | *2026*
-* **National Digital Business Simulation Sandbox Competition**, National 3rd Prize | *2026*
+* **National Digital Business Simulation Sandbox Competition for Universities**, National 3rd Prize | *2026*
 
 ---
 
 ## Skills & Languages
 
-* **Coding & Econometric Tools**: Stata, Python, LaTeX, SQL, Git, C (Basic working proficiency).
-* **AI-Native Workflows**: Advanced prompt engineering, autonomous research pipelines, and dynamic financial modeling.
-* **Languages**: Mandarin Chinese (Native); English (CET-6: **602 / 710**).
+* **Coding & Econometric Tools**: Stata, Python, LaTeX, C (Basic working proficiency)
+* **AI-Native Workflows**: Comfortable driving AI-assisted research and engineering workflows
+* **Languages**: Mandarin Chinese (Native); English (CET-6: **602 / 710**)

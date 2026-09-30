@@ -3,10 +3,9 @@ title = "About"
 
 [profile]
 research_interests = [
-  "Empirical Industrial Organization",
-  "AI & Economics / Market Structure",
-  "Macro-Finance & Debt Cycles",
-  "Applied Econometrics & Causal Inference"
+  "AI Exposure Measurement & Market Structure",
+  "Industrial Organization (IO) and Empirical IO",
+  "Macroeconomics and Macro-Finance"
 ]
 
 [[sections]]
@@ -18,12 +17,12 @@ title = "About Me"
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "Selected Research & Working Papers"
+title = "Working Papers & Selected Research"
 filter = "selected"
 limit = 5
 
 [[sections]]
 id = "news"
 type = "list"
-title = "Recent News & Updates"
+title = "News"
 source = "news.toml"

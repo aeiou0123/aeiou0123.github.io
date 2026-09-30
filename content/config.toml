@@ -1,22 +1,22 @@
 [site]
-title = "Kyle Wei"
-description = "Undergraduate Researcher in Quantitative Economics & Finance at Xi'an Jiaotong University."
+title = "Mengqi Wei"
+description = "Undergraduate in Quantitative Economics & Finance, Xi'an Jiaotong University."
 favicon = "/favicon.svg"
 last_updated = "September 2026"
 
 [author]
-name = "Kyle Wei"
-title = "Undergraduate in Quantitative Economics & Finance"
+name = "Mengqi Wei"
+title = "Third-Year Undergraduate in Quantitative Economics and Finance"
 institution = "Jinhe Center for Economic Research, Xi'an Jiaotong University"
 avatar = "/1.jpg"
 
 [social]
-email = "aeioudeaustria0123@163.com"
-location = "Xi'an, China"
+email = "aeioudeaustria0123@stu.xjtu.edu.cn"
+location = "Xi'an, Shaanxi, China"
 location_url = "https://maps.google.com/?q=Xi'an+Jiaotong+University"
 location_details = [
   "Jinhe Center for Economic Research,",
-  "Xi'an Jiaotong University, Xi'an, Shaanxi, China"
+  "Xi'an Jiaotong University, No. 28 Xianning West Road, Beilin District, Xi'an, Shaanxi, China"
 ]
 github = "https://github.com/aeiou0123"
 
@@ -62,31 +62,13 @@ target = "notes"
 href = "/notes"
 
 [[navigation]]
-title = "Publications"
-type = "page"
-target = "publications"
-href = "/publications"
-
-[[navigation]]
 title = "CV"
 type = "page"
 target = "cv"
 href = "/cv"
 
 [[navigation]]
-title = "Awards"
+title = "Personal"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "Teaching"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "Services"
-type = "page"
-target = "services"
-href = "/services"
+target = "personal"
+href = "/personal"

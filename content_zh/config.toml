@@ -1,20 +1,22 @@
 [site]
-title = "韦（Kyle Wei）"
-description = "西安交通大学金禾经济研究中心 · 数理经济与金融本科在读。"
+title = "魏孟祺"
+description = "西安交通大学金禾经济研究中心 · 数量经济与金融本科在读。"
 last_updated = "2026年9月"
 
 [author]
-name = "韦（Kyle Wei）"
+name = "魏孟祺"
 title = "本科三年级 · 数量经济与金融"
 institution = "西安交通大学 · 金禾经济研究中心"
 avatar = "/1.jpg"
 
 [social]
+email = "aeioudeaustria0123@stu.xjtu.edu.cn"
 location = "陕西 西安"
 location_details = [
   "西安交通大学金禾经济研究中心，",
   "陕西省西安市碑林区咸宁西路28号"
 ]
+github = "https://github.com/aeiou0123"
 
 [[navigation]]
 title = "关于我"
@@ -41,31 +43,13 @@ target = "notes"
 href = "/notes"
 
 [[navigation]]
-title = "学术发表"
-type = "page"
-target = "publications"
-href = "/publications"
-
-[[navigation]]
 title = "个人简历"
 type = "page"
 target = "cv"
 href = "/cv"
 
 [[navigation]]
-title = "荣誉奖项"
+title = "个人空间"
 type = "page"
-target = "awards"
-href = "/awards"
-
-[[navigation]]
-title = "教学助教"
-type = "page"
-target = "teaching"
-href = "/teaching"
-
-[[navigation]]
-title = "学术服务"
-type = "page"
-target = "services"
-href = "/services"
+target = "personal"
+href = "/personal"
