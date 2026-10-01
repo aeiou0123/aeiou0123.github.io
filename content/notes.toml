@@ -1,6 +1,8 @@
 type = "card"
-title = "Course Lecture Notes & Academic Knowledge Base"
-description = "Comprehensive university lecture notes, problem sets with step-by-step solutions, and mathematical economics summaries from AI4Learning Econ."
+title = "Course Notes"
+description = "Lecture notes, problem sets, and study materials from undergraduate coursework at Xi'an Jiaotong University. Click any course to expand materials."
+collapsible = true
+default_collapsed = true
 
 [[items]]
 title = "Intermediate Microeconomics"
@@ -8,25 +10,24 @@ subtitle = "Jinhe Center for Economic Research · Taught by Prof. Li & Prof. Zho
 date = "Spring 2026"
 tags = ["Microeconomics", "Consumer Theory", "Producer Theory", "General Equilibrium", "Game Theory", "Market Structure"]
 content = """
-* **Textbook Reference**: Walter Nicholson & Christopher Snyder, *Microeconomic Theory: Basic Principles and Extensions*, 9th Edition.
-* Comprehensive repository of coursework problem sets, step-by-step mathematical solutions, and topic-specific lecture notes:
-* **Homework & Problem Sets with Solutions**:
+* **Textbook**: Walter Nicholson & Christopher Snyder, *Microeconomic Theory: Basic Principles and Extensions*, 9th Edition.
+* **Homework & Solutions**:
   * [Homework 1 (PDF)](/files/Intermediate%20Microeconomics/HW1.pdf)
   * [Homework 2 (PDF)](/files/Intermediate%20Microeconomics/homework2.pdf) · [Homework 2 Solutions (PDF)](/files/Intermediate%20Microeconomics/hw2.pdf)
   * [Homework 4 (Q&A Version) (PDF)](/files/Intermediate%20Microeconomics/中微第四次作业_逐问答题版.pdf) · [Homework 4 (Detailed Solutions) (PDF)](/files/Intermediate%20Microeconomics/中微第四次作业_答案详解版.pdf)
   * [Homework 5 (Q&A Version) (PDF)](/files/Intermediate%20Microeconomics/中微第五次作业_逐问答题版.pdf) · [Homework 5 (Detailed Solutions) (PDF)](/files/Intermediate%20Microeconomics/中微第五次作业_答案详解版.pdf)
   * [Homework 6 (Problems Version) (PDF)](/files/Intermediate%20Microeconomics/中微第六次作业_答题版.pdf) · [Homework 6 (Detailed Solutions) (PDF)](/files/Intermediate%20Microeconomics/中微第六次作业_答案详解版.pdf)
-* **Topic-Specific Curated Lecture Notes**:
-  * [Market Structure & Monopoly/Oligopoly (PDF)](/files/Intermediate%20Microeconomics/市场结构.pdf)
-  * [Game Theory Comprehensive Notes (PDF)](/files/Intermediate%20Microeconomics/博弈论笔记整合.pdf)
-  * [General Equilibrium Theory Chapter (PDF)](/files/Intermediate%20Microeconomics/general_equilibrium_chapter.pdf)
-  * [Externalities & Market Failure Chapter (PDF)](/files/Intermediate%20Microeconomics/externalities_chapter.pdf)
-  * [Public Goods & Collective Action Chapter (PDF)](/files/Intermediate%20Microeconomics/public_goods_chapter.pdf)
-  * [Asymmetric Information & Mechanism Design Chapter (PDF)](/files/Intermediate%20Microeconomics/information_incentives_chapter_fixed.pdf)
-  * [Labor Factor Markets Chapter (PDF)](/files/Intermediate%20Microeconomics/labor_market_chapter.pdf)
-* **Coursework Research Papers**:
-  * [Independent Paper 1: Firm Decision-Making & Market Structure Under Token & AI Agent Shocks (PDF)](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
-  * [Independent Paper 2: From Hotelling to Voting Systems: Multidimensional Preference Space & Social Choice (PDF)](/files/Intermediate%20Microeconomics/IMpaper.pdf)
+* **Topic Lecture Notes**:
+  * [Market Structure (PDF)](/files/Intermediate%20Microeconomics/市场结构.pdf)
+  * [Game Theory (PDF)](/files/Intermediate%20Microeconomics/博弈论笔记整合.pdf)
+  * [General Equilibrium Theory (PDF)](/files/Intermediate%20Microeconomics/general_equilibrium_chapter.pdf)
+  * [Externalities (PDF)](/files/Intermediate%20Microeconomics/externalities_chapter.pdf)
+  * [Public Goods (PDF)](/files/Intermediate%20Microeconomics/public_goods_chapter.pdf)
+  * [Asymmetric Information & Incentives (PDF)](/files/Intermediate%20Microeconomics/information_incentives_chapter_fixed.pdf)
+  * [Labor Markets (PDF)](/files/Intermediate%20Microeconomics/labor_market_chapter.pdf)
+* **Coursework Papers**:
+  * [Paper 1: Firm Decision-Making & Market Structure Under Token & AI Agent Shocks (PDF)](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
+  * [Paper 2: From Hotelling to Voting Systems: Multidimensional Preference Space & Social Choice (PDF)](/files/Intermediate%20Microeconomics/IMpaper.pdf)
 """
 
 [[items]]
@@ -35,39 +36,34 @@ subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhang (Grade: 
 date = "Spring 2026"
 tags = ["Macroeconomics", "IS-LM", "Solow Growth", "Aggregate Supply & Demand", "Business Cycles"]
 content = """
-* **Textbook Reference**: Andrew B. Abel, Ben S. Bernanke, and Dean Croushore, *Macroeconomics*, 6th Edition (problem sets based on 11th Edition).
-* Full collection of macroeconomic framework summaries, analytical derivations, and homework problem set solution manuals:
+* **Textbook**: Andrew B. Abel, Ben S. Bernanke, and Dean Croushore, *Macroeconomics*, 6th Edition (problem sets based on 11th Edition).
 * **Framework Notes**:
-  * [Classical & Keynesian Theoretical Frameworks (PDF)](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
+  * [Classical & Keynesian Frameworks (PDF)](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
 * **Homework & Solutions**:
-  * [Homework 1: Ch03-05 Classical Economy & Long-run Equilibrium (PDF)](/files/Intermediate%20Macroeconomics/homework1.pdf)
-  * [Homework 2: Ch06-09 Long-Run Growth & Business Cycles Problems (PDF)](/files/Intermediate%20Macroeconomics/homework2macro.pdf)
-  * [Homework 2: Ch06-09 Step-by-Step Solutions (PDF)](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
-  * [Homework 3: Ch10-12 IS-LM & AD-AS Macro Equilibrium (PDF)](/files/Intermediate%20Macroeconomics/homework3macro.pdf)
-  * [Homework 3: Ch10-12 Combined Solution Manual (PDF)](/files/Intermediate%20Macroeconomics/hw3_combined.pdf)
-  * [Homework 4: Ch13-15 Open Economy Macroeconomics Problems (PDF)](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_combined_blank_space.pdf)
-  * [Homework 4: Ch13-15 Bilingual Comprehensive Solutions (PDF)](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_detailed_solutions_bilingual.pdf)
+  * [Homework 1: Ch03-05 (PDF)](/files/Intermediate%20Macroeconomics/homework1.pdf)
+  * [Homework 2: Ch06-09 Problems (PDF)](/files/Intermediate%20Macroeconomics/homework2macro.pdf) · [Homework 2 Solutions (PDF)](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
+  * [Homework 3: Ch10-12 Problems (PDF)](/files/Intermediate%20Macroeconomics/homework3macro.pdf) · [Homework 3 Solutions (PDF)](/files/Intermediate%20Macroeconomics/hw3_combined.pdf)
+  * [Homework 4: Ch13-15 Problems (PDF)](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_combined_blank_space.pdf) · [Homework 4 Bilingual Solutions (PDF)](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_detailed_solutions_bilingual.pdf)
 """
 
 [[items]]
-title = "Applied Statistics & Econometrics"
+title = "Applied Statistics"
 subtitle = "School of Mathematics and Statistics · Taught by Prof. Ma (Grade: 93 / 100)"
 date = "Fall 2025"
 tags = ["Applied Statistics", "Econometrics", "Sampling Distributions", "Hypothesis Testing", "Resampling"]
 content = """
-* Rigorous statistical analysis curriculum notes covering descriptive techniques, mathematical foundations of probability distributions, parameter estimation, and non-parametric tests:
 * **Chapter Notes**:
-  * [Course Introduction & Scope (PDF)](/files/Introduction_Applied_Statistics.pdf)
+  * [Course Introduction (PDF)](/files/Introduction_Applied_Statistics.pdf)
   * [Chapter I: Graphical Descriptive Techniques (PDF)](/files/Graphical_descriptive_techniques_notes.pdf)
   * [Chapter II: Summary Statistics (PDF)](/files/Summary_statistics_notes.pdf)
-  * [Chapter III: Data Collection & Experimental Design (PDF)](/files/Data_collection_notes.pdf)
-  * [Chapter IV: Sampling Distributions & Central Limit Theorems (PDF)](/files/Sampling_distributions_notes.pdf)
-  * [Chapter V: Introduction to Statistical Estimation (PDF)](/files/Introduction_to_estimation_notes.pdf)
-  * [Chapter VI: Introduction to Hypothesis Testing (PDF)](/files/Introduction_to_hypothesis_testing_notes.pdf)
-  * [Chapter VII: One-Sample Statistical Inference (PDF)](/files/One_sample_inference_notes.pdf)
-  * [Chapter VIII: Statistical Inference for Two Populations (PDF)](/files/Inference_about_Two_Populations.pdf)
-  * [Chapter IX: Non-parametric Rank Sum Tests (PDF)](/files/Rank_test.pdf)
-  * [Chapter X: Resampling Methods: Bootstrap & Permutation Tests (PDF)](/files/Resampling_Methods_Bootstrap_and_Permutation.pdf)
+  * [Chapter III: Data Collection (PDF)](/files/Data_collection_notes.pdf)
+  * [Chapter IV: Sampling Distributions (PDF)](/files/Sampling_distributions_notes.pdf)
+  * [Chapter V: Estimation (PDF)](/files/Introduction_to_estimation_notes.pdf)
+  * [Chapter VI: Hypothesis Testing (PDF)](/files/Introduction_to_hypothesis_testing_notes.pdf)
+  * [Chapter VII: One-Sample Inference (PDF)](/files/One_sample_inference_notes.pdf)
+  * [Chapter VIII: Inference for Two Populations (PDF)](/files/Inference_about_Two_Populations.pdf)
+  * [Chapter IX: Rank Sum Tests (PDF)](/files/Rank_test.pdf)
+  * [Chapter X: Resampling Methods: Bootstrap & Permutation (PDF)](/files/Resampling_Methods_Bootstrap_and_Permutation.pdf)
 """
 
 [[items]]
@@ -76,48 +72,46 @@ subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhou (Grade: 9
 date = "Spring 2026"
 tags = ["Financial Markets", "Monetary Policy", "Federal Reserve", "Subprime Crisis", "FX Regimes"]
 content = """
-* **Textbook Reference**: Anthony Saunders & Marcia Millon Cornett, *Financial Markets and Institutions*.
-* In-depth course notes on monetary policy mechanisms, financial crises, modern financial market architecture, and chapter exercises:
-* **Thematic Lecture Notes**:
-  * [The Subprime Mortgage Crisis & Central Bank Policy Responses (PDF)](/files/Financial%20Institution/financial_markets_notes.pdf)
-  * [Financial Markets Overview, Interest Rate Mechanics & The Federal Reserve (PDF)](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
-  * [Money Markets, Bond Markets, Mortgage & Foreign Exchange Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
-  * [Stock Markets & Financial Derivatives Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
-  * [Hong Kong Linked Exchange Rate System & 1998 HKD Defense War (PDF)](/files/Financial%20Institution/financial_markets_notes_part5.pdf)
-  * [Asset Valuation & Technical Analysis Methodologies (PDF)](/files/Financial%20Institution/financial_markets_notes_part6.pdf)
-* **Textbook Chapter Problem Solutions**:
-  * [Textbook Solutions Ch01 - Ch02: Introduction to Financial Markets (PDF)](/files/Financial%20Institution/answers_ch1_ch2.pdf)
-  * [Textbook Solutions Ch03 - Ch04: Interest Rates & Fed Policy (PDF)](/files/Financial%20Institution/answers_ch3_ch4.pdf)
-  * [Textbook Solutions Ch05 - Ch06: Money & Bond Markets (PDF)](/files/Financial%20Institution/answers_ch5_ch6.pdf)
-  * [Textbook Solutions Ch07 - Ch08: Mortgage & Stock Markets (PDF)](/files/Financial%20Institution/answers_ch7_ch8.pdf)
-  * [Textbook Solutions Ch09 - Ch10: Foreign Exchange & Derivatives (PDF)](/files/Financial%20Institution/answers_ch9_ch10.pdf)
+* **Textbook**: Anthony Saunders & Marcia Millon Cornett, *Financial Markets and Institutions*.
+* **Lecture Notes**:
+  * [The Subprime Mortgage Crisis & Policy Responses (PDF)](/files/Financial%20Institution/financial_markets_notes.pdf)
+  * [Financial Markets, Interest Rates & The Federal Reserve (PDF)](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
+  * [Money, Bond, Mortgage & Foreign Exchange Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
+  * [Stock & Derivatives Markets (PDF)](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
+  * [Hong Kong Linked Exchange Rate System & 1998 Defense (PDF)](/files/Financial%20Institution/financial_markets_notes_part5.pdf)
+  * [Asset Valuation & Technical Analysis (PDF)](/files/Financial%20Institution/financial_markets_notes_part6.pdf)
+* **Textbook Problem Solutions**:
+  * [Solutions Ch01 - Ch02: Financial Markets (PDF)](/files/Financial%20Institution/answers_ch1_ch2.pdf)
+  * [Solutions Ch03 - Ch04: Interest Rates & Fed Policy (PDF)](/files/Financial%20Institution/answers_ch3_ch4.pdf)
+  * [Solutions Ch05 - Ch06: Money & Bond Markets (PDF)](/files/Financial%20Institution/answers_ch5_ch6.pdf)
+  * [Solutions Ch07 - Ch08: Mortgage & Stock Markets (PDF)](/files/Financial%20Institution/answers_ch7_ch8.pdf)
+  * [Solutions Ch09 - Ch10: FX & Derivatives (PDF)](/files/Financial%20Institution/answers_ch9_ch10.pdf)
 """
 
 [[items]]
-title = "Principles of Finance & Corporate Finance"
+title = "Principles of Finance"
 subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhao (Grade: 94 / 100)"
 date = "Spring 2026"
 tags = ["Corporate Finance", "CAPM", "Capital Budgeting", "MM Theorem", "WACC", "Valuation"]
 content = """
-* Comprehensive study guides, conceptual summaries, and chapter-by-chapter problem sets for corporate finance and investment theory:
-* **Core Review Guides**:
-  * [Comprehensive Corporate Finance Review Notes (PDF)](/files/Principles%20of%20Finance/finance_review_notes.pdf)
-  * [Core Revision Points & Exercise Workbook (DOCX)](/files/Principles%20of%20Finance/知识要点+金融学原理.docx)
-  * [1.0 Finance Principles Glossary & Key Concepts (DOC)](/files/Principles%20of%20Finance/1.0%20金融学原理名词汇总.doc)
-* **Chapter-by-Chapter Q&A Exercises with Detailed Solutions**:
+* **Study Guides**:
+  * [Corporate Finance Review Notes (PDF)](/files/Principles%20of%20Finance/finance_review_notes.pdf)
+  * [Review Points & Problem Set (DOCX)](/files/Principles%20of%20Finance/知识要点+金融学原理.docx)
+  * [Finance Principles Terms Summary (DOC)](/files/Principles%20of%20Finance/1.0%20金融学原理名词汇总.doc)
+* **Chapter Q&A Exercises**:
   * [CH01: Introduction to Corporate Finance (PDF)](/files/Principles%20of%20Finance/公司理财_CH01_公司理财导论_练习答题与详细题解.pdf)
-  * [CH04: Alternative Capital Budgeting Methods (PDF)](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
-  * [CH05: Financial Markets & Net Present Value (NPV) (PDF)](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
-  * [CH06: Capital Market History & Efficiency Analysis (PDF)](/files/Principles%20of%20Finance/公司理财_CH06_练习答题与详细题解.pdf)
-  * [CH07: Capital Asset Pricing Model (CAPM) Q&A (PDF)](/files/Principles%20of%20Finance/公司理财_CH07_CAPM_QA_练习答题与详细题解.pdf)
-  * [CH08: Asset Pricing Models & Risk-Return Tradeoff (PDF)](/files/Principles%20of%20Finance/公司理财_CH08_资产定价模型_练习答题与详细题解.pdf)
-  * [CH10: Lease Financing Decisions & Evaluation (PDF)](/files/Principles%20of%20Finance/公司理财_CH10_租赁_练习答题与详细题解.pdf)
-  * [Efficient Market Hypothesis (EMH) Q&A Part I (PDF)](/files/Principles%20of%20Finance/公司理财_EMH_QA_练习答题与详细题解.pdf)
-  * [CH12: Efficient Market Hypothesis Anomalies Q&A Part II (PDF)](/files/Principles%20of%20Finance/公司理财_CH12_EMH_有效市场假说_练习答题与详细题解.pdf)
-  * [Weighted Average Cost of Capital (WACC) Q&A (PDF)](/files/Principles%20of%20Finance/公司理财_WACC_QA_练习答题与详细题解.pdf)
-  * [Modigliani-Miller (MM) Theorem Part I: Capital Structure (PDF)](/files/Principles%20of%20Finance/公司理财_MM_QA_练习答题与详细题解.pdf)
-  * [Modigliani-Miller (MM) Theorem Part II: Financial Distress & Limits (PDF)](/files/Principles%20of%20Finance/公司理财_MM_Limits_QA_练习答题与详细题解.pdf)
-  * [Dividend Policy & Distribution to Shareholders (PDF)](/files/Principles%20of%20Finance/公司理财_Dividends_QA_练习答题与详细题解.pdf)
+  * [CH04: Capital Budgeting Methods (PDF)](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
+  * [CH05: Financial Markets & NPV (PDF)](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
+  * [CH06: Capital Market History (PDF)](/files/Principles%20of%20Finance/公司理财_CH06_练习答题与详细题解.pdf)
+  * [CH07: CAPM (PDF)](/files/Principles%20of%20Finance/公司理财_CH07_CAPM_QA_练习答题与详细题解.pdf)
+  * [CH08: Asset Pricing Models (PDF)](/files/Principles%20of%20Finance/公司理财_CH08_资产定价模型_练习答题与详细题解.pdf)
+  * [CH10: Lease Financing (PDF)](/files/Principles%20of%20Finance/公司理财_CH10_租赁_练习答题与详细题解.pdf)
+  * [Efficient Market Hypothesis (EMH) Part I (PDF)](/files/Principles%20of%20Finance/公司理财_EMH_QA_练习答题与详细题解.pdf)
+  * [CH12: Efficient Market Hypothesis Part II (PDF)](/files/Principles%20of%20Finance/公司理财_CH12_EMH_有效市场假说_练习答题与详细题解.pdf)
+  * [Weighted Average Cost of Capital (WACC) (PDF)](/files/Principles%20of%20Finance/公司理财_WACC_QA_练习答题与详细题解.pdf)
+  * [MM Theorem Part I (PDF)](/files/Principles%20of%20Finance/公司理财_MM_QA_练习答题与详细题解.pdf)
+  * [MM Theorem Part II (PDF)](/files/Principles%20of%20Finance/公司理财_MM_Limits_QA_练习答题与详细题解.pdf)
+  * [Dividend Policy (PDF)](/files/Principles%20of%20Finance/公司理财_Dividends_QA_练习答题与详细题解.pdf)
 """
 
 [[items]]
@@ -126,72 +120,63 @@ subtitle = "Jinhe Center for Economic Research · Taught by Prof. Wu (Grade: 96 
 date = "Fall 2025"
 tags = ["Accounting", "Financial Statements", "Accrual Accounting", "Inventory", "Liabilities"]
 content = """
-* Systematic chapter-by-chapter lecture notes for accounting information systems, financial reporting, and asset/liability measurement:
-* **Chapter Lecture Notes**:
+* **Chapter Notes**:
   * [Chapter I: Introduction to Financial Statements (PDF)](/files/Chapter1.pdf)
-  * [Chapter II: A Further Look at Financial Statements (PDF)](/files/Chapter_2.pdf)
-  * [Chapter III: The Accounting Information System (PDF)](/files/Chapter_3.pdf)
-  * [Chapter IV: Accrual Accounting Concepts & Adjustments (PDF)](/files/Chapter_4.pdf)
-  * [Chapter V: Merchandising Operations & Multiple-Step Income Statements (PDF)](/files/Chapter_5.pdf)
+  * [Chapter II: Further Look at Financial Statements (PDF)](/files/Chapter_2.pdf)
+  * [Chapter III: Accounting Information System (PDF)](/files/Chapter_3.pdf)
+  * [Chapter IV: Accrual Accounting Concepts (PDF)](/files/Chapter_4.pdf)
+  * [Chapter V: Merchandising Operations & Income Statement (PDF)](/files/Chapter_5.pdf)
   * [Chapter VI: Reporting & Analyzing Inventory (PDF)](/files/Chapter_6.pdf)
-  * [Chapter VII: Fraud, Internal Control, and Cash Management (PDF)](/files/Chapter%207.pdf)
-  * [Chapter VIII: Reporting & Analyzing Receivables & Allowance Methods (PDF)](/files/Chapter%208.pdf)
-  * [Chapter IX: Reporting & Analyzing Long-Lived Assets & Depreciation (PDF)](/files/Chapter_9.pdf)
-  * [Chapter X: Reporting & Analyzing Liabilities (PDF)](/files/Chapter_10.pdf)
-  * [Chapter XI: Reporting & Analyzing Stockholders' Equity (PDF)](/files/Chapter_11.pdf)
+  * [Chapter VII: Fraud, Internal Control, and Cash (PDF)](/files/Chapter%207.pdf)
+  * [Chapter VIII: Receivables (PDF)](/files/Chapter%208.pdf)
+  * [Chapter IX: Long-Lived Assets (PDF)](/files/Chapter_9.pdf)
+  * [Chapter X: Liabilities (PDF)](/files/Chapter_10.pdf)
+  * [Chapter XI: Stockholders' Equity (PDF)](/files/Chapter_11.pdf)
 """
 
 [[items]]
-title = "Principles of Economics (Macroeconomic Section)"
+title = "Principles of Economics (Macroeconomics)"
 subtitle = "Jinhe Center for Economic Research · Taught by Prof. Kuo"
 date = "Fall 2025"
 tags = ["Principles of Economics", "Macroeconomic Foundations", "Money Supply", "Inflation Tax", "Baumol-Tobin"]
 content = """
-* Complete lecture notes, model derivations, and exercises for the macroeconomic foundations curriculum:
-* **Introductory & Foundational Chapters**:
-  * [Chapter 1: Economic Foundations (English Version) (PDF)](/files/Chapter1%20(1).pdf)
-  * [Chapter 1: Economic Foundations (Simplified Chinese) (PDF)](/files/Chapter1_Simplified_Chinese.pdf)
-  * [National Income Theory: Chapters 1-3 (PDF)](/files/national_income_theory.pdf)
-  * [Overview of Economic Management (PDF)](/files/经济管理概论.pdf)
-* **Macro Dynamics & Analytical Models**:
-  * [Price Indices & Inflation Measurement (PDF)](/files/物价指数笔记.pdf)
-  * [General Macroeconomic Framework (PDF)](/files/宏观框架笔记.pdf)
-  * [Inflation Framework & Dynamics (PDF)](/files/通胀框架笔记.pdf)
+* **Foundational Chapters**:
+  * [Chapter 1: Foundations (English) (PDF)](/files/Chapter1%20(1).pdf) · [Chapter 1: Foundations (Chinese) (PDF)](/files/Chapter1_Simplified_Chinese.pdf)
+  * [National Income Theory: Ch 1-3 (PDF)](/files/national_income_theory.pdf)
+  * [Economic Management Overview (PDF)](/files/经济管理概论.pdf)
+* **Macroeconomic Models**:
+  * [Price Indices & Inflation (PDF)](/files/物价指数笔记.pdf)
+  * [Macroeconomic Framework (PDF)](/files/宏观框架笔记.pdf) · [Inflation Framework (PDF)](/files/通胀框架笔记.pdf)
   * [General Equilibrium Foundations (PDF)](/files/一般均衡笔记.pdf)
-  * [Household-Firm Circular Flow Dynamics (PDF)](/files/家庭公司循环.pdf)
-* **Monetary Economics & Banking**:
-  * [Money Demand & Velocity of Circulation (PDF)](/files/货币需求与流通速度笔记.pdf)
-  * [Money Supply Mechanics & Bank Credit Creation (PDF)](/files/货币供给笔记.pdf)
-  * [Commercial Banking Systems (Lecture 12) (PDF)](/files/商业银行笔记.pdf)
-  * [Monetary Fluctuations & Central Bank Policies (Lecture 11) (PDF)](/files/货币波动和政策笔记.pdf)
-  * [Baumol-Tobin Cash Inventory Model (PDF)](/files/baumol模型笔记.pdf)
-  * [Baumol Model & Seigniorage Analysis (PDF)](/files/baumol模型与铸币费.pdf)
-  * [Seigniorage & Inflation Tax Dynamics (PDF)](/files/铸币费与通胀税笔记.pdf)
-  * [Treasury Inflation-Protected Securities (TIPS) (PDF)](/files/保值债笔记.pdf)
-  * [Gold Standard Reality & Discussion (PDF)](/files/金本位现钞笔记.pdf) · [Gold Currency Economics (PDF)](/files/金币经济笔记.pdf)
-  * [Exchange Rate Mechanics & International Finance (PDF)](/files/汇率笔记1.pdf) · [International Monetary Economics (PDF)](/files/国际金融笔记.pdf)
-  * [Marginal Efficiency of Capital (MEC) Equilibrium (PDF)](/files/MEC笔记.pdf)
-* **Exercises & Practice Sets**:
-  * [Principles of Economics Exercise Set 1 (PDF)](/files/经济学原理习题.pdf)
-  * [Principles of Economics Exercise Set 2 (PDF)](/files/习题2.pdf)
+  * [Household-Firm Circular Flow (PDF)](/files/家庭公司循环.pdf)
+* **Money, Banking & Finance**:
+  * [Money Demand & Velocity (PDF)](/files/货币需求与流通速度笔记.pdf)
+  * [Money Supply Mechanics (PDF)](/files/货币供给笔记.pdf)
+  * [Commercial Banking (Lecture 12) (PDF)](/files/商业银行笔记.pdf)
+  * [Monetary Fluctuations & Policy (Lecture 11) (PDF)](/files/货币波动和政策笔记.pdf)
+  * [Baumol-Tobin Cash Inventory Model (PDF)](/files/baumol模型笔记.pdf) · [Baumol Model & Seigniorage (PDF)](/files/baumol模型与铸币费.pdf)
+  * [Seigniorage & Inflation Tax (PDF)](/files/铸币费与通胀税笔记.pdf)
+  * [TIPS Securities (PDF)](/files/保值债笔记.pdf)
+  * [Gold Standard Discussion (PDF)](/files/金本位现钞笔记.pdf) · [Gold Currency Economics (PDF)](/files/金币经济笔记.pdf)
+  * [Exchange Rate Mechanics (PDF)](/files/汇率笔记1.pdf) · [International Monetary Economics (PDF)](/files/国际金融笔记.pdf)
+  * [Marginal Efficiency of Capital (MEC) (PDF)](/files/MEC笔记.pdf)
+* **Problem Sets**:
+  * [Principles of Economics Exercise Set 1 (PDF)](/files/经济学原理习题.pdf) · [Exercise Set 2 (PDF)](/files/习题2.pdf)
 """
 
 [[items]]
-title = "AI4Learning Econ Open Lecture Series"
-subtitle = "Independent Open-Source Knowledge Base for Advanced Quantitative Economics"
+title = "Additional Lecture Notes"
+subtitle = "Independent Curated Study Notes"
 date = "Spring 2026"
-tags = ["Mathematical Economics", "AI for Finance", "Advanced Micro", "Advanced Macro", "Game Theory", "Growth Theory"]
+tags = ["Mathematical Economics", "Advanced Micro", "Advanced Macro", "Game Theory", "Growth Theory"]
 content = """
-* Advanced computational, mathematical, and algorithmic lecture notes developed with modern AI workflows:
-* **Advanced Mathematical & Computational Series**:
-  * [Mathematical Analysis for Economics & Finance (PDF)](/files/AI4LearningEcon/math4econ.pdf)
-  * [Mathematical Methods in Economic & Financial Research (PDF)](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
-  * [AI for Economics & Finance Applications (PDF)](/files/AI4LearningEcon/ai4econ.pdf)
-* **Core Advanced Theoretical Frameworks**:
-  * [Modern Economic Growth Theory (PDF)](/files/AI4LearningEcon/经济增长.pdf)
-  * [Industrial Organization & Market Power (PDF)](/files/AI4LearningEcon/产业组织学.pdf)
-  * [Advanced Microeconomic Theory (PDF)](/files/AI4LearningEcon/高级微观经济学.pdf)
-  * [Advanced Macroeconomic Theory (PDF)](/files/AI4LearningEcon/高级宏观经济学.pdf)
-  * [Econometric Methods & Causal Inference (PDF)](/files/AI4LearningEcon/计量经济学.pdf)
-  * [Game Theory & Information Economics (PDF)](/files/AI4LearningEcon/game-theory-textbook.pdf)
+* [Mathematical Analysis for Economics & Finance (PDF)](/files/AI4LearningEcon/math4econ.pdf)
+* [Mathematical Methods in Economic & Financial Research (PDF)](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
+* [AI Applications in Economics & Finance (PDF)](/files/AI4LearningEcon/ai4econ.pdf)
+* [Economic Growth Theory (PDF)](/files/AI4LearningEcon/经济增长.pdf)
+* [Industrial Organization (PDF)](/files/AI4LearningEcon/产业组织学.pdf)
+* [Advanced Microeconomic Theory (PDF)](/files/AI4LearningEcon/高级微观经济学.pdf)
+* [Advanced Macroeconomic Theory (PDF)](/files/AI4LearningEcon/高级宏观经济学.pdf)
+* [Econometric Methods (PDF)](/files/AI4LearningEcon/计量经济学.pdf)
+* [Game Theory & Information Economics (PDF)](/files/AI4LearningEcon/game-theory-textbook.pdf)
 """

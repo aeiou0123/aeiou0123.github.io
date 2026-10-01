@@ -1,16 +1,16 @@
 type = "card"
-title = "Academic Research & Working Papers"
-description = "Current working papers, econometric inquiries, and empirical research projects."
+title = "Research"
+description = "Working papers and research projects."
 
 [[items]]
 title = "Adaptive Adjustment of Higher Education Majors Under LLM Shocks"
-subtitle = "Working Paper / Research Training (Advisor: Prof. Xiaodong Chen, Prof. Xiaoliang Yang)"
+subtitle = "Working Paper (Advised by Prof. Xiaodong Chen & Prof. Xiaoliang Yang)"
 date = "2026.02 – Present"
 tags = ["LLM Exposure", "Continuous DID", "Higher Education Supply", "Causal Forest"]
 content = """
-* **Framework**: Extends the Acemoglu & Restrepo (2018) task framework to the higher education supply side, creating a fine-grained crosswalk mapping 101 occupational LLM exposures to 889 undergraduate majors.
-* **Empirical Strategy**: Integrates national major filings (2015–2024) with provincial micro admission records of 4.34 million students across 27 provinces.
-* **Methodology**: Employs Continuous Difference-in-Differences (Continuous DID), Causal Forests for heterogeneous treatment effects, and trend-adjusted sensitivity analyses.
+* **Framework**: Extends the Acemoglu & Restrepo (2018) task framework to higher education supply, mapping occupational LLM exposure to undergraduate majors.
+* **Empirical Strategy**: Combines national major filings (2015–2024) with provincial admission records of 4.34 million students across 27 provinces.
+* **Methods**: Employs continuous difference-in-differences, causal forests for heterogeneous treatment effects, and trend-adjusted sensitivity analyses.
 """
 
 [[items]]
@@ -19,35 +19,35 @@ subtitle = "Working Paper / Independent Research"
 date = "2026"
 tags = ["Industrial Organization", "AI Agents", "Oligopoly", "Market Concentration"]
 content = """
-* **Theory**: Abstracting Tokens and AI Agents as on-demand heterogeneous production inputs, restructuring firm-level marginal and fixed cost curves.
-* **Market Dynamics**: Investigates concentration dynamics, price pass-through, and consumer surplus under Cournot and Bertrand oligopolies with endogenous entry/exit barriers and matching frictions.
-* **Paper Access**: [📄 Read Full Working Paper (PDF)](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
+* **Model**: Models Tokens and AI Agents as on-demand production inputs, altering firm cost functions.
+* **Analysis**: Examines market concentration, pricing, and consumer surplus under Cournot and Bertrand competition with entry/exit and search frictions.
+* **Paper**: [📄 Read Working Paper (PDF)](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
 """
 
 [[items]]
-title = "From Hotelling to Voting Systems: Multidimensional Preference Space & Social Choice Distortions"
-subtitle = "Coursework Paper / Political Economy & Microeconomics"
+title = "From Hotelling to Voting Systems: Preference Space and Social Choice Distortions"
+subtitle = "Coursework Paper / Political Economy"
 date = "2026"
 tags = ["Microeconomics", "Social Choice", "Hotelling-Downs", "Voting Systems"]
 content = """
-* **Inquiry**: Examines candidate strategies and social choice distortions across multidimensional policy spaces under plurality versus proportional electoral systems.
+* **Inquiry**: Examines candidate positioning and social choice outcomes in multidimensional policy spaces under different electoral rules.
 * **Paper & Video**: [📄 Read Paper (PDF)](/files/Intermediate%20Microeconomics/IMpaper.pdf) · [📺 Bilibili Video Explanation](https://www.bilibili.com/video/BV18qMh6oEHE/)
 """
 
 [[items]]
-title = "Heterogeneous Energy Price Pass-Through Across Consumption Structures Under Geopolitical Shocks"
-subtitle = "Undergraduate Innovation Research Program (Core Researcher)"
+title = "Heterogeneous Energy Price Pass-Through Under Geopolitical Shocks"
+subtitle = "Undergraduate Innovation Research Program"
 date = "2026.04 – Present"
-tags = ["Macro-Finance", "Time Series", "Geopolitical Shocks", "Pass-Through Elasticity"]
+tags = ["Macro-Finance", "Time Series", "Geopolitical Shocks", "Pass-Through"]
 content = """
-* **Inquiry**: Compiles cross-country energy consumption profiles and macro time-series panel data to measure the heterogeneous elasticity of price responses across consumption regimes following external supply shocks.
+* **Inquiry**: Uses cross-country panel time-series data to measure differences in price pass-through elasticities across energy consumption structures following supply shocks.
 """
 
 [[items]]
-title = "Perceived Age Discrimination, Psychological Coping, and Policy Demands of Job Seekers Aged 35+"
-subtitle = "National 'Challenge Cup' Academic Competition (Core Researcher)"
+title = "Perceived Age Discrimination, Coping Strategies, and Policy Demands of Job Seekers Aged 35+"
+subtitle = "National 'Challenge Cup' Academic Competition"
 date = "2025.12 – 2026.04"
 tags = ["Microeconometrics", "PCA", "Quantile Regression", "Labor Economics"]
 content = """
-* **Analysis**: Processed and cleaned micro-level field survey data; extracted behavioral coping typologies using Principal Component Analysis (PCA); performed quantile regressions to evaluate asymmetric penalties across the earnings distribution.
+* **Analysis**: Cleaned survey microdata, extracted behavioral patterns via principal component analysis, and applied quantile regressions to assess wage penalty heterogeneity.
 """

@@ -3,8 +3,8 @@ title = "关于我"
 
 [profile]
 research_interests = [
-  "AI 暴露度测度、AI 对企业决策与市场结构的影响",
-  "产业组织理论（IO）与实证产业组织（Empirical IO）",
+  "AI 暴露度测度与市场结构",
+  "实证产业组织（Empirical IO）",
   "宏观经济学与宏观金融"
 ]
 
@@ -17,9 +17,9 @@ title = "个人简介"
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "工作论文与代表性研究"
+title = "代表性研究与项目"
 filter = "selected"
-limit = 5
+limit = 2
 
 [[sections]]
 id = "news"

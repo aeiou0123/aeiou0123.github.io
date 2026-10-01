@@ -1,36 +1,25 @@
 type = "card"
-title = "Practical Projects & Systems"
-description = "Financial AI agents, open-source knowledge bases, and quantitative tools."
+title = "Projects"
+description = "Applied quantitative tools and open-source course notes."
 
 [[items]]
 title = "Claim2Value: Financial AI Agent for Technical Claim Verification & Dynamic Valuation"
 subtitle = "PKU Financial AI Agent Competition · Economic & Financial Reasoning Lead"
 date = "2026.08 – 2026.09"
 link = "https://github.com/aeiou0123/pku-financial-ai-agent"
-tags = ["AI Agent", "Financial Valuation", "Causal Chain", "Embodied AI", "Python"]
+tags = ["AI Agent", "Financial Valuation", "Causal Reasoning", "Embodied AI", "Python"]
 content = """
-* **Coverage**: Analyzed 11 leading listed firms in the humanoid robotics & embodied AI supply chain.
-* **Pipeline**: Built an end-to-end agent workflow spanning unstructured patent/technical claim extraction, multi-source evidence cross-validation, and financial statement impact projection.
-* **Reasoning**: Benchmarked 51 domain technical claims, deconstructing the causal chain ("technical specification → production yield → product pricing & unit cost → gross margin"), delivering robust three-scenario dynamic valuation models.
+* Developed an end-to-end agent workflow for 11 core listed firms in the humanoid robotics and embodied AI supply chain.
+* Benchmarked 51 domain technical claims, tracing the transmission from technical specifications to productivity and gross margins, integrated into dynamic three-scenario valuation models.
 """
 
 [[items]]
-title = "AI4Learning Econ: Open-Source Economics Lecture Notes & Academic Repository"
-subtitle = "Founder & Maintainer · Independent Open-Source Project"
+title = "Course Notes & Academic Materials Repository"
+subtitle = "Open Coursework Repository"
 date = "2025.08 – Present"
 link = "/notes"
-tags = ["Open-Source Education", "Lecture Notes", "LaTeX", "Mathematical Economics"]
+tags = ["Coursework", "Lecture Notes", "LaTeX", "Economics"]
 content = """
-* **Knowledge Hub**: Systematically compiles and curates university lecture notes, problem sets, and step-by-step mathematical solutions across Intermediate Micro/Macro, Econometrics, Mathematical Analysis for Economics, and Industrial Organization.
-* **Accessibility**: Published open-access lecture notes and curated PDFs benefiting hundreds of undergraduate economics learners.
-"""
-
-[[items]]
-title = "MBanGTI: Jungian 8-Function Personality Cognitive Mapping Engine"
-subtitle = "Personal Web Application & Character Logic Analysis"
-date = "2026.06"
-link = "https://github.com/aeiou0123/mbangti"
-tags = ["Web Application", "JavaScript", "Cognitive Psychology", "Interactive UI"]
-content = """
-* Built a lightweight interactive single-page application mapping Jungian eight cognitive functions and MBTI typologies to behavioral logic and decision trees.
+* Curates lecture notes, problem sets, and solution keys across undergraduate economics and mathematics courses at Xi'an Jiaotong University.
+* Covers Intermediate Microeconomics, Intermediate Macroeconomics, Applied Statistics, Financial Markets, and Corporate Finance.
 """

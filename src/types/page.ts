@@ -22,9 +22,12 @@ export interface CardItem {
     tags?: string[];
     link?: string;
     image?: string;
+    collapsible?: boolean;
 }
 
 export interface CardPageConfig extends BasePageConfig {
     type: 'card';
     items: CardItem[];
+    collapsible?: boolean;
+    default_collapsed?: boolean;
 }

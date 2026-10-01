@@ -4,8 +4,8 @@ title = "About"
 [profile]
 research_interests = [
   "AI Exposure Measurement & Market Structure",
-  "Industrial Organization (IO) and Empirical IO",
-  "Macroeconomics and Macro-Finance"
+  "Empirical Industrial Organization",
+  "Macroeconomics & Macro-Finance"
 ]
 
 [[sections]]
@@ -17,9 +17,9 @@ title = "About Me"
 [[sections]]
 id = "featured_publications"
 type = "publications"
-title = "Working Papers & Selected Research"
+title = "Selected Research & Projects"
 filter = "selected"
-limit = 5
+limit = 2
 
 [[sections]]
 id = "news"
