@@ -1,105 +1,197 @@
 type = "card"
-title = "核心课程讲义与公开笔记"
-description = "西安交通大学本科核心专业课讲义、习题解析与 AI4Learning Econ 数理知识库。"
+title = "核心课程讲义与公开笔记库"
+description = "西安交通大学本科核心专业课讲义、习题解析、配套教材题解与 AI4Learning Econ 数理知识库。"
 
 [[items]]
 title = "中级微观经济学 (Intermediate Microeconomics)"
-subtitle = "金禾经济研究中心（课程成绩：95 分）"
+subtitle = "金禾经济研究中心 · 授课教师：李老师、周老师（课程成绩：95 分）"
 date = "2026 春"
-tags = ["微观经济学", "消费者理论", "生产理论", "一般均衡", "博弈论"]
+tags = ["微观经济学", "消费者理论", "生产理论", "一般均衡", "博弈论", "市场结构"]
 content = """
-* 系统涵盖效用最大化、支出最小化、垄断与寡头定价、要素市场与一般均衡理论。
-* 下载课程讲义与习题解析：
+* **参考教材**：Walter Nicholson & Christopher Snyder, *Microeconomic Theory: Basic Principles and Extensions* (9th Edition).
+* 本课程涵盖消费者行为、企业生产与成本、完全竞争、垄断与寡头定价、要素市场与一般均衡理论。
+* **作业习题与逐问详解库**：
   * [第一次作业习题（PDF）](/files/Intermediate%20Microeconomics/HW1.pdf)
-  * [第二次作业习题（PDF）](/files/Intermediate%20Microeconomics/homework2.pdf)
-  * [第二次作业解析（PDF）](/files/Intermediate%20Microeconomics/hw2.pdf)
-  * [第四次作业详解版（PDF）](/files/Intermediate%20Microeconomics/中微第四次作业_答案详解版.pdf)
+  * [第二次作业习题（PDF）](/files/Intermediate%20Microeconomics/homework2.pdf) · [第二次作业详解（PDF）](/files/Intermediate%20Microeconomics/hw2.pdf)
+  * [第四次作业（逐问答题版）（PDF）](/files/Intermediate%20Microeconomics/中微第四次作业_逐问答题版.pdf) · [第四次作业（答案详解版）（PDF）](/files/Intermediate%20Microeconomics/中微第四次作业_答案详解版.pdf)
+  * [第五次作业（逐问答题版）（PDF）](/files/Intermediate%20Microeconomics/中微第五次作业_逐问答题版.pdf) · [第五次作业（答案详解版）（PDF）](/files/Intermediate%20Microeconomics/中微第五次作业_答案详解版.pdf)
+  * [第六次作业（答题版）（PDF）](/files/Intermediate%20Microeconomics/中微第六次作业_答题版.pdf) · [第六次作业（答案详解版）（PDF）](/files/Intermediate%20Microeconomics/中微第六次作业_答案详解版.pdf)
+* **核心章节重点讲义整理**：
+  * [市场结构与垄断寡头竞争讲义（PDF）](/files/Intermediate%20Microeconomics/市场结构.pdf)
+  * [博弈论与信息经济学笔记整合（PDF）](/files/Intermediate%20Microeconomics/博弈论笔记整合.pdf)
+  * [一般均衡理论章节讲义（PDF）](/files/Intermediate%20Microeconomics/general_equilibrium_chapter.pdf)
+  * [外部性与市场失灵章节讲义（PDF）](/files/Intermediate%20Microeconomics/externalities_chapter.pdf)
+  * [公共品与集体行动章节讲义（PDF）](/files/Intermediate%20Microeconomics/public_goods_chapter.pdf)
+  * [信息不对称与激励机制章节讲义（PDF）](/files/Intermediate%20Microeconomics/information_incentives_chapter_fixed.pdf)
+  * [劳动要素市场理论章节讲义（PDF）](/files/Intermediate%20Microeconomics/labor_market_chapter.pdf)
+* **独立撰写课程论文存档**：
+  * [课程论文 1：Token 与 AI Agent 冲击下的企业决策与市场结构（PDF）](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
+  * [课程论文 2：从 Hotelling 到选举制度：多维偏好空间与社会选择扭曲（PDF）](/files/Intermediate%20Microeconomics/IMpaper.pdf)
 """
 
 [[items]]
 title = "中级宏观经济学 (Intermediate Macroeconomics)"
-subtitle = "金禾经济研究中心（课程成绩：100 分 满分）"
+subtitle = "金禾经济研究中心 · 授课教师：张老师（课程成绩：100 分 满分）"
 date = "2026 春"
-tags = ["宏观经济学", "IS-LM 模型", "Solow 增长模型", "总供给总需求"]
+tags = ["宏观经济学", "IS-LM 模型", "Solow 增长模型", "总供给总需求", "经济周期"]
 content = """
-* 全面整理古典主义、凯恩斯主义与现代增长理论模型推导与大题详解。
-* 下载课程讲义与习题解析：
-  * [古典与凯恩斯学派框架（PDF）](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
-  * [作业一：Ch03-05（PDF）](/files/Intermediate%20Macroeconomics/homework1.pdf)
-  * [作业二：Ch06-09（PDF）](/files/Intermediate%20Macroeconomics/homework2macro.pdf)
-  * [作业二详解（PDF）](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
-  * [作业三：Ch10-12（PDF）](/files/Intermediate%20Macroeconomics/homework3macro.pdf)
+* **参考教材**：Andrew B. Abel, Ben S. Bernanke, Dean Croushore, *Macroeconomics* (6th Edition)，配套习题采用 11 版。
+* 系统梳理古典主义、凯恩斯主义与现代增长理论模型推导，提供全套作业与习题详解：
+* **理论核心框架**：
+  * [古典主义与凯恩斯主义宏观理论框架比较（PDF）](/files/Intermediate%20Macroeconomics/Classical%20&%20Keynesian.pdf)
+* **作业习题与题解库**：
+  * [作业一：Ch03-05 古典经济与长期均衡（PDF）](/files/Intermediate%20Macroeconomics/homework1.pdf)
+  * [作业二：Ch06-09 经济增长与经济周期习题（PDF）](/files/Intermediate%20Macroeconomics/homework2macro.pdf)
+  * [作业二：Ch06-09 题解与大题推导详解（PDF）](/files/Intermediate%20Macroeconomics/homework2_solutions.pdf)
+  * [作业三：Ch10-12 IS-LM 与 AD-AS 宏观模型习题（PDF）](/files/Intermediate%20Macroeconomics/homework3macro.pdf)
+  * [作业三：Ch10-12 答案解析整合版（PDF）](/files/Intermediate%20Macroeconomics/hw3_combined.pdf)
+  * [作业四：Ch13-15 开放经济与汇率机制空白题版（PDF）](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_combined_blank_space.pdf)
+  * [作业四：Ch13-15 中英双语对照详解版（PDF）](/files/Intermediate%20Macroeconomics/ch13_ch14_ch15_detailed_solutions_bilingual.pdf)
 """
 
 [[items]]
 title = "应用统计学与计量经济基础 (Applied Statistics)"
-subtitle = "数学与统计学院（课程成绩：93 分）"
+subtitle = "数学与统计学院 · 授课教师：马老师（课程成绩：93 分）"
 date = "2025 秋"
-tags = ["统计学", "抽样分布", "参数估计", "假设检验"]
+tags = ["应用统计学", "计量经济基础", "抽样分布", "假设检验", "重抽样方法"]
 content = """
-* 梳理图表描述性技术、汇总统计量、数据收集方法与抽样分布定理推导。
-* 下载课程讲义：
-  * [课程概论（PDF）](/files/Introduction_Applied_Statistics.pdf)
-  * [第一章：图表描述性技术（PDF）](/files/Graphical_descriptive_techniques_notes.pdf)
-  * [第二章：汇总统计量（PDF）](/files/Summary_statistics_notes.pdf)
-  * [第三章：数据收集（PDF）](/files/Data_collection_notes.pdf)
-  * [第四章：抽样分布（PDF）](/files/Sampling_distributions_notes.pdf)
+* 西安交通大学数学与统计学院统计专业课，涵盖统计图表技术、统计量分布定理推导、参数估计与非参数方法：
+* **分章节讲义库**：
+  * [课程概论与统计学前言（PDF）](/files/Introduction_Applied_Statistics.pdf)
+  * [第一章：图表描述性技术与数据展现（PDF）](/files/Graphical_descriptive_techniques_notes.pdf)
+  * [第二章：汇总统计量与集中/离散度量（PDF）](/files/Summary_statistics_notes.pdf)
+  * [第三章：数据收集与抽样设计（PDF）](/files/Data_collection_notes.pdf)
+  * [第四章：抽样分布与中心极限定理（PDF）](/files/Sampling_distributions_notes.pdf)
+  * [第五章：参数估计导论与点/区间估计（PDF）](/files/Introduction_to_estimation_notes.pdf)
+  * [第六章：假设检验导论与第一/二类错误（PDF）](/files/Introduction_to_hypothesis_testing_notes.pdf)
+  * [第七章：单总体参数统计推断（PDF）](/files/One_sample_inference_notes.pdf)
+  * [第八章：双总体均值与方差比较推断（PDF）](/files/Inference_about_Two_Populations.pdf)
+  * [第九章：非参数检验与秩和检验（Rank Test）（PDF）](/files/Rank_test.pdf)
+  * [第十章：重抽样技术：Bootstrap 与置换检验（PDF）](/files/Resampling_Methods_Bootstrap_and_Permutation.pdf)
 """
 
 [[items]]
 title = "金融市场学与金融机构 (Financial Markets & Institutions)"
-subtitle = "金禾经济研究中心（课程成绩：92 分）"
+subtitle = "金禾经济研究中心 · 授课教师：周老师（课程成绩：92 分）"
 date = "2026 春"
-tags = ["金融学", "货币市场", "债券定价", "次贷危机", "汇率制度"]
+tags = ["金融市场", "货币市场", "债券定价", "美联储政策", "次贷危机", "外汇体制"]
 content = """
-* 深入分析次贷危机政策应对、利率决定机制、美联储调控、货币/债券/衍生品市场及香港联系汇率制。
-* 下载课程讲义：
-  * [次贷危机及其应对政策（PDF）](/files/Financial%20Institution/financial_markets_notes.pdf)
-  * [金融市场概论、利率与美联储（PDF）](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
-  * [货币、债券、抵押贷款与外汇市场（PDF）](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
-  * [股票市场与衍生品市场（PDF）](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
+* **参考教材**：安东尼·桑德斯（Anthony Saunders）、马西娅·米伦·科尼特（Marcia Millon Cornett）《金融市场与金融机构》。
+* 深入探讨货币政策传导、金融危机演变机制、金融机构监管与各级子市场：
+* **专题讲义与笔记**：
+  * [次贷危机演变及其宏观应对政策（PDF）](/files/Financial%20Institution/financial_markets_notes.pdf)
+  * [金融市场概论、利率决定机制与美联储调控（PDF）](/files/Financial%20Institution/financial_markets_notes_part2.pdf)
+  * [货币市场、债券市场、抵押贷款与外汇市场（PDF）](/files/Financial%20Institution/financial_markets_notes_part3.pdf)
+  * [股票市场组织与金融衍生品市场机制（PDF）](/files/Financial%20Institution/financial_markets_notes_part4.pdf)
+  * [香港联系汇率制与 1998 港币保卫战专题分析（PDF）](/files/Financial%20Institution/financial_markets_notes_part5.pdf)
+  * [资产定价模型与金融技术分析导论（PDF）](/files/Financial%20Institution/financial_markets_notes_part6.pdf)
+* **配套教材课后习题详细解答**：
+  * [教材配套习题解答 Ch01 - Ch02：金融市场基础（PDF）](/files/Financial%20Institution/answers_ch1_ch2.pdf)
+  * [教材配套习题解答 Ch03 - Ch04：利率与货币政策（PDF）](/files/Financial%20Institution/answers_ch3_ch4.pdf)
+  * [教材配套习题解答 Ch05 - Ch06：货币与债券市场（PDF）](/files/Financial%20Institution/answers_ch5_ch6.pdf)
+  * [教材配套习题解答 Ch07 - Ch08：抵押与股票市场（PDF）](/files/Financial%20Institution/answers_ch7_ch8.pdf)
+  * [教材配套习题解答 Ch09 - Ch10：外汇与衍生品市场（PDF）](/files/Financial%20Institution/answers_ch9_ch10.pdf)
 """
 
 [[items]]
 title = "金融学原理与公司理财 (Principles of Finance)"
-subtitle = "金禾经济研究中心（课程成绩：94 分）"
+subtitle = "金禾经济研究中心 · 授课教师：赵老师（课程成绩：94 分）"
 date = "2026 春"
-tags = ["公司金融", "资本预算", "NPV", "资本市场"]
+tags = ["公司理财", "资本预算", "CAPM", "MM 定理", "WACC", "股利政策"]
 content = """
-* 公司金融基石、现金流折现（DCF）、净现值法则与资本市场概述。
-* 下载课程讲义：
-  * [总体复习笔记（PDF）](/files/Principles%20of%20Finance/finance_review_notes.pdf)
-  * [第一章：公司理财导论及题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH01_公司理财导论_练习答题与详细题解.pdf)
-  * [第四章：资本预算方法及题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
-  * [第五章：金融市场与 NPV 题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
+* 系统涵盖公司投资决策、资本结构理论、资产定价与金融市场效率的完整笔记与题解库：
+* **核心复习与知识汇总**：
+  * [公司理财与金融学原理综合复习笔记（PDF）](/files/Principles%20of%20Finance/finance_review_notes.pdf)
+  * [核心知识要点与课后练习题汇总（DOCX）](/files/Principles%20of%20Finance/知识要点+金融学原理.docx)
+  * [1.0 金融学原理名词解释与概念库（DOC）](/files/Principles%20of%20Finance/1.0%20金融学原理名词汇总.doc)
+* **分章节 QA 练习答题与详细题解**：
+  * [CH01：公司理财导论 QA 与练习答题详解（PDF）](/files/Principles%20of%20Finance/公司理财_CH01_公司理财导论_练习答题与详细题解.pdf)
+  * [CH04：资本预算的其他方法 QA 与详细题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH04_资本预算的其他方法_QA_练习答题与详细题解.pdf)
+  * [CH05：金融市场与净现值（NPV）法则详细题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH05_金融市场与NPV_练习答题与详细题解.pdf)
+  * [CH06：资本市场概述与市场有效性分析（PDF）](/files/Principles%20of%20Finance/公司理财_CH06_练习答题与详细题解.pdf)
+  * [CH07：资本资产定价模型（CAPM）QA 题解（PDF）](/files/Principles%20of%20Finance/公司理财_CH07_CAPM_QA_练习答题与详细题解.pdf)
+  * [CH08：资产定价模型与证券市场线推导（PDF）](/files/Principles%20of%20Finance/公司理财_CH08_资产定价模型_练习答题与详细题解.pdf)
+  * [CH10：租赁融资决策与损益评估（PDF）](/files/Principles%20of%20Finance/公司理财_CH10_租赁_练习答题与详细题解.pdf)
+  * [有效市场假说（EMH）问答与辨析 Part I（PDF）](/files/Principles%20of%20Finance/公司理财_EMH_QA_练习答题与详细题解.pdf)
+  * [CH12：有效市场假说检验与异常现象 Part II（PDF）](/files/Principles%20of%20Finance/公司理财_CH12_EMH_有效市场假说_练习答题与详细题解.pdf)
+  * [加权平均资本成本（WACC）计算与决策 QA（PDF）](/files/Principles%20of%20Finance/公司理财_WACC_QA_练习答题与详细题解.pdf)
+  * [MM 定理 Part I：无税与有税资本结构不相关性（PDF）](/files/Principles%20of%20Finance/公司理财_MM_QA_练习答题与详细题解.pdf)
+  * [MM 定理 Part II：破产成本、权衡理论与现实约束（PDF）](/files/Principles%20of%20Finance/公司理财_MM_Limits_QA_练习答题与详细题解.pdf)
+  * [股利政策与公司分红理论 QA 题解（PDF）](/files/Principles%20of%20Finance/公司理财_Dividends_QA_练习答题与详细题解.pdf)
 """
 
 [[items]]
 title = "会计学原理 (Principles of Accounting)"
-subtitle = "金禾经济研究中心（课程成绩：96 分）"
+subtitle = "金禾经济研究中心 · 授课教师：吴老师（课程成绩：96 分）"
 date = "2025 秋"
-tags = ["会计学", "财务报表", "权责发生制", "多步式利润表"]
+tags = ["会计学", "财务报表", "权责发生制", "存货核算", "负债分析"]
 content = """
-* 财务报表架构、借贷记账法、权责发生制调整与商业营运利润表详解。
-* 下载课程讲义：
-  * [第一章：财务报表概论（PDF）](/files/Chapter1.pdf)
-  * [第二章：深入财务报表（PDF）](/files/Chapter_2.pdf)
-  * [第三章：会计信息系统（PDF）](/files/Chapter_3.pdf)
-  * [第四章：权责发生制概念（PDF）](/files/Chapter_4.pdf)
-  * [第五章：商品营运与利润表（PDF）](/files/Chapter_5.pdf)
+* 全套涵盖会计循环、调整分录、多步式损益表与资产负债要素的分章节讲义库：
+* **章节讲义全集**：
+  * [第一章：财务报表导论与基本勾稽关系（PDF）](/files/Chapter1.pdf)
+  * [第二章：深入剖析财务报表与披露（PDF）](/files/Chapter_2.pdf)
+  * [第三章：会计信息系统与复式记账法（PDF）](/files/Chapter_3.pdf)
+  * [第四章：权责发生制概念与期末调整分录（PDF）](/files/Chapter_4.pdf)
+  * [第五章：商业企业经营与多步式利润表（PDF）](/files/Chapter_5.pdf)
+  * [第六章：存货核算、先进先出与成本计量（PDF）](/files/Chapter_6.pdf)
+  * [第七章：舞弊防范、内部控制与现金管理（PDF）](/files/Chapter%207.pdf)
+  * [第八章：应收账款核算、坏账计提与坏账准备（PDF）](/files/Chapter%208.pdf)
+  * [第九章：长期固定资产与无形资产折旧核算（PDF）](/files/Chapter_9.pdf)
+  * [第十章：流动负债与长期负债核算（PDF）](/files/Chapter_10.pdf)
+  * [第十一章：所有者权益、股本溢价与留存收益（PDF）](/files/Chapter_11.pdf)
 """
 
 [[items]]
-title = "经济与金融研究数理方法进阶"
-subtitle = "AI4Learning Econ 专题系列"
-date = "2026 春"
-tags = ["数理经济学", "数学分析", "产业组织学", "经济增长理论"]
+title = "经济学原理·宏观部分 (Principles of Economics)"
+subtitle = "金禾经济研究中心 · 授课教师：郭老师"
+date = "2025 秋"
+tags = ["经济学原理", "宏观基础", "货币供给", "铸币税", "Baumol 模型"]
 content = """
-* 汇编数理分析、前沿 AI 方法与理论专题。
-* 下载讲义：
-  * [数学分析 III 经济金融专版（PDF）](/files/AI4LearningEcon/math4econ.pdf)
-  * [经济与金融研究的数理方法（PDF）](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
-  * [AI for Econ & Finance（PDF）](/files/AI4LearningEcon/ai4econ.pdf)
-  * [经济增长理论专题（PDF）](/files/AI4LearningEcon/经济增长.pdf)
-  * [产业组织学专题（PDF）](/files/AI4LearningEcon/产业组织学.pdf)
+* 金禾经济研究中心经济学原理宏观部分完整课程笔记、理论模型推导与配套习题库：
+* **导论与国民收入核算**：
+  * [第一讲：经济学导论（英文原版）（PDF）](/files/Chapter1%20(1).pdf)
+  * [第一讲：经济学导论（中文精简版）（PDF）](/files/Chapter1_Simplified_Chinese.pdf)
+  * [国民收入核算理论（Ch01-03）（PDF）](/files/national_income_theory.pdf)
+  * [经济管理概论（PDF）](/files/经济管理概论.pdf)
+* **宏观模型与理论机制**：
+  * [物价指数与通货膨胀测度笔记（PDF）](/files/物价指数笔记.pdf)
+  * [宏观经济总体分析框架（PDF）](/files/宏观框架笔记.pdf)
+  * [通货膨胀理论框架与传导（PDF）](/files/通胀框架笔记.pdf)
+  * [一般均衡理论导论与分析笔记（PDF）](/files/一般均衡笔记.pdf)
+  * [家庭公司宏观经济循环流动模型（PDF）](/files/家庭公司循环.pdf)
+* **货币银行学与金融机制**：
+  * [货币需求理论与货币流通速度分析（PDF）](/files/货币需求与流通速度笔记.pdf)
+  * [货币供给机制与信用扩张流程（PDF）](/files/货币供给笔记.pdf)
+  * [商业银行运作与金融中介（大学经济学第十二讲）（PDF）](/files/商业银行笔记.pdf)
+  * [货币波动与货币政策实践（大学经济学第十一讲）（PDF）](/files/货币波动和政策笔记.pdf)
+  * [Baumol-Tobin 现金持有模型笔记（PDF）](/files/baumol模型笔记.pdf)
+  * [Baumol 模型数学推导与铸币费分析（PDF）](/files/baumol模型与铸币费.pdf)
+  * [铸币费与通货膨胀税理论机制（PDF）](/files/铸币费与通胀税笔记.pdf)
+  * [通胀保值债券（TIPS）定价与现实机制（PDF）](/files/保值债笔记.pdf)
+  * [金本位现实运作与讨论（PDF）](/files/金本位现钞笔记.pdf) · [金币经济学笔记（PDF）](/files/金币经济笔记.pdf)
+  * [汇率决定机制与国际金融笔记（PDF）](/files/汇率笔记1.pdf) · [国际金融专题（PDF）](/files/国际金融笔记.pdf)
+  * [资本边际效率（MEC）宏观均衡笔记（PDF）](/files/MEC笔记.pdf)
+* **配套习题库**：
+  * [经济学原理配套习题一（PDF）](/files/经济学原理习题.pdf)
+  * [经济学原理配套习题二（PDF）](/files/习题2.pdf)
+"""
+
+[[items]]
+title = "AI4Learning Econ 经济金融数理讲义与高级理论系列"
+subtitle = "独立开源项目 · 基于前沿 AI 工作流构建的数理知识库"
+date = "2026 春"
+tags = ["数理经济学", "AI金融", "高级微观", "高级宏观", "博弈论", "经济增长"]
+content = """
+* 由本人基于系统规划、运用前沿 AI 原生工作流整理、校订与 review 的经济金融高阶数理讲义库：
+* **数理基础与交叉前沿**：
+  * [数学分析 III（经济与金融强化版讲义）（PDF）](/files/AI4LearningEcon/math4econ.pdf)
+  * [经济与金融研究的数理方法专著讲义（PDF）](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
+  * [AI 在经济金融中的前沿应用与分析（PDF）](/files/AI4LearningEcon/ai4econ.pdf)
+* **高级理论与前沿教材**：
+  * [现代经济增长理论导论（PDF）](/files/AI4LearningEcon/经济增长.pdf)
+  * [产业组织学核心理论讲义（PDF）](/files/AI4LearningEcon/产业组织学.pdf)
+  * [高级微观经济学讲义（PDF）](/files/AI4LearningEcon/高级微观经济学.pdf)
+  * [高级宏观经济学讲义（PDF）](/files/AI4LearningEcon/高级宏观经济学.pdf)
+  * [计量经济学与因果推断方法（PDF）](/files/AI4LearningEcon/计量经济学.pdf)
+  * [博弈论与信息经济学教材讲义（PDF）](/files/AI4LearningEcon/game-theory-textbook.pdf)
 """

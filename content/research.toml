@@ -21,6 +21,17 @@ tags = ["Industrial Organization", "AI Agents", "Oligopoly", "Market Concentrati
 content = """
 * **Theory**: Abstracting Tokens and AI Agents as on-demand heterogeneous production inputs, restructuring firm-level marginal and fixed cost curves.
 * **Market Dynamics**: Investigates concentration dynamics, price pass-through, and consumer surplus under Cournot and Bertrand oligopolies with endogenous entry/exit barriers and matching frictions.
+* **Paper Access**: [📄 Read Full Working Paper (PDF)](/files/Intermediate%20Microeconomics/agent-token-micro-paper.pdf)
+"""
+
+[[items]]
+title = "From Hotelling to Voting Systems: Multidimensional Preference Space & Social Choice Distortions"
+subtitle = "Coursework Paper / Political Economy & Microeconomics"
+date = "2026"
+tags = ["Microeconomics", "Social Choice", "Hotelling-Downs", "Voting Systems"]
+content = """
+* **Inquiry**: Examines candidate strategies and social choice distortions across multidimensional policy spaces under plurality versus proportional electoral systems.
+* **Paper & Video**: [📄 Read Paper (PDF)](/files/Intermediate%20Microeconomics/IMpaper.pdf) · [📺 Bilibili Video Explanation](https://www.bilibili.com/video/BV18qMh6oEHE/)
 """
 
 [[items]]
