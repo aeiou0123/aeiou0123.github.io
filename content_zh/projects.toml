@@ -11,7 +11,6 @@ tags = ["AI Agent", "动态估值", "因果链推理", "具身智能", "Python"]
 content = """
 * 面向具身智能与人形机器人产业链的 11 家上市公司构建端到端分析流水线。
 * 提取并核验 51 条核心技术指标声明，拆解从技术参数到产能、成本与毛利率的传导路径，搭建三情景动态财务估值模型。
-* **开源代码库**：[GitHub: aeiou0123/pku-financial-ai-agent](https://github.com/aeiou0123/pku-financial-ai-agent)
 """
 
 [[items]]
