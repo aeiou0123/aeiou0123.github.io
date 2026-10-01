@@ -6,9 +6,8 @@ default_collapsed = true
 
 [[items]]
 title = "中级微观经济学"
-subtitle = "金禾经济研究中心 · 授课教师：李老师、周老师（课程成绩：95 分）"
+subtitle = "金禾经济研究中心 · 授课教师：李老师、周老师"
 date = "2026 春"
-tags = ["微观经济学", "消费者理论", "生产理论", "一般均衡", "博弈论", "市场结构"]
 content = """
 * **参考教材**：Walter Nicholson & Christopher Snyder, *Microeconomic Theory: Basic Principles and Extensions* (9th Edition)。
 * **作业与题解**：
@@ -32,9 +31,8 @@ content = """
 
 [[items]]
 title = "中级宏观经济学"
-subtitle = "金禾经济研究中心 · 授课教师：张老师（课程成绩：100 分 满分）"
+subtitle = "金禾经济研究中心 · 授课教师：张老师"
 date = "2026 春"
-tags = ["宏观经济学", "IS-LM 模型", "Solow 增长模型", "总供给总需求", "经济周期"]
 content = """
 * **参考教材**：Andrew B. Abel, Ben S. Bernanke, Dean Croushore, *Macroeconomics* (6th Edition)，配套习题采用 11 版。
 * **理论框架**：
@@ -48,9 +46,8 @@ content = """
 
 [[items]]
 title = "应用统计学"
-subtitle = "数学与统计学院 · 授课教师：马老师（课程成绩：93 分）"
+subtitle = "数学与统计学院 · 授课教师：马老师"
 date = "2025 秋"
-tags = ["应用统计学", "计量经济基础", "抽样分布", "假设检验", "重抽样方法"]
 content = """
 * **章节笔记**：
   * [课程概论（PDF）](/files/Introduction_Applied_Statistics.pdf)
@@ -68,9 +65,8 @@ content = """
 
 [[items]]
 title = "金融市场学与金融机构"
-subtitle = "金禾经济研究中心 · 授课教师：周老师（课程成绩：92 分）"
+subtitle = "金禾经济研究中心 · 授课教师：周老师"
 date = "2026 春"
-tags = ["金融市场", "货币市场", "债券定价", "美联储政策", "次贷危机", "外汇体制"]
 content = """
 * **参考教材**：安东尼·桑德斯（Anthony Saunders）、马西娅·米伦·科尼特（Marcia Millon Cornett）《金融市场与金融机构》。
 * **课程专题**：
@@ -90,9 +86,8 @@ content = """
 
 [[items]]
 title = "金融学原理与公司理财"
-subtitle = "金禾经济研究中心 · 授课教师：赵老师（课程成绩：94 分）"
+subtitle = "金禾经济研究中心 · 授课教师：赵老师"
 date = "2026 春"
-tags = ["公司理财", "资本预算", "CAPM", "MM 定理", "WACC", "股利政策"]
 content = """
 * **核心复习**：
   * [综合复习笔记（PDF）](/files/Principles%20of%20Finance/finance_review_notes.pdf)
@@ -116,9 +111,8 @@ content = """
 
 [[items]]
 title = "会计学原理"
-subtitle = "金禾经济研究中心 · 授课教师：吴老师（课程成绩：96 分）"
+subtitle = "金禾经济研究中心 · 授课教师：吴老师"
 date = "2025 秋"
-tags = ["会计学", "财务报表", "权责发生制", "存货核算", "负债分析"]
 content = """
 * **章节笔记**：
   * [第一章：财务报表导论（PDF）](/files/Chapter1.pdf)
@@ -138,7 +132,6 @@ content = """
 title = "经济学原理·宏观部分"
 subtitle = "金禾经济研究中心 · 授课教师：郭老师"
 date = "2025 秋"
-tags = ["经济学原理", "宏观基础", "货币供给", "铸币税", "Baumol 模型"]
 content = """
 * **导论与核算**：
   * [第一讲：经济学导论（英文版）（PDF）](/files/Chapter1%20(1).pdf) · [第一讲：经济学导论（中文精简版）（PDF）](/files/Chapter1_Simplified_Chinese.pdf)
@@ -168,7 +161,6 @@ content = """
 title = "数理经济与进阶课程讲义"
 subtitle = "独立整理公开笔记"
 date = "2026 春"
-tags = ["数理经济学", "高级微观", "高级宏观", "博弈论", "经济增长"]
 content = """
 * [数学分析 III（经管版）（PDF）](/files/AI4LearningEcon/math4econ.pdf)
 * [经济与金融研究的数理方法（PDF）](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)

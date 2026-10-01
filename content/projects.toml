@@ -11,6 +11,7 @@ tags = ["AI Agent", "Financial Valuation", "Causal Reasoning", "Embodied AI", "P
 content = """
 * Developed an end-to-end agent workflow for 11 core listed firms in the humanoid robotics and embodied AI supply chain.
 * Benchmarked 51 domain technical claims, tracing the transmission from technical specifications to productivity and gross margins, integrated into dynamic three-scenario valuation models.
+* **Code & Architecture**: [GitHub Repository: aeiou0123/pku-financial-ai-agent](https://github.com/aeiou0123/pku-financial-ai-agent)
 """
 
 [[items]]

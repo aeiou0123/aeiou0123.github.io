@@ -1,14 +1,13 @@
 type = "card"
 title = "Course Notes"
-description = "Lecture notes, problem sets, and study materials from undergraduate coursework at Xi'an Jiaotong University. Click any course to expand materials."
+description = "Lecture notes, problem sets, and study materials from undergraduate coursework at Xi'an Jiaotong University. Click any course to expand."
 collapsible = true
 default_collapsed = true
 
 [[items]]
 title = "Intermediate Microeconomics"
-subtitle = "Jinhe Center for Economic Research · Taught by Prof. Li & Prof. Zhou (Grade: 95)"
+subtitle = "Jinhe Center for Economic Research · Taught by Prof. Li & Prof. Zhou"
 date = "Spring 2026"
-tags = ["Microeconomics", "Consumer Theory", "Producer Theory", "General Equilibrium", "Game Theory", "Market Structure"]
 content = """
 * **Textbook**: Walter Nicholson & Christopher Snyder, *Microeconomic Theory: Basic Principles and Extensions*, 9th Edition.
 * **Homework & Solutions**:
@@ -32,9 +31,8 @@ content = """
 
 [[items]]
 title = "Intermediate Macroeconomics"
-subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhang (Grade: 100 / 100)"
+subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhang"
 date = "Spring 2026"
-tags = ["Macroeconomics", "IS-LM", "Solow Growth", "Aggregate Supply & Demand", "Business Cycles"]
 content = """
 * **Textbook**: Andrew B. Abel, Ben S. Bernanke, and Dean Croushore, *Macroeconomics*, 6th Edition (problem sets based on 11th Edition).
 * **Framework Notes**:
@@ -48,9 +46,8 @@ content = """
 
 [[items]]
 title = "Applied Statistics"
-subtitle = "School of Mathematics and Statistics · Taught by Prof. Ma (Grade: 93 / 100)"
+subtitle = "School of Mathematics and Statistics · Taught by Prof. Ma"
 date = "Fall 2025"
-tags = ["Applied Statistics", "Econometrics", "Sampling Distributions", "Hypothesis Testing", "Resampling"]
 content = """
 * **Chapter Notes**:
   * [Course Introduction (PDF)](/files/Introduction_Applied_Statistics.pdf)
@@ -68,9 +65,8 @@ content = """
 
 [[items]]
 title = "Financial Markets & Institutions"
-subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhou (Grade: 92 / 100)"
+subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhou"
 date = "Spring 2026"
-tags = ["Financial Markets", "Monetary Policy", "Federal Reserve", "Subprime Crisis", "FX Regimes"]
 content = """
 * **Textbook**: Anthony Saunders & Marcia Millon Cornett, *Financial Markets and Institutions*.
 * **Lecture Notes**:
@@ -90,9 +86,8 @@ content = """
 
 [[items]]
 title = "Principles of Finance"
-subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhao (Grade: 94 / 100)"
+subtitle = "Jinhe Center for Economic Research · Taught by Prof. Zhao"
 date = "Spring 2026"
-tags = ["Corporate Finance", "CAPM", "Capital Budgeting", "MM Theorem", "WACC", "Valuation"]
 content = """
 * **Study Guides**:
   * [Corporate Finance Review Notes (PDF)](/files/Principles%20of%20Finance/finance_review_notes.pdf)
@@ -116,9 +111,8 @@ content = """
 
 [[items]]
 title = "Principles of Accounting"
-subtitle = "Jinhe Center for Economic Research · Taught by Prof. Wu (Grade: 96 / 100)"
+subtitle = "Jinhe Center for Economic Research · Taught by Prof. Wu"
 date = "Fall 2025"
-tags = ["Accounting", "Financial Statements", "Accrual Accounting", "Inventory", "Liabilities"]
 content = """
 * **Chapter Notes**:
   * [Chapter I: Introduction to Financial Statements (PDF)](/files/Chapter1.pdf)
@@ -138,7 +132,6 @@ content = """
 title = "Principles of Economics (Macroeconomics)"
 subtitle = "Jinhe Center for Economic Research · Taught by Prof. Kuo"
 date = "Fall 2025"
-tags = ["Principles of Economics", "Macroeconomic Foundations", "Money Supply", "Inflation Tax", "Baumol-Tobin"]
 content = """
 * **Foundational Chapters**:
   * [Chapter 1: Foundations (English) (PDF)](/files/Chapter1%20(1).pdf) · [Chapter 1: Foundations (Chinese) (PDF)](/files/Chapter1_Simplified_Chinese.pdf)
@@ -166,9 +159,8 @@ content = """
 
 [[items]]
 title = "Additional Lecture Notes"
-subtitle = "Independent Curated Study Notes"
+subtitle = "Independent Study Notes"
 date = "Spring 2026"
-tags = ["Mathematical Economics", "Advanced Micro", "Advanced Macro", "Game Theory", "Growth Theory"]
 content = """
 * [Mathematical Analysis for Economics & Finance (PDF)](/files/AI4LearningEcon/math4econ.pdf)
 * [Mathematical Methods in Economic & Financial Research (PDF)](/files/AI4LearningEcon/经济与金融研究的数理方法.pdf)
