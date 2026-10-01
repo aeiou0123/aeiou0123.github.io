@@ -14,6 +14,7 @@ import { HeartIcon as HeartSolidIcon } from '@heroicons/react/24/solid';
 import { Github, Linkedin, Pin } from 'lucide-react';
 import type { SiteConfig } from '@/lib/config';
 import { useMessages } from '@/lib/i18n/useMessages';
+import { useLocaleStore } from '@/lib/stores/localeStore';
 
 // Custom ORCID icon component
 const OrcidIcon = ({ className }: { className?: string }) => (
@@ -24,6 +25,41 @@ const OrcidIcon = ({ className }: { className?: string }) => (
         xmlns="http://www.w3.org/2000/svg"
     >
         <path d="M12 0C5.372 0 0 5.372 0 12s5.372 12 12 12 12-5.372 12-12S18.628 0 12 0zM7.369 4.378c.525 0 .947.431.947.947s-.422.947-.947.947a.95.95 0 0 1-.947-.947c0-.525.422-.947.947-.947zm-.722 3.038h1.444v10.041H6.647V7.416zm3.562 0h3.9c3.712 0 5.344 2.653 5.344 5.025 0 2.578-2.016 5.025-5.325 5.025h-3.919V7.416zm1.444 1.303v7.444h2.297c3.272 0 4.022-2.484 4.022-3.722 0-2.016-1.284-3.722-4.097-3.722h-2.222z" />
+    </svg>
+);
+
+// Custom Bilibili icon component
+const BilibiliIcon = ({ className }: { className?: string }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.813 4.653h.854c1.51 0 2.733 1.224 2.733 2.733v10.14c0 1.51-1.223 2.734-2.733 2.734H5.333c-1.51 0-2.733-1.224-2.733-2.734V7.386c0-1.51 1.223-2.733 2.733-2.733h.854l-1.63-1.63a.853.853 0 0 1 1.207-1.207l2.234 2.234h7.994l2.234-2.234a.853.853 0 0 1 1.207 1.207l-1.62 1.63zM5.333 6.36c-.566 0-1.027.46-1.027 1.026v10.14c0 .567.46 1.027 1.027 1.027h13.334c.566 0 1.026-.46 1.026-1.027V7.386c0-.566-.46-1.026-1.026-1.026H5.333zm3.42 4.107a1.197 1.197 0 1 1 0 2.393 1.197 1.197 0 0 1 0-2.393zm6.494 0a1.197 1.197 0 1 1 0 2.393 1.197 1.197 0 0 1 0-2.393z" />
+    </svg>
+);
+
+// Custom Zhihu icon component
+const ZhihuIcon = ({ className }: { className?: string }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+        <path d="M5.345 3.125c.348 1.042.836 2.753 1.324 4.56H3.353v2.21h3.717c-.384 3.61-1.464 6.716-3.248 8.834a1.222 1.222 0 0 0 .163 1.932 1.22 1.22 0 0 0 1.932-.163c2.304-2.747 3.643-6.693 4.05-11.355l.256-.755v-.755h-2.12c-.419-1.572-.839-2.992-1.328-4.028a1.222 1.222 0 0 0-2.269.787l1.085.127zm7.194 2.607v15.757h2.2v-2.444h2.816l2.76 3.087a1.26 1.26 0 0 0 1.861-1.7l-2.55-2.866h.454c1.886 0 3.422-1.536 3.422-3.422V7.21c0-1.886-1.536-3.422-3.422-3.422H14.48c-1.886 0-3.422 1.536-3.422 3.422v.122h1.481zm8.976 0v5.925c0 .675-.547 1.222-1.222 1.222h-5.553V7.21c0-.675.547-1.222 1.222-1.222h4.331c.675 0 1.222.547 1.222 1.222z"/>
+    </svg>
+);
+
+// Custom X (Twitter) icon component
+const XIcon = ({ className }: { className?: string }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+    </svg>
+);
+
+// Custom YouTube icon component
+const YoutubeIcon = ({ className }: { className?: string }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+    </svg>
+);
+
+// Custom Steam icon component
+const SteamIcon = ({ className }: { className?: string }) => (
+    <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
+        <path d="M11.979 0C5.678 0 .511 4.86.022 11.037l6.432 2.658c.545-.371 1.203-.59 1.912-.59.063 0 .125.004.188.006l2.861-4.142V8.91c0-2.495 2.028-4.524 4.524-4.524 2.494 0 4.524 2.031 4.524 4.527s-2.03 4.525-4.524 4.525h-.105l-4.076 2.911c0 .052.005.105.005.159 0 1.875-1.515 3.396-3.39 3.396-1.635 0-3.016-1.155-3.331-2.695L.445 15.02C1.722 20.201 6.395 24 11.979 24c6.627 0 12-5.373 12-12S18.605 0 11.979 0zM7.54 18.219c-.385.671-1.109 1.121-1.943 1.121-1.239 0-2.244-1.005-2.244-2.244 0-.742.361-1.399.917-1.808l2.091.865c.038.374.225.714.512.964l.667 1.102zm8.4-7.042c-1.241 0-2.247-1.006-2.247-2.247s1.006-2.247 2.247-2.247 2.247 1.006 2.247 2.247-1.006 2.247-2.247 2.247zm-1.498-2.247c0 .828.67 1.498 1.498 1.498s1.498-.67 1.498-1.498-.67-1.498-1.498-1.498-1.498.67-1.498 1.498z"/>
     </svg>
 );
 
@@ -69,6 +105,9 @@ export default function Profile({ author, social, features, researchInterests }:
         }
     };
 
+    const locale = useLocaleStore((state) => state.locale);
+    const isZh = locale === 'zh';
+
     const socialLinks = [
         ...(social.email ? [{
             name: messages.profile.email,
@@ -82,6 +121,41 @@ export default function Profile({ author, social, features, researchInterests }:
             icon: MapPinIcon,
             isLocation: true,
         }] : []),
+        ...(social.linkedin ? [{
+            name: 'LinkedIn',
+            href: social.linkedin,
+            icon: Linkedin,
+        }] : []),
+        ...(social.github ? [{
+            name: 'GitHub',
+            href: social.github,
+            icon: Github,
+        }] : []),
+        ...(social.bilibili ? [{
+            name: 'Bilibili',
+            href: social.bilibili,
+            icon: BilibiliIcon,
+        }] : []),
+        ...(social.zhihu ? [{
+            name: isZh ? '知乎' : 'Zhihu',
+            href: social.zhihu,
+            icon: ZhihuIcon,
+        }] : []),
+        ...(social.twitter ? [{
+            name: 'X (Twitter)',
+            href: social.twitter,
+            icon: XIcon,
+        }] : []),
+        ...(social.youtube ? [{
+            name: 'YouTube',
+            href: social.youtube,
+            icon: YoutubeIcon,
+        }] : []),
+        ...(social.steam ? [{
+            name: 'Steam',
+            href: social.steam,
+            icon: SteamIcon,
+        }] : []),
         ...(social.google_scholar ? [{
             name: 'Google Scholar',
             href: social.google_scholar,
@@ -91,16 +165,6 @@ export default function Profile({ author, social, features, researchInterests }:
             name: 'ORCID',
             href: social.orcid,
             icon: OrcidIcon,
-        }] : []),
-        ...(social.github ? [{
-            name: 'GitHub',
-            href: social.github,
-            icon: Github,
-        }] : []),
-        ...(social.linkedin ? [{
-            name: 'LinkedIn',
-            href: social.linkedin,
-            icon: Linkedin,
         }] : []),
     ];
 
@@ -296,6 +360,7 @@ export default function Profile({ author, social, features, researchInterests }:
                             rel="noopener noreferrer"
                             className="p-2 sm:p-2 text-neutral-600 dark:text-neutral-400 hover:text-accent transition-colors duration-200"
                             aria-label={link.name}
+                            title={link.name}
                         >
                             <IconComponent className="h-5 w-5" />
                         </a>

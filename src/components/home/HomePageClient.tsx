@@ -19,6 +19,7 @@ interface SectionConfig {
   source?: string;
   filter?: string;
   limit?: number;
+  link?: string;
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];
@@ -84,6 +85,7 @@ export default function HomePageClient({ dataByLocale, defaultLocale }: HomePage
                         key={section.id}
                         publications={section.publications || []}
                         title={section.title}
+                        viewAllLink={section.link || "/research"}
                         enableOnePageMode={data.enableOnePageMode}
                       />
                     );

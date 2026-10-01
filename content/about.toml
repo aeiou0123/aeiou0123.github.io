@@ -20,6 +20,7 @@ type = "publications"
 title = "Selected Research & Projects"
 filter = "selected"
 limit = 2
+link = "/research"
 
 [[sections]]
 id = "news"

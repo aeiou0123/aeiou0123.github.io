@@ -9,10 +9,11 @@ import FormattedBibTeXText from '@/components/publications/FormattedBibTeXText';
 interface SelectedPublicationsProps {
     publications: Publication[];
     title?: string;
+    viewAllLink?: string;
     enableOnePageMode?: boolean;
 }
 
-export default function SelectedPublications({ publications, title, enableOnePageMode = false }: SelectedPublicationsProps) {
+export default function SelectedPublications({ publications, title, viewAllLink = "/research", enableOnePageMode = false }: SelectedPublicationsProps) {
     const messages = useMessages();
     const resolvedTitle = title || messages.home.selectedPublications;
 
@@ -25,7 +26,7 @@ export default function SelectedPublications({ publications, title, enableOnePag
             <div className="flex items-center justify-between mb-4">
                 <h2 className="text-2xl font-serif font-bold text-primary">{resolvedTitle}</h2>
                 <Link
-                    href={enableOnePageMode ? "/#publications" : "/publications"}
+                    href={enableOnePageMode ? "/#publications" : viewAllLink}
                     prefetch={true}
                     className="text-accent hover:text-accent-dark text-sm font-medium transition-all duration-200 rounded hover:bg-accent/10 hover:shadow-sm"
                 >

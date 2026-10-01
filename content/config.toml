@@ -18,7 +18,13 @@ location_details = [
   "Jinhe Center for Economic Research,",
   "Xi'an Jiaotong University, No. 28 Xianning West Road, Beilin District, Xi'an, Shaanxi, China"
 ]
+linkedin = "https://www.linkedin.com/in/%E5%AD%9F%E7%A5%BA-%E9%AD%8F-21203a416/"
 github = "https://github.com/aeiou0123"
+bilibili = "https://space.bilibili.com/1473095069"
+zhihu = "https://www.zhihu.com/people/35-57-54-74"
+twitter = "https://x.com/nogopdeorange"
+youtube = "https://www.youtube.com/@aeiou0123-l6c"
+steam = "https://steamcommunity.com/profiles/76561199140597514"
 
 [features]
 enable_likes = true

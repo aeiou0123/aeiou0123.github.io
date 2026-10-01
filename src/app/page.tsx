@@ -13,6 +13,7 @@ interface SectionConfig {
   source?: string;
   filter?: string;
   limit?: number;
+  link?: string;
   content?: string;
   publications?: Publication[];
   items?: NewsItem[];

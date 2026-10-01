@@ -12,11 +12,18 @@ avatar = "/1.jpg"
 [social]
 email = "aeioudeaustria0123@stu.xjtu.edu.cn"
 location = "陕西 西安"
+location_url = "https://maps.google.com/?q=Xi'an+Jiaotong+University"
 location_details = [
   "西安交通大学金禾经济研究中心，",
   "陕西省西安市碑林区咸宁西路28号"
 ]
+linkedin = "https://www.linkedin.com/in/%E5%AD%9F%E7%A5%BA-%E9%AD%8F-21203a416/"
 github = "https://github.com/aeiou0123"
+bilibili = "https://space.bilibili.com/1473095069"
+zhihu = "https://www.zhihu.com/people/35-57-54-74"
+twitter = "https://x.com/nogopdeorange"
+youtube = "https://www.youtube.com/@aeiou0123-l6c"
+steam = "https://steamcommunity.com/profiles/76561199140597514"
 
 [[navigation]]
 title = "关于我"

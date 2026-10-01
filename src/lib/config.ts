@@ -25,6 +25,11 @@ export interface SiteConfig {
     orcid?: string;
     github?: string;
     linkedin?: string;
+    bilibili?: string;
+    zhihu?: string;
+    twitter?: string;
+    youtube?: string;
+    steam?: string;
     [key: string]: string | string[] | undefined;
   };
   features: {

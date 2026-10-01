@@ -20,6 +20,7 @@ type = "publications"
 title = "代表性研究与项目"
 filter = "selected"
 limit = 2
+link = "/research"
 
 [[sections]]
 id = "news"
