@@ -25,6 +25,10 @@ twitter = "https://x.com/nogopdeorange"
 youtube = "https://www.youtube.com/@aeiou0123-l6c"
 steam = "https://steamcommunity.com/profiles/76561199140597514"
 
+[features]
+enable_likes = false
+enable_one_page_mode = false
+
 [[navigation]]
 title = "关于我"
 type = "page"
