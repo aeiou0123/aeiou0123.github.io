@@ -316,9 +316,9 @@ redirect_from:
     <section class="cv-section">
       <h2 class="cv-section-title"><i class="fas fa-compass"></i> 研究兴趣</h2>
       <ul class="cv-list">
-        <li><strong>实证产业组织</strong>：实证产业组织（Empirical IO）、企业动态与市场竞争</li>
-        <li><strong>宏观金融</strong>：宏观金融（Macro-Finance）、货币政策与金融摩擦</li>
-        <li><strong>AI 暴露度与技术冲击</strong>：AI 暴露度测度、AI 对微观企业决策与产业市场结构的影响</li>
+        <li>实证产业组织</li>
+        <li>宏观金融</li>
+        <li>AI 暴露度测度</li>
       </ul>
     </section>
 
@@ -355,7 +355,7 @@ redirect_from:
           <h3 class="cv-entry-title">Claim2Value：具身智能产业链技术声明核验与动态估值智能体</h3>
           <span class="cv-badge-date">2026.08 – 2026.09</span>
         </div>
-        <div class="cv-entry-sub">北大金融 AI 智能体大赛 · 经济金融推理负责人 / 核心开发</div>
+        <div class="cv-entry-sub">北大金融 AI 智能体大赛 · 项目负责人 / 核心开发</div>
         <ul class="cv-list">
           <li>覆盖 11 家具身智能核心上市公司，构建从技术 Claim 提取、多源证据链核验到财务映射的端到端 Agent 流水线。</li>
           <li>建立 51 条基准 Claim Bank，拆解“技术指标 → 生产率 → 成本/定价 → 毛利”因果链，搭建三情景动态估值模型。</li>
@@ -509,9 +509,9 @@ redirect_from:
     <section class="cv-section">
       <h2 class="cv-section-title"><i class="fas fa-compass"></i> Research Interests</h2>
       <ul class="cv-list">
-        <li><strong>Empirical Industrial Organization</strong>: Empirical Industrial Organization, Firm Dynamics, and Market Competition</li>
-        <li><strong>Macro-Finance</strong>: Macro-Finance, Monetary Policy, and Financial Frictions</li>
-        <li><strong>AI Exposure & Technological Shocks</strong>: AI exposure measurement, impacts of AI on firm decision-making and market structure</li>
+        <li>Empirical Industrial Organization</li>
+        <li>Macro-Finance</li>
+        <li>AI Exposure Measurement</li>
       </ul>
     </section>
 
@@ -548,7 +548,7 @@ redirect_from:
           <h3 class="cv-entry-title">Claim2Value: Financial AI Agent for Technical Claim Verification and Dynamic Valuation in Embodied AI Supply Chains</h3>
           <span class="cv-badge-date">2026.08 – 2026.09</span>
         </div>
-        <div class="cv-entry-sub">PKU Financial AI Agent Competition · Economic & Financial Reasoning Lead / Core Developer</div>
+        <div class="cv-entry-sub">PKU Financial AI Agent Competition · Project Lead / Core Developer</div>
         <ul class="cv-list">
           <li>Covered 11 core listed firms in humanoid robotics/embodied AI; built an end-to-end agent pipeline from unstructured technical claim extraction to multi-source verification and financial mapping.</li>
           <li>Benchmarked 51 domain technical claims; structured causal chains ("technical metric → capacity/productivity → pricing/cost → gross margin") to refute non-causal hype; developed dynamic three-scenario valuation models.</li>
