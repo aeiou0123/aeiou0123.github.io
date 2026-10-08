@@ -312,19 +312,19 @@ redirect_from:
       </div>
     </section>
 
-    <!-- 研究领域 -->
+    <!-- 研究兴趣 -->
     <section class="cv-section">
-      <h2 class="cv-section-title"><i class="fas fa-compass"></i> 研究领域</h2>
+      <h2 class="cv-section-title"><i class="fas fa-compass"></i> 研究兴趣</h2>
       <ul class="cv-list">
-        <li><strong>AI 暴露度与市场结构</strong>：AI 暴露度测度、AI 对微观企业决策与产业市场结构的影响</li>
-        <li><strong>产业组织</strong>：产业组织理论（IO）与实证产业组织（Empirical IO）</li>
-        <li><strong>宏观经济与宏观金融</strong>：宏观经济传导机制、货币与周期模型</li>
+        <li><strong>实证产业组织</strong>：实证产业组织（Empirical IO）、企业动态与市场竞争</li>
+        <li><strong>宏观金融</strong>：宏观金融（Macro-Finance）、货币政策与金融摩擦</li>
+        <li><strong>AI 暴露度与技术冲击</strong>：AI 暴露度测度、AI 对微观企业决策与产业市场结构的影响</li>
       </ul>
     </section>
 
-    <!-- 工作论文与科研经历 -->
+    <!-- 科研经历 -->
     <section class="cv-section">
-      <h2 class="cv-section-title"><i class="fas fa-book-open"></i> 工作论文与科研经历</h2>
+      <h2 class="cv-section-title"><i class="fas fa-microscope"></i> 科研经历</h2>
 
       <div class="cv-entry">
         <div class="cv-entry-head">
@@ -340,13 +340,13 @@ redirect_from:
 
       <div class="cv-entry">
         <div class="cv-entry-head">
-          <h3 class="cv-entry-title">Token 与 AI Agent 冲击下的企业决策与市场结构：成本重组、竞争传导与福利分析</h3>
-          <span class="cv-badge-date">2026</span>
+          <h3 class="cv-entry-title">IP智融：游戏企业融资尽调证据核验与现金流压力测试助手</h3>
+          <span class="cv-badge-date">2026.09 – 2026.10</span>
         </div>
-        <div class="cv-entry-sub">独立研究 / 课程论文 · 工作论文</div>
+        <div class="cv-entry-sub">“工行杯”全国大学生金融科技创新大赛 · 项目负责人 / 核心开发</div>
         <ul class="cv-list">
-          <li>将 Token 与 AI Agent 抽象为企业可按需调用的异质性生产要素，重构企业微观边际与固定成本函数。</li>
-          <li>在 Cournot、Bertrand 寡头博弈、进入退出摩擦与搜索摩擦下，分析市场集中度、竞争格局与消费者福利动态。</li>
+          <li>面向轻资产文创/游戏企业融资场景，构建覆盖官方披露、第三方估算与企业经营证据的多源底稿核验流水线。</li>
+          <li>厘清营业收入、充值流水与公司净回款口径差异，研发基于季度经营假设的现金流压力测试引擎，实现同输入确定性复现与尽调底稿导出。</li>
         </ul>
       </div>
 
@@ -381,17 +381,6 @@ redirect_from:
         <div class="cv-entry-sub">大学生创新创业训练计划（大创） · 核心成员</div>
         <ul class="cv-list">
           <li>搜集整理多国能源消费结构与跨国宏观时间序列面板数据，测度外部地缘供给冲击下的价格响应弹性。</li>
-        </ul>
-      </div>
-
-      <div class="cv-entry">
-        <div class="cv-entry-head">
-          <h3 class="cv-entry-title">AI4Learning Econ 经济金融公开讲义与学术主页</h3>
-          <span class="cv-badge-date">2025.08 – 至今</span>
-        </div>
-        <div class="cv-entry-sub">个人开源项目 · <a href="https://aeiou0123.github.io/portfolio/" target="_blank" rel="noopener">访问知识库</a></div>
-        <ul class="cv-list">
-          <li>独立搭建并维护个人学术主页，系统整理开源数理分析、中级微/宏观、计量经济学、博弈论与产业组织学等讲义与习题详解库。</li>
         </ul>
       </div>
     </section>
@@ -520,15 +509,15 @@ redirect_from:
     <section class="cv-section">
       <h2 class="cv-section-title"><i class="fas fa-compass"></i> Research Interests</h2>
       <ul class="cv-list">
-        <li><strong>AI Exposure & Market Structure</strong>: AI exposure measurement, impacts of AI on firm decision-making and market structure</li>
-        <li><strong>Industrial Organization</strong>: Industrial Organization (IO) and Empirical IO</li>
-        <li><strong>Macroeconomics & Macro-Finance</strong>: Macro transmission mechanisms, monetary models, and business cycles</li>
+        <li><strong>Empirical Industrial Organization</strong>: Empirical Industrial Organization, Firm Dynamics, and Market Competition</li>
+        <li><strong>Macro-Finance</strong>: Macro-Finance, Monetary Policy, and Financial Frictions</li>
+        <li><strong>AI Exposure & Technological Shocks</strong>: AI exposure measurement, impacts of AI on firm decision-making and market structure</li>
       </ul>
     </section>
 
-    <!-- Working Papers & Research Projects -->
+    <!-- Research Experience -->
     <section class="cv-section">
-      <h2 class="cv-section-title"><i class="fas fa-book-open"></i> Working Papers & Research Projects</h2>
+      <h2 class="cv-section-title"><i class="fas fa-microscope"></i> Research Experience</h2>
 
       <div class="cv-entry">
         <div class="cv-entry-head">
@@ -544,13 +533,13 @@ redirect_from:
 
       <div class="cv-entry">
         <div class="cv-entry-head">
-          <h3 class="cv-entry-title">Firm Decision-Making and Market Structure Under Token and AI Agent Shocks: Cost Restructuring, Competitive Pass-Through, and Welfare Implications</h3>
-          <span class="cv-badge-date">2026</span>
+          <h3 class="cv-entry-title">IP-Finance Agent: Due Diligence Evidence Verification and Cash Flow Stress Testing</h3>
+          <span class="cv-badge-date">2026.09 – 2026.10</span>
         </div>
-        <div class="cv-entry-sub">Independent Research / Working Paper</div>
+        <div class="cv-entry-sub">ICBC Financial Technology Innovation Competition · Project Lead / Core Developer</div>
         <ul class="cv-list">
-          <li>Abstracted Tokens and AI Agents as on-demand heterogeneous inputs, restructuring firm-level marginal and fixed cost functions.</li>
-          <li>Modeled market concentration, competitive dynamics, and consumer welfare under Cournot and Bertrand oligopolies with endogenous entry/exit and search frictions.</li>
+          <li>Developed a multi-source due diligence audit pipeline for asset-light gaming firms, reconciling official filings, third-party estimations, and internal operational data.</li>
+          <li>Formulated distinctions across gross bookings, recognized revenue, and net collections; engineered a quarterly cash flow stress-testing engine with deterministic reproducibility and audit report exports.</li>
         </ul>
       </div>
 
@@ -585,17 +574,6 @@ redirect_from:
         <div class="cv-entry-sub">Undergraduate Innovation Research Program · Core Researcher</div>
         <ul class="cv-list">
           <li>Compiled cross-country macroeconomic time-series panels to evaluate supply-side pass-through elasticities under geopolitical disruptions.</li>
-        </ul>
-      </div>
-
-      <div class="cv-entry">
-        <div class="cv-entry-head">
-          <h3 class="cv-entry-title">AI4Learning Econ: Open-Source Lecture Notes and Academic Repository</h3>
-          <span class="cv-badge-date">2025.08 – Present</span>
-        </div>
-        <div class="cv-entry-sub">Independent Open-Source Project · <a href="https://aeiou0123.github.io/portfolio/" target="_blank" rel="noopener">Browse Notes</a></div>
-        <ul class="cv-list">
-          <li>Built and maintained an academic homepage curating structured lecture notes, exercise solutions, and course working papers covering Mathematical Analysis, Intermediate Micro/Macro, Econometrics, Game Theory, and Industrial Organization.</li>
         </ul>
       </div>
     </section>
