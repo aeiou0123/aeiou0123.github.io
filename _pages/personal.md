@@ -1,33 +1,24 @@
 ---
-layout: archive
-title: "Personal"
+layout: page
 permalink: /personal/
-author_profile: true
+title: personal
+description: Personal web tools, side projects, and creative interests.
+nav: true
+nav_order: 6
 ---
 
-{% include base_path %}
+A collection of personal web tools, side projects, and creative interests.
 
-This page collects less formal, more personal projects and pages. It is separate from my academic CV, coursework notes, and research-facing materials.
+---
 
-## Personal pages
+### [放课后主页 (Private Homepage)]({{ '/private-homepage/' | relative_url }})
+A personal space containing interactive web experiments, political spectrum visualizers, cognitive models, and notes.
 
-### [放课后主页](/private-homepage/)
+### [MBanGTI: Jungian Cognitive Function Mapping Engine](https://github.com/aeiou0123/mbangti)
+A single-page interactive application mapping Jungian eight cognitive functions and MBTI typologies to behavioral logic.
 
-A casual personal homepage for small websites, diary fragments, everyday thoughts, anime/game fandom notes, and web experiments. The page has a more playful visual style, while this hub keeps the same style as the main academic site.
+### [Gaokao Admission Data Analysis System]({{ '/gaokao/' | relative_url }})
+An interactive tool for exploring historical university admission scores and percentile ranks across provinces and majors.
 
-## Project shelf
-
-### [课程论文存档](/personal/paper/IMpaper/)
-
-Course paper PDFs and related links.
-
-More entries can be added here later, for example:
-
-- personal web toys or small tools
-- visual experiments and interactive pages
-- life logs, essays, or informal notes
-- fandom pages, playlists, screenshots, and collections
-
-## Notes
-
-Some pages linked here may be informal, experimental, or unfinished. They are kept here as a record of interests and side projects rather than as formal academic material.
+### Creative Fandom & Artwork
+* [Anime Jinhe Center (金禾娘) Character Design]({{ '/images/jinhe.png' | relative_url }})

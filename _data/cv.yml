@@ -1,0 +1,141 @@
+cv:
+  name: Mengqi Wei (魏孟祺)
+  label: Undergraduate in Quantitative Economics & Finance
+  email: aeioudeaustria0123@stu.xjtu.edu.cn
+  location: Xi'an, Shaanxi, China
+  phone: (+86) 185-0381-0003
+  summary: Third-year undergraduate in Quantitative Economics and Finance at Jinhe Center for Economic Research, Xi'an Jiaotong University.
+
+  social_networks:
+    - network: GitHub
+      username: aeiou0123
+    - network: LinkedIn
+      username: 孟祺-魏-21203a416
+
+  address:
+    street: Jinhe Center for Economic Research, Xi'an Jiaotong University, No. 28 Xianning West Road, Beilin District
+    city: Xi'an
+    region: Shaanxi
+    countryCode: CN
+
+  sections:
+    Education:
+      - institution: Xi'an Jiaotong University, Jinhe Center for Economic Research
+        location: Xi'an, Shaanxi, China
+        url: https://jinhe.xjtu.edu.cn/
+        area: Quantitative Economics and Finance
+        studyType: Undergraduate
+        start_date: 2025-09-01
+        end_date: present
+        score: "Sophomore GPA: 90.73 / 100 · Rank: 1 / 22"
+        highlights:
+          - Ranked 1st in the cohort during sophomore year. Expected graduation in June 2028.
+
+      - institution: Xi'an Jiaotong University, School of Mathematics and Statistics
+        location: Xi'an, Shaanxi, China
+        area: Mathematics
+        studyType: Undergraduate
+        start_date: 2024-09-01
+        end_date: 2025-07-01
+        score: "Freshman GPA: 87.81 / 100 · Rank: 3 / 109"
+
+      - institution: Xi'an Jiaotong University, Qian Xuesen College
+        location: Xi'an, Shaanxi, China
+        area: Special Class for the Gifted Young (SCGY, Pre-College)
+        studyType: Pre-College Honors Program
+        start_date: 2022-09-01
+        end_date: 2024-07-01
+        score: "Pre-College GPA: 87.92 / 100 · Rank: 54 / 193"
+
+    Research Experience:
+      - title: Adaptive Adjustment of Higher Education Majors Under LLM Shocks
+        authors:
+          - Research Training (Advised by Prof. Xiaodong Chen and Prof. Xiaoliang Yang) · Principal Investigator
+        date: 2026.02 -- Present
+        summary: Extended the Acemoglu & Restrepo (2018) task framework to higher education supply; constructed an occupational LLM exposure crosswalk for 889 undergraduate majors. Evaluated causal impacts using Continuous DID, Causal Forests, and trend-adjusted sensitivity tests on 4.34 million enrollment records.
+
+      - title: "IP-Finance Agent: Due Diligence Evidence Verification and Cash Flow Stress Testing"
+        authors:
+          - ICBC Financial Technology Innovation Competition · Project Lead / Core Developer
+        date: 2026.09 -- 2026.10
+        summary: Built a multi-source due diligence audit pipeline for asset-light gaming and cultural enterprises, reconciling official filings, third-party estimates, and operating data. Developed quarterly cash flow stress-testing models with deterministic reproducibility and audit report exports.
+
+      - title: "Claim2Value: Financial AI Agent for Technical Claim Verification and Dynamic Valuation"
+        authors:
+          - PKU Financial AI Agent Competition · Project Lead / Core Developer
+        date: 2026.08 -- 2026.09
+        summary: Built an end-to-end agent pipeline for 11 core listed firms in humanoid robotics/embodied AI. Benchmarked 51 technical claims, modeling transmission mechanisms from technical specifications to productivity, pricing, and margin structures within three-scenario dynamic valuation models.
+
+      - title: Perceived Age Discrimination, Psychological Coping, and Policy Demands of Job Seekers Aged 35+
+        authors:
+          - National "Challenge Cup" Academic Competition · Core Researcher
+        date: 2025.12 -- 2026.04
+        summary: Cleaned primary survey microdata, extracted behavioral coping archetypes via Principal Component Analysis (PCA), and utilized quantile regressions to test asymmetric penalties across wage distributions.
+
+      - title: Heterogeneous Energy Price Pass-Through Across Consumption Structures Under Geopolitical Shocks
+        authors:
+          - Undergraduate Innovation Research Program · Core Researcher
+        date: 2026.04 -- Present
+        summary: Compiled cross-country macroeconomic time-series panels to evaluate supply-side pass-through elasticities under international supply shocks.
+
+    Experience:
+      - company: CIB Research (兴业经济研究咨询股份有限公司), Macro Market Department
+        position: Macroeconomic Research Intern
+        location: Shanghai / Remote
+        start_date: 2026-07-01
+        end_date: 2026-09-01
+        summary: Macro Market Department research internship.
+        highlights:
+          - Tracked high-frequency macroeconomic data and analyzed structural features of China's "K-shaped" economic recovery.
+          - Applied Ray Dalio's debt cycle framework to analyze property market deleveraging and structural cycles.
+          - Monitored China-Europe trade flows and EU regulatory policies.
+
+    Awards:
+      - title: National Scholarship
+        authors:
+          - Ministry of Education of the PRC
+        date: 2025-10-01
+        awarder: Ministry of Education of the PRC
+        summary: Top undergraduate honor awarded by the Ministry of Education.
+
+      - title: First-Class Academic Scholarship
+        authors:
+          - Xi'an Jiaotong University
+        date: 2024-10-01
+        awarder: Xi'an Jiaotong University
+
+      - title: National College Students Statistical Modeling Competition (Shaanxi Provincial 1st Prize)
+        authors:
+          - Organizing Committee
+        date: 2026-05-01
+        awarder: Shaanxi Provincial First Prize
+
+      - title: National Digital Business Simulation Sandbox Competition (National 3rd Prize)
+        authors:
+          - Organizing Committee
+        date: 2026-06-01
+        awarder: National Third Prize
+
+    Research Interests:
+      - name: Empirical Industrial Organization
+        summary: Firm decision-making, cost restructuring, and competition dynamics under AI agents and automation.
+      - name: Macro-Finance
+        summary: Price pass-through elasticities, debt cycle dynamics, and monetary economics.
+      - name: AI Exposure Measurement
+        summary: Empirical examination of labor market and higher education impacts under LLM technological shocks.
+
+    Selected Coursework:
+      - name: Core Economics & Finance
+        summary: Intermediate Macroeconomics (100), Principles of Accounting (96), Intermediate Microeconomics (95), Principles of Finance (94), Financial Markets & Institutions (92).
+      - name: Mathematics & Statistics
+        summary: Advanced Algebra & Analytic Geometry II (93), Applied Statistics (93), Probability Theory & Mathematical Statistics (92), University Physics (90), Mathematical Analysis (90/86).
+      - name: Advanced & Self-Study
+        summary: Machine Learning, Deep Learning, Reinforcement Learning, Industrial Organization, Operations Research, Econometrics.
+
+    Skills:
+      - name: Coding & Econometric Tools
+        keywords: "Stata, Python, LaTeX, C (Basic proficiency)"
+      - name: AI-Native Workflows
+        keywords: "Comfortable driving AI-assisted research and engineering workflows"
+      - name: Languages
+        keywords: "Mandarin Chinese (Native), English (CET-6: 602 / 710)"

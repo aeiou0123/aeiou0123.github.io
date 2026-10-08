@@ -1,50 +1,93 @@
-name: Deploy PRISM to GitHub Pages
+name: Deploy site
 
 on:
   push:
     branches:
       - master
-      - prism-migration
+      - main
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout 🛎️
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
+      - name: Setup Ruby 💎
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3.5"
+          bundler-cache: true
+
+      - name: Setup Python 🐍
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: "pip"
+
+      - name: Setup Node 🧰
         uses: actions/setup-node@v4
         with:
-          node-version: 22
-          cache: npm
+          node-version: "20"
+          cache: "npm"
 
-      - name: Install dependencies
+      - name: Install JS deps 📦
         run: npm ci
 
-      - name: Build site
-        run: npm run build
+      - name: Update _config.yml ⚙️
+        uses: fjogeleit/yaml-update-action@main
+        with:
+          commitChange: false
+          valueFile: "_config.yml"
+          propertyPath: "giscus.repo"
+          value: ${{ github.repository }}
 
-      - name: Upload artifact
+      - name: Adjust baseurl for repository
+        run: |
+          if [ "${{ github.repository }}" = "aeiou0123/al-folio" ]; then
+            sed -i 's|^baseurl:.*|baseurl: /al-folio|' _config.yml
+          else
+            sed -i 's|^baseurl:.*|baseurl: ""|' _config.yml
+          fi
+
+      - name: Install and Build 🔧
+        run: |
+          sudo apt-get update && sudo apt-get install -y imagemagick
+          pip3 install --upgrade nbconvert
+          export JEKYLL_ENV=production
+          bundle exec jekyll build
+
+      - name: Purge unused CSS 🧹
+        run: |
+          npm install -g purgecss
+          purgecss -c purgecss.config.js
+
+      - name: Deploy to gh-pages branch 🚀 (for al-folio preview)
+        if: github.repository == 'aeiou0123/al-folio'
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: _site
+
+      - name: Upload artifact 📦 (for main site aeiou0123.github.io)
+        if: github.repository != 'aeiou0123/al-folio'
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: ./_site
 
-  deploy:
-    needs: build
+  deploy-pages:
+    needs: deploy
+    if: github.repository != 'aeiou0123/al-folio'
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-      - name: Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages 🚀
         id: deployment
         uses: actions/deploy-pages@v4

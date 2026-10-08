@@ -1,0 +1,148 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <h1 class="post-title">
+      {% if page.lang == 'zh' %}
+        <span class="font-weight-bold">魏</span>孟祺
+      {% elsif site.title == 'blank' %}
+        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.last_name }}
+      {% else %}
+        {{ site.title }}
+      {% endif %}
+    </h1>
+    <p class="desc">{{ page.subtitle }}</p>
+  </header>
+
+  <article>
+    {% if page.profile %}
+      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+        {% if page.profile.image %}
+          {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
+          {% if page.profile.image_circular %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
+          {% else %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
+          {% endif %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {%
+            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            cache_bust=true
+          %}
+        {% endif %}
+        {% if page.profile.more_info %}
+          <div class="more-info">{{ page.profile.more_info }}</div>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="clearfix">{{ content }}</div>
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        {% if page.lang == 'zh' %}
+          最新动态
+        {% else %}
+          <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        {% endif %}
+      </h2>
+      {% if page.lang == 'zh' %}
+        <div class="news">
+          <div class="table-responsive">
+            <table class="table table-sm table-borderless">
+              <tr>
+                <th scope="row" style="width: 20%">2026年9月</th>
+                <td>荣获“北大金融AI智能体大赛”奖项（<a href="https://github.com/aeiou0123/pku-financial-ai-agent" target="_blank">Claim2Value</a> 项目负责人）。</td>
+              </tr>
+              <tr>
+                <th scope="row" style="width: 20%">2026年9月</th>
+                <td>完成兴业经济研究咨询股份有限公司（兴业研究）宏观市场部实习。</td>
+              </tr>
+              <tr>
+                <th scope="row" style="width: 20%">2026年6月</th>
+                <td>完成本科二年级学业，专业排名第一（1 / 22，学年均分 90.73）。</td>
+              </tr>
+              <tr>
+                <th scope="row" style="width: 20%">2025年10月</th>
+                <td>荣获教育部国家奖学金。</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      {% else %}
+        {% include news.liquid limit=true %}
+      {% endif %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        {% if page.lang == 'zh' %}
+          <a href="{{ '/zh/research/' | relative_url }}" style="color: inherit">代表性研究与项目</a>
+        {% else %}
+          <a href="{{ '/research/' | relative_url }}" style="color: inherit">selected publications</a>
+        {% endif %}
+      </h2>
+      {% if page.lang == 'zh' %}
+        <div class="publications">
+          <ol class="bibliography">
+            <li class="mb-4">
+              <div class="row">
+                <div class="col-sm-2 abbr">
+                  <abbr class="badge">工作论文</abbr>
+                </div>
+                <div class="col-sm-10">
+                  <div class="title font-weight-bold">大语言模型冲击下高校本科专业结构的适应性调整——理论建模、LLM 暴露度测度与连续双重差分实证</div>
+                  <div class="author">魏孟祺、陈晓东（合作指导）、杨晓亮（合作指导）</div>
+                  <div class="periodical"><em>在研工作论文 / 科研训练，西安交通大学金禾经济研究中心</em>, 2026</div>
+                  <div class="abstract-content text-muted mt-2" style="font-size: 0.92rem; line-height: 1.6;">
+                    拓展 Acemoglu & Restrepo (2018) 任务模型至高教供给侧，构建 101 职业 $\to$ 889 本科专业 Crosswalk 映射。整合 2015--2024 全国专业备案与 27 省 434 万条招生微观面板，运用连续 DID、因果森林及去趋势稳健性检验。
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="mb-4">
+              <div class="row">
+                <div class="col-sm-2 abbr">
+                  <abbr class="badge">竞赛项目</abbr>
+                </div>
+                <div class="col-sm-10">
+                  <div class="title font-weight-bold">Claim2Value：具身智能产业链技术声明核验与动态估值智能体</div>
+                  <div class="author">魏孟祺 及团队</div>
+                  <div class="periodical"><em>北大金融 AI 智能体大赛（获奖项目）</em>, 2026</div>
+                  <div class="links mt-1">
+                    <a href="https://github.com/aeiou0123/pku-financial-ai-agent" class="btn btn-sm btn-outline-primary py-0 px-2" role="button" target="_blank"><i class="fa-brands fa-github"></i> 代码仓库</a>
+                  </div>
+                  <div class="abstract-content text-muted mt-2" style="font-size: 0.92rem; line-height: 1.6;">
+                    覆盖 11 家具身智能上市公司，构建从技术 Claim 提取、多源证据链核验到财务映射的端到端 Agent 流水线。建立 51 条基准 Claim Bank，拆解“技术指标 $\to$ 生产率 $\to$ 成本/定价 $\to$ 毛利”因果链，搭建三情景动态估值模型。
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      {% else %}
+        {% include selected_papers.liquid %}
+      {% endif %}
+    {% endif %}
+
+    <!-- Social -->
+    {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">{% social_links %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
+
+    {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
+      {% if site.plugins contains 'al_newsletter' %}
+        {% include plugins/al_newsletter_form_center_margin.liquid %}
+      {% else %}
+        {% include newsletter.liquid center=true %}
+      {% endif %}
+    {% endif %}
+  </article>
+</div>

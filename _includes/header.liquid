@@ -1,0 +1,134 @@
+<header>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}" role="navigation">
+    <div class="container">
+      {% assign is_zh = false %}
+      {% if page.url contains '/zh/' or page.lang == 'zh' %}
+        {% assign is_zh = true %}
+      {% endif %}
+
+      <!-- Brand -->
+      <a class="navbar-brand title font-weight-lighter" href="{% if is_zh %}{{ '/zh/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">
+        {% if is_zh %}
+          <span class="font-weight-bold">魏</span>孟祺
+        {% else %}
+          <span class="font-weight-bold">Mengqi</span> Wei
+        {% endif %}
+      </a>
+
+      <!-- Navbar Toggle -->
+      <button
+        class="navbar-toggler collapsed navbar-toggler-main"
+        type="button"
+        data-nav-toggle="navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+
+      <div class="collapse navbar-collapse navbar-collapse-main" id="navbarNav">
+        <ul class="navbar-nav navbar-menu-list ml-auto align-items-center">
+          {% if is_zh %}
+            <!-- Chinese Menu Items -->
+            <li class="nav-item {% if page.url == '/zh/' or page.url == '/zh/index.html' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/' | relative_url }}">关于</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/zh/research' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/research/' | relative_url }}">研究</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/zh/projects' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/projects/' | relative_url }}">项目</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/zh/notes' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/notes/' | relative_url }}">课程资料</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/zh/cv' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/cv/' | relative_url }}">简历</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/zh/personal' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/personal/' | relative_url }}">个人</a>
+            </li>
+          {% else %}
+            <!-- English Menu Items -->
+            <li class="nav-item {% if page.url == '/' or page.url == '/index.html' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/' | relative_url }}">About</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/research' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/research/' | relative_url }}">Research</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/projects' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/projects/' | relative_url }}">Projects</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/notes' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/notes/' | relative_url }}">Notes</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/cv' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/personal' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/personal/' | relative_url }}">Personal</a>
+            </li>
+          {% endif %}
+
+          {% if site.search_enabled %}
+            <!-- Search -->
+            <li class="nav-item">
+              <button id="search-toggle" type="button" title="Search" aria-label="Open search">
+                <span class="nav-link"><i class="fa-solid fa-magnifying-glass"></i></span>
+              </button>
+            </li>
+          {% endif %}
+
+          {% if site.enable_darkmode %}
+            <!-- Toggle theme mode -->
+            <li class="toggle-container">
+              <button id="light-toggle" type="button" title="Change theme" aria-label="Change color theme">
+                <i class="fa-half-sun-moon" id="light-toggle-system"></i>
+                <i class="fa-solid fa-moon" id="light-toggle-dark"></i>
+                <i class="fa-solid fa-sun" id="light-toggle-light"></i>
+              </button>
+            </li>
+          {% endif %}
+
+          <!-- Language Switcher -->
+          <li class="nav-item lang-switcher ml-1">
+            {% if is_zh %}
+              {% assign target_en = page.url | replace_first: '/zh', '' %}
+              {% if target_en == '' or target_en == '/' or target_en == '/index.html' %}
+                {% assign target_en_url = '/' %}
+              {% else %}
+                {% assign target_en_url = target_en %}
+              {% endif %}
+              <a class="nav-link font-weight-bold" href="{{ target_en_url | relative_url }}" title="Switch to English" style="padding: 0.25rem 0.6rem; border: 1px solid var(--global-theme-color, #0076df); border-radius: 4px; font-size: 0.85rem;">
+                EN
+              </a>
+            {% else %}
+              {% assign current_path = page.url | default: '/' %}
+              {% if current_path == '/' or current_path == '/index.html' %}
+                {% assign target_zh_url = '/zh/' %}
+              {% else %}
+                {% assign target_zh_url = '/zh' | append: current_path %}
+              {% endif %}
+              <a class="nav-link font-weight-bold" href="{{ target_zh_url | relative_url }}" title="切换至中文版" style="padding: 0.25rem 0.6rem; border: 1px solid var(--global-theme-color, #0076df); border-radius: 4px; font-size: 0.85rem;">
+                中文
+              </a>
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  {% if site.enable_progressbar %}
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+      <div class="progress-container">
+        <span class="progress-bar"></span>
+      </div>
+    </progress>
+  {% endif %}
+</header>

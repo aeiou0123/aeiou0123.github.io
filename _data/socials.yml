@@ -1,0 +1,20 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+email: aeioudeaustria0123@stu.xjtu.edu.cn
+github_username: aeiou0123
+cv_pdf: /assets/pdf/CV_Mengqi_Wei_EN.pdf
+linkedin_username: "孟祺-魏-21203a416"
+x_username: nogopdeorange
+youtube_id: aeiou0123-l6c
+bilibili:
+  logo: fa-brands fa-bilibili
+  title: Bilibili
+  url: https://space.bilibili.com/1473095069
+zhihu:
+  logo: fa-brands fa-zhihu
+  title: Zhihu
+  url: https://www.zhihu.com/people/35-57-54-74
+steam:
+  logo: fa-brands fa-steam
+  title: Steam
+  url: https://steamcommunity.com/profiles/76561199140597514
