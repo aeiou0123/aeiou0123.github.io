@@ -64,7 +64,7 @@ lang: zh
   <!-- 研究兴趣 -->
   <div class="cv-section mb-4">
     <h4 class="border-bottom pb-2 font-weight-bold">研究兴趣</h4>
-    <p>实证产业组织 (Empirical Industrial Organization)、宏观金融 (Macro-Finance)、AI 暴露度测度 (AI Exposure Measurement)</p>
+    <p>实证产业组织、宏观金融、AI 暴露度测度</p>
   </div>
 
   <!-- 科研经历 -->
@@ -85,22 +85,10 @@ lang: zh
 
     <div class="mb-4">
       <div class="d-flex justify-content-between">
-        <strong>IP智融：游戏企业融资尽调证据核验与现金流压力测试助手</strong>
-        <span class="text-muted">2026.09 -- 2026.10</span>
-      </div>
-      <div class="text-muted font-italic mb-1">“工行杯”全国大学生金融科技创新大赛 · 项目负责人 / 核心开发</div>
-      <ul style="font-size: 0.92rem; line-height: 1.6;">
-        <li>面向轻资产文创/游戏企业融资场景，构建覆盖官方披露、第三方估算与企业经营证据的多源底稿核验流水线。</li>
-        <li>厘清营业收入、充值流水与公司净回款口径差异，研发基于季度经营假设的现金流压力测试引擎，实现同输入确定性复现与尽调底稿导出。</li>
-      </ul>
-    </div>
-
-    <div class="mb-4">
-      <div class="d-flex justify-content-between">
         <strong>Claim2Value：具身智能产业链技术声明核验与动态估值智能体</strong>
         <span class="text-muted">2026.08 -- 2026.09</span>
       </div>
-      <div class="text-muted font-italic mb-1">北大金融 AI 智能体大赛 · 项目负责人 / 核心开发</div>
+      <div class="text-muted font-italic mb-1">北大金融 AI 智能体大赛 · 项目负责人</div>
       <ul style="font-size: 0.92rem; line-height: 1.6;">
         <li>覆盖 11 家具身智能核心上市公司，构建从技术 Claim 提取、多源证据链核验到财务映射的端到端 Agent 流水线。</li>
         <li>建立 51 条基准 Claim Bank，拆解“技术指标 $\to$ 生产率 $\to$ 成本/定价 $\to$ 毛利”因果链，搭建三情景动态估值模型。</li>
@@ -112,7 +100,7 @@ lang: zh
         <strong>不同能源消费结构的经济体在地缘冲突下能源价格响应能力的差异</strong>
         <span class="text-muted">2026.04 -- 至今</span>
       </div>
-      <div class="text-muted font-italic mb-1">大学生创新创业训练计划（大创） · 核心成员</div>
+      <div class="text-muted font-italic mb-1">大学生创新创业训练计划 · 核心成员</div>
       <ul style="font-size: 0.92rem; line-height: 1.6;">
         <li>搜集整理多国能源消费结构与跨国宏观时间序列面板数据，测度外部地缘供给冲击下的价格响应弹性。</li>
       </ul>
@@ -160,6 +148,7 @@ lang: zh
   <div class="cv-section mb-4">
     <h4 class="border-bottom pb-2 font-weight-bold">荣誉奖项与学术竞赛</h4>
     <div class="d-flex justify-content-between mb-1"><span>教育部 <strong>国家奖学金</strong></span><span class="text-muted">2025 -- 2026</span></div>
+    <div class="d-flex justify-content-between mb-1"><span>西安交通大学 <strong>校级优秀学生</strong></span><span class="text-muted">2024 -- 2026</span></div>
     <div class="d-flex justify-content-between mb-1"><span>西安交通大学 <strong>校级一等奖学金</strong></span><span class="text-muted">2024 -- 2025</span></div>
     <div class="d-flex justify-content-between mb-1"><span>全国大学生统计建模大赛 <strong>陕西省赛一等奖</strong></span><span class="text-muted">2026</span></div>
     <div class="d-flex justify-content-between mb-1"><span>全国高等院校数智化企业经营沙盘大赛 <strong>国赛三等奖</strong></span><span class="text-muted">2026</span></div>
@@ -171,7 +160,7 @@ lang: zh
     <ul style="font-size: 0.92rem; line-height: 1.6;">
       <li><strong>代码与计量工具：</strong>Stata、Python、\LaTeX、C（具备基础实用能力）。</li>
       <li><strong>AI 原生工作流：</strong>熟练驱动 AI 辅助科研与工程工作流（AI-native workflows）。</li>
-      <li><strong>语言水平：</strong>中文（母语）；英语（大学英语六级 CET-6: <strong>602 分</strong>）。</li>
+      <li><strong>语言水平：</strong>中文、英语（CET-6: <strong>602 分</strong>）。</li>
     </ul>
   </div>
 </div>

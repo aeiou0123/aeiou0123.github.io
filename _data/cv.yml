@@ -54,15 +54,9 @@ cv:
         date: 2026.02 -- Present
         summary: Extended the Acemoglu & Restrepo (2018) task framework to higher education supply; constructed an occupational LLM exposure crosswalk for 889 undergraduate majors. Evaluated causal impacts using Continuous DID, Causal Forests, and trend-adjusted sensitivity tests on 4.34 million enrollment records.
 
-      - title: "IP-Finance Agent: Due Diligence Evidence Verification and Cash Flow Stress Testing"
-        authors:
-          - ICBC Financial Technology Innovation Competition · Project Lead / Core Developer
-        date: 2026.09 -- 2026.10
-        summary: Built a multi-source due diligence audit pipeline for asset-light gaming and cultural enterprises, reconciling official filings, third-party estimates, and operating data. Developed quarterly cash flow stress-testing models with deterministic reproducibility and audit report exports.
-
       - title: "Claim2Value: Financial AI Agent for Technical Claim Verification and Dynamic Valuation"
         authors:
-          - PKU Financial AI Agent Competition · Project Lead / Core Developer
+          - PKU Financial AI Agent Competition · Project Lead
         date: 2026.08 -- 2026.09
         summary: Built an end-to-end agent pipeline for 11 core listed firms in humanoid robotics/embodied AI. Benchmarked 51 technical claims, modeling transmission mechanisms from technical specifications to productivity, pricing, and margin structures within three-scenario dynamic valuation models.
 
@@ -97,6 +91,12 @@ cv:
         date: 2025-10-01
         awarder: Ministry of Education of the PRC
         summary: Top undergraduate honor awarded by the Ministry of Education.
+
+      - title: Outstanding Student (校级优秀学生)
+        authors:
+          - Xi'an Jiaotong University
+        date: 2024 -- 2026
+        awarder: Xi'an Jiaotong University
 
       - title: First-Class Academic Scholarship
         authors:
@@ -138,4 +138,4 @@ cv:
       - name: AI-Native Workflows
         keywords: "Comfortable driving AI-assisted research and engineering workflows"
       - name: Languages
-        keywords: "Mandarin Chinese (Native), English (CET-6: 602 / 710)"
+        keywords: "Chinese, English (CET-6: 602)"
