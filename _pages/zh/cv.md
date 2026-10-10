@@ -64,7 +64,11 @@ lang: zh
   <!-- 研究兴趣 -->
   <div class="cv-section mb-4">
     <h4 class="border-bottom pb-2 font-weight-bold">研究兴趣</h4>
-    <p>实证产业组织、宏观金融、AI 暴露度测度</p>
+    <ul class="cv-list">
+      <li>实证产业组织</li>
+      <li>宏观金融</li>
+      <li>AI 暴露度测度</li>
+    </ul>
   </div>
 
   <!-- 科研经历 -->
