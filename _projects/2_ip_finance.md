@@ -1,5 +1,6 @@
 ---
 layout: page
+published: false
 title: "IP-Finance Agent"
 description: "ICBC Financial Technology Innovation Competition · Project Lead / Core Developer"
 importance: 2

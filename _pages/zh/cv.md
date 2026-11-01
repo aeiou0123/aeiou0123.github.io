@@ -67,7 +67,7 @@ lang: zh
     <ul class="cv-list">
       <li>实证产业组织</li>
       <li>宏观金融</li>
-      <li>AI 暴露度测度</li>
+      <li>AI 与创新</li>
     </ul>
   </div>
 
@@ -90,7 +90,7 @@ lang: zh
     <div class="mb-4">
       <div class="d-flex justify-content-between">
         <strong>Claim2Value：具身智能产业链技术声明核验与动态估值智能体</strong>
-        <span class="text-muted">2026.08 -- 2026.09</span>
+        <span class="text-muted">2026.08 -- 2026.10</span>
       </div>
       <div class="text-muted font-italic mb-1">北大金融 AI 智能体大赛 · 项目负责人</div>
       <ul style="font-size: 0.92rem; line-height: 1.6;">

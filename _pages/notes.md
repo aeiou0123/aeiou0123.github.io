@@ -268,7 +268,7 @@ details.course-card[open] summary.course-title::after {
     <h6>Macroeconomic Models</h6>
     <ul>
       <li><a href="{{ '/files/物价指数笔记.pdf' | relative_url }}" target="_blank">Price Indices & Inflation (PDF)</a></li>
-      <li><a href="{{ '/files/宏观框架笔记.pdf' | relative_url }}" target="_blank">Macroeconomic Framework (PDF)</a> · <a href="{{ '/files/通胀框架笔记.pdf' | relative_url }}" target="_blank">Inflation Framework (PDF)</a></li>
+      <li><a href="{{ '/files/通胀框架笔记.pdf' | relative_url }}" target="_blank">Inflation Framework (PDF)</a></li>
       <li><a href="{{ '/files/一般均衡笔记.pdf' | relative_url }}" target="_blank">General Equilibrium Foundations (PDF)</a></li>
       <li><a href="{{ '/files/家庭公司循环.pdf' | relative_url }}" target="_blank">Household-Firm Circular Flow (PDF)</a></li>
     </ul>
@@ -277,7 +277,7 @@ details.course-card[open] summary.course-title::after {
     <ul>
       <li><a href="{{ '/files/货币需求与流通速度笔记.pdf' | relative_url }}" target="_blank">Money Demand & Velocity (PDF)</a></li>
       <li><a href="{{ '/files/货币供给笔记.pdf' | relative_url }}" target="_blank">Money Supply Mechanics (PDF)</a></li>
-      <li><a href="{{ '/files/商业银行笔记.pdf' | relative_url }}" target="_blank">Commercial Banking (Lecture 12) (PDF)</a></li>
+      
       <li><a href="{{ '/files/货币波动和政策笔记.pdf' | relative_url }}" target="_blank">Monetary Fluctuations & Policy (Lecture 11) (PDF)</a></li>
       <li><a href="{{ '/files/baumol模型笔记.pdf' | relative_url }}" target="_blank">Baumol-Tobin Cash Inventory Model (PDF)</a> · <a href="{{ '/files/baumol模型与铸币费.pdf' | relative_url }}" target="_blank">Baumol Model & Seigniorage (PDF)</a></li>
       <li><a href="{{ '/files/铸币费与通胀税笔记.pdf' | relative_url }}" target="_blank">Seigniorage & Inflation Tax (PDF)</a></li>

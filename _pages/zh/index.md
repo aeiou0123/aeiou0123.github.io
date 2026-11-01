@@ -31,4 +31,4 @@ latest_posts:
 ### 研究兴趣
 * **实证产业组织 (Empirical Industrial Organization)**
 * **宏观金融 (Macro-Finance)**
-* **AI 暴露度测度 (AI Exposure Measurement)**
+* **AI 与创新 (AI and Innovation)**

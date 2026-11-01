@@ -52,12 +52,12 @@ cv:
         authors:
           - Research Training (Advised by Prof. Xiaodong Chen and Prof. Xiaoliang Yang) · Principal Investigator
         date: 2026.02 -- Present
-        summary: Extended the Acemoglu & Restrepo (2018) task framework to higher education supply; constructed an occupational LLM exposure crosswalk for 889 undergraduate majors. Evaluated causal impacts using Continuous DID, Causal Forests, and trend-adjusted sensitivity tests on 4.34 million enrollment records.
+        summary: Extended the Acemoglu & Restrepo (2018) task framework to higher education supply; constructed an occupational LLM exposure crosswalk for 889 undergraduate majors. The ongoing project uses provincial enrollment records to study responses to AI exposure.
 
       - title: "Claim2Value: Financial AI Agent for Technical Claim Verification and Dynamic Valuation"
         authors:
           - PKU Financial AI Agent Competition · Project Lead
-        date: 2026.08 -- 2026.09
+        date: 2026.08 -- 2026.10
         summary: Built an end-to-end agent pipeline for 11 core listed firms in humanoid robotics/embodied AI. Benchmarked 51 technical claims, modeling transmission mechanisms from technical specifications to productivity, pricing, and margin structures within three-scenario dynamic valuation models.
 
       - title: Perceived Age Discrimination, Psychological Coping, and Policy Demands of Job Seekers Aged 35+
@@ -121,7 +121,7 @@ cv:
         summary: Firm decision-making, cost restructuring, and competition dynamics under AI agents and automation.
       - name: Macro-Finance
         summary: Price pass-through elasticities, debt cycle dynamics, and monetary economics.
-      - name: AI Exposure Measurement
+      - name: AI and Innovation
         summary: Empirical examination of labor market and higher education impacts under LLM technological shocks.
 
     Selected Coursework:

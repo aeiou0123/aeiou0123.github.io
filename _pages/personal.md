@@ -18,7 +18,5 @@ A personal space containing interactive web experiments, political spectrum visu
 A single-page interactive application mapping Jungian eight cognitive functions and MBTI typologies to behavioral logic.
 
 ### [Gaokao Admission Data Analysis System]({{ '/gaokao/' | relative_url }})
-An interactive tool for exploring historical university admission scores and percentile ranks across provinces and majors.
+An interactive tool for exploring Henan admission data and candidate programs.
 
-### Creative Fandom & Artwork
-* [Anime Jinhe Center (金禾娘) Character Design]({{ '/images/jinhe.png' | relative_url }})

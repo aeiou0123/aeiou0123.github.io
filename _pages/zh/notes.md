@@ -267,7 +267,7 @@ details.course-card[open] summary.course-title::after {
     <h6>宏观经济模型</h6>
     <ul>
       <li><a href="{{ '/files/物价指数笔记.pdf' | relative_url }}" target="_blank">物价指数与通货膨胀 (PDF)</a></li>
-      <li><a href="{{ '/files/宏观框架笔记.pdf' | relative_url }}" target="_blank">宏观分析框架 (PDF)</a> · <a href="{{ '/files/通胀框架笔记.pdf' | relative_url }}" target="_blank">通胀分析框架 (PDF)</a></li>
+      <li><a href="{{ '/files/通胀框架笔记.pdf' | relative_url }}" target="_blank">通胀分析框架 (PDF)</a></li>
       <li><a href="{{ '/files/一般均衡笔记.pdf' | relative_url }}" target="_blank">一般均衡理论基础 (PDF)</a></li>
       <li><a href="{{ '/files/家庭公司循环.pdf' | relative_url }}" target="_blank">家庭与企业循环流向图 (PDF)</a></li>
     </ul>
@@ -276,7 +276,7 @@ details.course-card[open] summary.course-title::after {
     <ul>
       <li><a href="{{ '/files/货币需求与流通速度笔记.pdf' | relative_url }}" target="_blank">货币需求与流通速度 (PDF)</a></li>
       <li><a href="{{ '/files/货币供给笔记.pdf' | relative_url }}" target="_blank">货币供给机制 (PDF)</a></li>
-      <li><a href="{{ '/files/商业银行笔记.pdf' | relative_url }}" target="_blank">商业银行与货币创造 (PDF)</a></li>
+      
       <li><a href="{{ '/files/货币波动和政策笔记.pdf' | relative_url }}" target="_blank">货币波动与宏观政策 (PDF)</a></li>
       <li><a href="{{ '/files/baumol模型笔记.pdf' | relative_url }}" target="_blank">鲍莫尔-托宾现金存货模型 (PDF)</a> · <a href="{{ '/files/baumol模型与铸币费.pdf' | relative_url }}" target="_blank">鲍莫尔模型与铸币费 (PDF)</a></li>
       <li><a href="{{ '/files/铸币费与通胀税笔记.pdf' | relative_url }}" target="_blank">铸币税与通胀税 (PDF)</a></li>

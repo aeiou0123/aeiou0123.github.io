@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Claim2Value: Financial AI Agent"
-description: "PKU Financial AI Agent Competition · Economic & Financial Reasoning Lead"
+description: "PKU Financial AI Agent Competition · Project Lead"
 importance: 1
 category: work
 redirect: https://github.com/aeiou0123/pku-financial-ai-agent
@@ -9,8 +9,8 @@ redirect: https://github.com/aeiou0123/pku-financial-ai-agent
 
 ### Claim2Value: Financial AI Agent for Technical Claim Verification and Dynamic Valuation
 
-* **Competition**: PKU Financial AI Agent Competition (Awarded Project)
-* **Role**: Economic & Financial Reasoning Lead
+* **Competition**: PKU Financial AI Agent Competition (Semifinalist)
+* **Role**: Project Lead
 * **GitHub Repository**: [aeiou0123/pku-financial-ai-agent](https://github.com/aeiou0123/pku-financial-ai-agent)
 
 #### Overview

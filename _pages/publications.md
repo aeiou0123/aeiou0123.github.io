@@ -2,7 +2,7 @@
 layout: page
 permalink: /research/
 title: research
-description: Working papers, academic competition projects, and research inquiries.
+description: Working papers, a course paper, and research experience.
 nav: true
 nav_order: 2
 ---
@@ -14,6 +14,6 @@ nav_order: 2
 
 <div class="publications">
 
-{% bibliography %}
+{% bibliography --query @*[showresearch=yes] %}
 
 </div>
