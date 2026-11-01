@@ -50,6 +50,9 @@
             <li class="nav-item {% if page.url contains '/zh/cv' %}active{% endif %}">
               <a class="nav-link" href="{{ '/zh/cv/' | relative_url }}">简历</a>
             </li>
+            <li class="nav-item {% if page.url contains '/blog/' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/zh/blog/' | relative_url }}">博客</a>
+            </li>
             <li class="nav-item {% if page.url contains '/zh/personal' %}active{% endif %}">
               <a class="nav-link" href="{{ '/zh/personal/' | relative_url }}">个人</a>
             </li>
@@ -69,6 +72,9 @@
             </li>
             <li class="nav-item {% if page.url contains '/cv' %}active{% endif %}">
               <a class="nav-link" href="{{ '/cv/' | relative_url }}">CV</a>
+            </li>
+            <li class="nav-item {% if page.url contains '/blog/' %}active{% endif %}">
+              <a class="nav-link" href="{{ '/blog/' | relative_url }}">Blog</a>
             </li>
             <li class="nav-item {% if page.url contains '/personal' %}active{% endif %}">
               <a class="nav-link" href="{{ '/personal/' | relative_url }}">Personal</a>
@@ -99,6 +105,7 @@
           <li class="nav-item lang-switcher ml-1">
             {% if is_zh %}
               {% assign target_en = page.url | replace_first: '/zh', '' %}
+              {% if page.collection == 'posts' %}{% assign target_en = '/blog/' %}{% endif %}
               {% if target_en == '' or target_en == '/' or target_en == '/index.html' %}
                 {% assign target_en_url = '/' %}
               {% else %}
@@ -109,6 +116,7 @@
               </a>
             {% else %}
               {% assign current_path = page.url | default: '/' %}
+              {% if page.collection == 'posts' %}{% assign current_path = '/blog/' %}{% endif %}
               {% if current_path == '/' or current_path == '/index.html' %}
                 {% assign target_zh_url = '/zh/' %}
               {% else %}
