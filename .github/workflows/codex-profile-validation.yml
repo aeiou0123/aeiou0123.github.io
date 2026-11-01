@@ -1,0 +1,26 @@
+name: Profile validation
+on:
+  push:
+    branches: [codex/profile-review-20261102]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3.5'
+          bundler-cache: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: pip install nbconvert
+      - run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
