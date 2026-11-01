@@ -26,3 +26,10 @@ jobs:
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+
+      - name: Check blog output
+        run: |
+          test -f _site/blog/2026/blog-check/index.html
+          grep -q 'Blog Render Check' _site/blog/index.html
+          grep -q 'Blog Render Check' _site/zh/blog/index.html
+          grep -q '/zh/blog/' _site/blog/2026/blog-check/index.html
