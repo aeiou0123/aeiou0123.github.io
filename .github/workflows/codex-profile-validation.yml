@@ -1,5 +1,7 @@
 name: Profile validation
 on:
+  pull_request:
+    branches: [master]
   push:
     branches: [codex/profile-review-20261102]
 permissions:
